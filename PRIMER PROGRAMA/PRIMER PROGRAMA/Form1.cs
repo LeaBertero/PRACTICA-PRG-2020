@@ -19,7 +19,7 @@ namespace PRIMER_PROGRAMA
 
         private void BtnEjecutar_Click(object sender, EventArgs e)
         {
-            LblMensaje.Text = "Hola clase";
+            LblMensaje.Text = "Hola Leandro";
         }
     }
 }

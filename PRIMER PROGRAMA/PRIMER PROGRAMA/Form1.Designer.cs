@@ -35,32 +35,32 @@ namespace PRIMER_PROGRAMA
             // 
             // BtnEjecutar
             // 
-            this.BtnEjecutar.Location = new System.Drawing.Point(217, 116);
+            this.BtnEjecutar.Location = new System.Drawing.Point(90, 61);
             this.BtnEjecutar.Name = "BtnEjecutar";
             this.BtnEjecutar.Size = new System.Drawing.Size(75, 23);
             this.BtnEjecutar.TabIndex = 0;
-            this.BtnEjecutar.Text = "button1";
+            this.BtnEjecutar.Text = "Aceptar";
             this.BtnEjecutar.UseVisualStyleBackColor = true;
             this.BtnEjecutar.Click += new System.EventHandler(this.BtnEjecutar_Click);
             // 
             // LblMensaje
             // 
             this.LblMensaje.AutoSize = true;
-            this.LblMensaje.Location = new System.Drawing.Point(416, 126);
+            this.LblMensaje.Location = new System.Drawing.Point(289, 71);
             this.LblMensaje.Name = "LblMensaje";
-            this.LblMensaje.Size = new System.Drawing.Size(35, 13);
+            this.LblMensaje.Size = new System.Drawing.Size(65, 13);
             this.LblMensaje.TabIndex = 1;
-            this.LblMensaje.Text = "label1";
+            this.LblMensaje.Text = "Hola Mundo";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(484, 214);
             this.Controls.Add(this.LblMensaje);
             this.Controls.Add(this.BtnEjecutar);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Primer programa";
             this.ResumeLayout(false);
             this.PerformLayout();
 
