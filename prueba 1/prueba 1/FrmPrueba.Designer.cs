@@ -1,7 +1,7 @@
 ﻿
 namespace prueba_1
 {
-    partial class Form2
+    partial class FormInicial
     {
         /// <summary>
         /// Required designer variable.
@@ -37,7 +37,7 @@ namespace prueba_1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(667, 399);
+            this.button1.Location = new System.Drawing.Point(672, 17);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(99, 23);
             this.button1.TabIndex = 1;
@@ -65,24 +65,26 @@ namespace prueba_1
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(22, 142);
+            this.button2.Location = new System.Drawing.Point(22, 122);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(99, 23);
             this.button2.TabIndex = 4;
-            this.button2.Text = "Boton";
+            this.button2.Text = "Nuevo formulario";
             this.button2.UseVisualStyleBackColor = true;
+
             // 
-            // Form2
+            // FormInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(796, 183);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "FormInicial";
+            this.Text = "Formulario de inicio";
+
             this.ResumeLayout(false);
             this.PerformLayout();
 

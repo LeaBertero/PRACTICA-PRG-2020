@@ -10,18 +10,25 @@ using System.Windows.Forms;
 
 namespace prueba_1
 {
-    public partial class Form2 : Form
+    public partial class FormInicial : Form
     {
-        public Form2()
+
+       
+        string PrimerVariable = "Leandro";
+
+        public FormInicial()
         {
             InitializeComponent();
+            label1.Text = "Hola" + " " + PrimerVariable;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Close();
         }
-
-       
     }
 }
+
+       
+
+       
