@@ -57,21 +57,21 @@ namespace prueba_1
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(19, 73);
+            this.label2.Location = new System.Drawing.Point(19, 64);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(51, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "label2";
+            this.label2.Text = "otro texto";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(22, 122);
+            this.button2.Location = new System.Drawing.Point(349, 80);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(99, 23);
             this.button2.TabIndex = 4;
-            this.button2.Text = "Nuevo formulario";
+            this.button2.Text = "CLICK AQUI";
             this.button2.UseVisualStyleBackColor = true;
-
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // FormInicial
             // 

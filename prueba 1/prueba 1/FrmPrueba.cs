@@ -18,13 +18,23 @@ namespace prueba_1
 
         public FormInicial()
         {
+            string SegundaVarible = "¿Que tal?";
             InitializeComponent();
-            label1.Text = "Hola" + " " + PrimerVariable;
+            label1.Text = "Hola" + " " + PrimerVariable + " " + SegundaVarible ;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+       
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string TercerVariable = "¿Como te va?";
+
+            label1.Text = "Hola" + PrimerVariable + TercerVariable ;
         }
     }
 }
