@@ -22,5 +22,7 @@ namespace prueba_1
             Form2 formulario = new Form2();
             formulario.Show();
         }
+
+       
     }
 }
