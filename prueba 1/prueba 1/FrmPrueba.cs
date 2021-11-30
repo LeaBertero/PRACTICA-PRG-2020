@@ -28,27 +28,20 @@ namespace prueba_1
             Close();
         }
 
-       
-
         private void button2_Click(object sender, EventArgs e)
         {
             string TercerVariable = "¿Como te va?";
 
-            label1.Text = "Hola" + PrimerVariable + TercerVariable ;
+            label1.Text = "Hola" + PrimerVariable + TercerVariable; //+ SegundaVariable ;(No se puede usar en este ambito por la vida de las variables)
         }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            //NUEVOFORMULARIO FormSiguiente = new NUEVOFORMULARIO();
-            //FormSiguiente.Show();
-        }
-
-        private void FormInicial_Load(object sender, EventArgs e)
-        {
-
-        }
-    }
+    } 
 }
+       
+
+
+        
+
+       
 
        
 
