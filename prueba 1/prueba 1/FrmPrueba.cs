@@ -36,6 +36,17 @@ namespace prueba_1
 
             label1.Text = "Hola" + PrimerVariable + TercerVariable ;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //NUEVOFORMULARIO FormSiguiente = new NUEVOFORMULARIO();
+            //FormSiguiente.Show();
+        }
+
+        private void FormInicial_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

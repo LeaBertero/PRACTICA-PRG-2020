@@ -84,7 +84,7 @@ namespace prueba_1
             this.Controls.Add(this.button1);
             this.Name = "FormInicial";
             this.Text = "Formulario de inicio";
-
+            this.Load += new System.EventHandler(this.FormInicial_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
