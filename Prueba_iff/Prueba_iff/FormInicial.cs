@@ -17,16 +17,13 @@ namespace Prueba_iff
             InitializeComponent();
         }
 
-        private void FormInicial_Load(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void BtnAceptar_Click(object sender, EventArgs e)
         {
             int edad = System.Convert.ToInt32(TxtIngreso.Text);
 
-            if (edad < 12)
+            if (edad <= 12)
             {
                 LblResultado.Text = "NIÑO";
             }
@@ -42,6 +39,17 @@ namespace Prueba_iff
             {
                 LblResultado.Text = "ADULTO MAYOR";
             }
+        }
+
+        public void button1_Click(object sender, EventArgs e)
+        {
+            FrmSiguiente form2 = new FrmSiguiente();
+            form2.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
