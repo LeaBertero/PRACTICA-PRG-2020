@@ -61,7 +61,7 @@ namespace Ejemplo_switch
             }
             catch (Exception)
             {
-                LblRes.Text = "Nota no valida";
+                LblRes.Text = "ERROR FATAL";
                 
             }
 
