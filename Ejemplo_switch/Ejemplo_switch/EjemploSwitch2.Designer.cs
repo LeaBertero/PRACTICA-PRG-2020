@@ -38,7 +38,7 @@ namespace Ejemplo_switch
             // 
             // BtnSalir
             // 
-            this.BtnSalir.Location = new System.Drawing.Point(111, 198);
+            this.BtnSalir.Location = new System.Drawing.Point(12, 131);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(75, 23);
             this.BtnSalir.TabIndex = 9;
@@ -50,7 +50,7 @@ namespace Ejemplo_switch
             // 
             this.LblRes.BackColor = System.Drawing.Color.GreenYellow;
             this.LblRes.Cursor = System.Windows.Forms.Cursors.Default;
-            this.LblRes.Location = new System.Drawing.Point(108, 109);
+            this.LblRes.Location = new System.Drawing.Point(9, 69);
             this.LblRes.Name = "LblRes";
             this.LblRes.Size = new System.Drawing.Size(103, 35);
             this.LblRes.TabIndex = 8;
@@ -58,7 +58,7 @@ namespace Ejemplo_switch
             // LblEtiqueta
             // 
             this.LblEtiqueta.AutoSize = true;
-            this.LblEtiqueta.Location = new System.Drawing.Point(108, 47);
+            this.LblEtiqueta.Location = new System.Drawing.Point(9, 7);
             this.LblEtiqueta.Name = "LblEtiqueta";
             this.LblEtiqueta.Size = new System.Drawing.Size(118, 13);
             this.LblEtiqueta.TabIndex = 7;
@@ -66,14 +66,14 @@ namespace Ejemplo_switch
             // 
             // TxtNota
             // 
-            this.TxtNota.Location = new System.Drawing.Point(111, 75);
+            this.TxtNota.Location = new System.Drawing.Point(12, 35);
             this.TxtNota.Name = "TxtNota";
             this.TxtNota.Size = new System.Drawing.Size(100, 20);
             this.TxtNota.TabIndex = 6;
             // 
             // BtnClick
             // 
-            this.BtnClick.Location = new System.Drawing.Point(235, 72);
+            this.BtnClick.Location = new System.Drawing.Point(129, 33);
             this.BtnClick.Name = "BtnClick";
             this.BtnClick.Size = new System.Drawing.Size(75, 23);
             this.BtnClick.TabIndex = 5;
@@ -85,7 +85,7 @@ namespace Ejemplo_switch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 325);
+            this.ClientSize = new System.Drawing.Size(229, 164);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.LblRes);
             this.Controls.Add(this.LblEtiqueta);
