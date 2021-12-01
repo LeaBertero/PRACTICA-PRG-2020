@@ -66,18 +66,18 @@ namespace Prueba_iff
             // LblResultado
             // 
             this.LblResultado.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.LblResultado.Location = new System.Drawing.Point(22, 104);
+            this.LblResultado.Location = new System.Drawing.Point(22, 105);
             this.LblResultado.Name = "LblResultado";
             this.LblResultado.Size = new System.Drawing.Size(83, 29);
             this.LblResultado.TabIndex = 3;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(149, 179);
+            this.button1.Location = new System.Drawing.Point(25, 182);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(89, 27);
+            this.button1.Size = new System.Drawing.Size(89, 45);
             this.button1.TabIndex = 4;
-            this.button1.Text = "Nuevo";
+            this.button1.Text = "Formulario nuevo";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
