@@ -70,7 +70,7 @@ namespace Ejemplo_switch
         private void button2_Click(object sender, EventArgs e)
         {
             EjemploSwitch2 Ejemplo2 = new EjemploSwitch2();
-            Ejemplo2.ShowDialog();
+            Ejemplo2.Show();
         }
     }
 }
