@@ -12,7 +12,8 @@ namespace EjemploFor
 {
     public partial class FrmClave : Form
     {
-        string contraseña = "Hola";
+        
+        string contraseña = "Usuario";
 
         public FrmClave()
         {
@@ -23,21 +24,61 @@ namespace EjemploFor
         {
             if (TxtClave.Text != contraseña)
             {
-                if (TxtClave.Text != contraseña)
-                {
-                    MessageBox.Show("clave incorrecta");
-                    TxtClave.Clear();
-                    TxtClave.Focus();
-                    return;
-                }
-                else
-                {
-                    TxtClave.Clear();
-                    EjemploFor EjemploFor = new EjemploFor();
-                    EjemploFor.ShowDialog();
-
-                }
+                MessageBox.Show("clave incorrecta");
+                TxtClave.Clear();
+                TxtClave.Focus();
+                return;
             }
+            else
+            {
+                TxtClave.Clear();
+                EjemploFor EjemploFor = new EjemploFor();
+                EjemploFor.ShowDialog();
+
+            }
+
+            
         }
+
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+
+
+
+        //private void BtnUsuario_Click(object sender, EventArgs e)
+        //{
+        //    if (TxtClave.Text != Usuario)
+        //    {
+        //        MessageBox.Show("Usuario incorrecto");
+        //        TxtUsuario.Clear();
+        //        TxtUsuario.Focus();
+        //        return;
+        //    }
+        //    else
+        //    {
+        //        TxtUsuario.Clear();
+        //        EjemploFor EjemploFor = new EjemploFor();
+        //        EjemploFor.Show();
+
+
+        //    }
+
+        //}
     }
-}
+}         
+
+
+
+
+
+
+
+
+        
+
+
+
+
