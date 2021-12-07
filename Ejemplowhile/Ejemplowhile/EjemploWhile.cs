@@ -20,14 +20,14 @@ namespace Ejemplowhile
         private void BtnSegEjemplo_Click(object sender, EventArgs e)
         {
             EjemploDoWhile SegundoForulario = new EjemploDoWhile();
-            SegundoForulario.ShowDialog();
+            SegundoForulario.Show();
         }
 
         private void BtNSalir_Click(object sender, EventArgs e)
         {
             Close();
-        }
 
+        }  
         private void BtnIniciar_Click(object sender, EventArgs e)
         {
             int Anchoformulario = this.Width;
@@ -46,10 +46,13 @@ namespace Ejemplowhile
             while (x < Anchoformulario - ancholabel - anchoborde)
             {
                 LblMovimiento.Left = x;
-                LblMovimiento.Top = x;
+                //LblMovimiento.Top = x;
+                this.Refresh();
                 x = x + paso;
             }
 
         }
+           
     }
 }
+     
