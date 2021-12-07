@@ -46,7 +46,7 @@ namespace Ejemplowhile
             while (x < Anchoformulario - ancholabel - anchoborde)
             {
                 LblMovimiento.Left = x;
-
+                LblMovimiento.Top = x;
                 x = x + paso;
             }
 
