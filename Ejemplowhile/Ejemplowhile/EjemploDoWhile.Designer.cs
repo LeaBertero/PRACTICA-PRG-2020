@@ -33,6 +33,7 @@ namespace Ejemplowhile
             this.LblMovimiento = new System.Windows.Forms.Label();
             this.BtnSalir = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.BtnCerrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnIniciar
@@ -49,12 +50,12 @@ namespace Ejemplowhile
             // LblMovimiento
             // 
             this.LblMovimiento.AutoSize = true;
-            this.LblMovimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMovimiento.Location = new System.Drawing.Point(175, 105);
+            this.LblMovimiento.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblMovimiento.Location = new System.Drawing.Point(347, 130);
             this.LblMovimiento.Name = "LblMovimiento";
-            this.LblMovimiento.Size = new System.Drawing.Size(125, 24);
+            this.LblMovimiento.Size = new System.Drawing.Size(130, 24);
             this.LblMovimiento.TabIndex = 1;
-            this.LblMovimiento.Text = "voy y vuelvo";
+            this.LblMovimiento.Text = "Insert Coin";
             // 
             // BtnSalir
             // 
@@ -77,6 +78,17 @@ namespace Ejemplowhile
             this.label1.TabIndex = 1;
             this.label1.Text = "Presione el boton para iniciar";
             // 
+            // BtnCerrar
+            // 
+            this.BtnCerrar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.BtnCerrar.Location = new System.Drawing.Point(376, 278);
+            this.BtnCerrar.Name = "BtnCerrar";
+            this.BtnCerrar.Size = new System.Drawing.Size(75, 23);
+            this.BtnCerrar.TabIndex = 3;
+            this.BtnCerrar.Text = "Salir";
+            this.BtnCerrar.UseVisualStyleBackColor = true;
+            this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
+            // 
             // EjemploDoWhile
             // 
             this.AcceptButton = this.BtnSalir;
@@ -85,6 +97,7 @@ namespace Ejemplowhile
             this.BackColor = System.Drawing.Color.Khaki;
             this.CancelButton = this.BtnSalir;
             this.ClientSize = new System.Drawing.Size(477, 313);
+            this.Controls.Add(this.BtnCerrar);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LblMovimiento);
@@ -104,5 +117,6 @@ namespace Ejemplowhile
         private System.Windows.Forms.Label LblMovimiento;
         private System.Windows.Forms.Button BtnSalir;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button BtnCerrar;
     }
 }

@@ -22,7 +22,7 @@ namespace Ejemplowhile
         private void BtnIniciar_Click(object sender, EventArgs e)
         {
             int repeticion = 0;
-            int totalrepeticion = 5;
+            int totalrepeticion = 2;
 
             do
             {
@@ -35,33 +35,41 @@ namespace Ejemplowhile
                 repeticion = repeticion + 1;
 
 
-                //for (int x = 0; x < Anchoformulario - ancholabel - anchoborde; x++)
-                //{
-                //    LblMovimiento.Left = x;
-                //    this.Refresh();
-                //}
+               
 
                 while (x < Anchoformulario - ancholabel - anchoborde)
                 {
                     LblMovimiento.Left = x;
-                    //LblMovimiento.Top = x;
-                    this.Refresh();
                     x = x + paso;
                     this.Refresh();
                 }
-
-
-            } while (repeticion <totalrepeticion);
-
+            } while (repeticion < totalrepeticion);
+                    
         }
-
+                    
         private void BtnSalir_Click(object sender, EventArgs e)
         {
 
             EjemploWhile SegundoForulario = new EjemploWhile();
             SegundoForulario.Show();
         }
+
+        private void BtnCerrar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
     }
+
+            
+
+
+                    
+                   
+
+
+
+
 }
 
 
