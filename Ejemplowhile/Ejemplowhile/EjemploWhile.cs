@@ -20,7 +20,7 @@ namespace Ejemplowhile
         private void BtnSegEjemplo_Click(object sender, EventArgs e)
         {
             EjemploDoWhile SegundoForulario = new EjemploDoWhile();
-            SegundoForulario.Show();
+            SegundoForulario.ShowDialog();
         }
 
         private void BtNSalir_Click(object sender, EventArgs e)
