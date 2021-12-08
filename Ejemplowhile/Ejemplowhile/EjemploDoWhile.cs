@@ -29,7 +29,7 @@ namespace Ejemplowhile
 
                 int Anchoformulario = this.Width;
                 int ancholabel = LblMovimiento.Width;
-                int anchoborde = 20;
+                int anchoborde = 10;
                 int x = 0;
                 int paso = 1;
                 repeticion = repeticion + 1;
@@ -51,7 +51,7 @@ namespace Ejemplowhile
         {
 
             EjemploWhile SegundoForulario = new EjemploWhile();
-            SegundoForulario.Show();
+            SegundoForulario.ShowDialog();
         }
 
         private void BtnCerrar_Click(object sender, EventArgs e)
