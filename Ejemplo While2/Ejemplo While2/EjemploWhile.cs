@@ -22,9 +22,8 @@ namespace Ejemplo_While2
             int anchoformulario = this.Width;
             int ancholabel = Lblrojo.Width;
             int anchoborde = 20;
-            int x = 0;
-            int paso = 1;
-
+            int X = 0;
+            int paso = 2;
 
             //for (int x = 0; x < anchoformulario - ancholabel - anchoborde; x++)
             //{
@@ -33,18 +32,14 @@ namespace Ejemplo_While2
 
             //}
 
-            while (x < anchoformulario - ancholabel - anchoborde)
+            while (X < anchoformulario - ancholabel - anchoborde)
             {
-                Lblrojo.Left = x;
-                //Lblrojo.Top = x;
+                Lblrojo.Left = X;
+                //Lblrojo.Top = X;
                 this.Refresh();
-                x = x + 1;
-                
-
+                X = X + paso;
             }
-
         }
-
         private void BtnEjDw_Click(object sender, EventArgs e)
         {
             EjemploDoWhile segundoformulario = new EjemploDoWhile();
@@ -57,3 +52,10 @@ namespace Ejemplo_While2
         }
     }
 }
+                
+
+
+
+
+
+

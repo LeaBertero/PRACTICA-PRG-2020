@@ -21,5 +21,11 @@ namespace Ejemplo_While2
         {
             Close();
         }
+
+        private void BtnWhile_Click(object sender, EventArgs e)
+        {
+            EjemploWhile primerform = new EjemploWhile();
+            primerform.ShowDialog();
+        }
     }
 }

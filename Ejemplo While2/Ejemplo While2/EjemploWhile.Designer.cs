@@ -38,7 +38,7 @@ namespace Ejemplo_While2
             // BtnArranque
             // 
             this.BtnArranque.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnArranque.Location = new System.Drawing.Point(1, 1);
+            this.BtnArranque.Location = new System.Drawing.Point(292, 264);
             this.BtnArranque.Name = "BtnArranque";
             this.BtnArranque.Size = new System.Drawing.Size(80, 32);
             this.BtnArranque.TabIndex = 0;
@@ -49,10 +49,14 @@ namespace Ejemplo_While2
             // Lblrojo
             // 
             this.Lblrojo.BackColor = System.Drawing.Color.Red;
-            this.Lblrojo.Location = new System.Drawing.Point(0, 84);
+            this.Lblrojo.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lblrojo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Lblrojo.Location = new System.Drawing.Point(-2, 48);
             this.Lblrojo.Name = "Lblrojo";
-            this.Lblrojo.Size = new System.Drawing.Size(100, 23);
+            this.Lblrojo.Size = new System.Drawing.Size(149, 66);
             this.Lblrojo.TabIndex = 1;
+            this.Lblrojo.Text = "River Plate";
+            this.Lblrojo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // BtnEjDw
             // 
@@ -68,7 +72,7 @@ namespace Ejemplo_While2
             // BtnSalir
             // 
             this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSalir.Location = new System.Drawing.Point(530, 254);
+            this.BtnSalir.Location = new System.Drawing.Point(584, 264);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(80, 32);
             this.BtnSalir.TabIndex = 3;
@@ -81,11 +85,12 @@ namespace Ejemplo_While2
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(622, 298);
+            this.ClientSize = new System.Drawing.Size(676, 298);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.BtnEjDw);
             this.Controls.Add(this.Lblrojo);
             this.Controls.Add(this.BtnArranque);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "EjemploWhile";
             this.Text = "EjemploWhile";
             this.ResumeLayout(false);
