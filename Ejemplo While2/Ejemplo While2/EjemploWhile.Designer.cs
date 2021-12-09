@@ -30,7 +30,7 @@ namespace Ejemplo_While2
         private void InitializeComponent()
         {
             this.BtnArranque = new System.Windows.Forms.Button();
-            this.Lblrojo = new System.Windows.Forms.Label();
+            this.LblRojo = new System.Windows.Forms.Label();
             this.BtnEjDw = new System.Windows.Forms.Button();
             this.BtnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -46,17 +46,17 @@ namespace Ejemplo_While2
             this.BtnArranque.UseVisualStyleBackColor = true;
             this.BtnArranque.Click += new System.EventHandler(this.BtnArranque_Click);
             // 
-            // Lblrojo
+            // LblRojo
             // 
-            this.Lblrojo.BackColor = System.Drawing.Color.Red;
-            this.Lblrojo.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lblrojo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Lblrojo.Location = new System.Drawing.Point(-2, 48);
-            this.Lblrojo.Name = "Lblrojo";
-            this.Lblrojo.Size = new System.Drawing.Size(149, 66);
-            this.Lblrojo.TabIndex = 1;
-            this.Lblrojo.Text = "River Plate";
-            this.Lblrojo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LblRojo.BackColor = System.Drawing.Color.Red;
+            this.LblRojo.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblRojo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.LblRojo.Location = new System.Drawing.Point(-2, 48);
+            this.LblRojo.Name = "LblRojo";
+            this.LblRojo.Size = new System.Drawing.Size(149, 66);
+            this.LblRojo.TabIndex = 1;
+            this.LblRojo.Text = "River Plate";
+            this.LblRojo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // BtnEjDw
             // 
@@ -88,7 +88,7 @@ namespace Ejemplo_While2
             this.ClientSize = new System.Drawing.Size(676, 298);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.BtnEjDw);
-            this.Controls.Add(this.Lblrojo);
+            this.Controls.Add(this.LblRojo);
             this.Controls.Add(this.BtnArranque);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "EjemploWhile";
@@ -100,7 +100,7 @@ namespace Ejemplo_While2
         #endregion
 
         private System.Windows.Forms.Button BtnArranque;
-        private System.Windows.Forms.Label Lblrojo;
+        private System.Windows.Forms.Label LblRojo;
         private System.Windows.Forms.Button BtnEjDw;
         private System.Windows.Forms.Button BtnSalir;
     }

@@ -16,7 +16,7 @@ namespace Ejemplo_While2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new EjemploWhile());
+            Application.Run(new EjemploDoWhile());
         }
     }
 }

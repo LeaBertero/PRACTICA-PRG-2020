@@ -20,7 +20,7 @@ namespace Ejemplo_While2
         private void BtnArranque_Click(object sender, EventArgs e)
         {
             int anchoformulario = this.Width;
-            int ancholabel = Lblrojo.Width;
+            int ancholabel = LblRojo.Width;
             int anchoborde = 20;
             int X = 0;
             int paso = 2;
@@ -32,9 +32,9 @@ namespace Ejemplo_While2
 
             //}
 
-            while (X < anchoformulario - ancholabel - anchoborde)
+            while (X < anchoformulario - anchoborde - ancholabel)
             {
-                Lblrojo.Left = X;
+                LblRojo.Left = X;
                 //Lblrojo.Top = X;
                 this.Refresh();
                 X = X + paso;
@@ -53,9 +53,4 @@ namespace Ejemplo_While2
     }
 }
                 
-
-
-
-
-
 
