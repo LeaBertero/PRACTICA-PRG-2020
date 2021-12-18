@@ -24,34 +24,42 @@ namespace Ejemplo_switch
 
         private void BtnClick_Click(object sender, EventArgs e)
         {
-            int Nota = System.Convert.ToInt32(TxtNota.Text.Trim());
-
-            switch (TxtNota.Text)
+            try
             {
-                case "1":
-                    LblRes.Text = "Aplazado";
-                    break;
+                int Nota = System.Convert.ToInt32(TxtNota.Text.Trim());
 
-                case "2":
-                    LblRes.Text = "Aplazado";
-                    break;
+                switch (TxtNota.Text)
+                {
+                    case "1":
+                        LblRes.Text = "Aplazado";
+                        break;
 
-                case "3":
-                    LblRes.Text = "Aplazado";
-                    break;
+                    case "2":
+                        LblRes.Text = "Aplazado";
+                        break;
 
-                case "4":
-                    LblRes.Text = "Promocionado";
-                    break;
+                    case "3":
+                        LblRes.Text = "Aplazado";
+                        break;
 
-                case "5":
-                    LblRes.Text = "Promocionado";
-                    break;
+                    case "4":
+                        LblRes.Text = "Promocionado";
+                        break;
+
+                    case "5":
+                        LblRes.Text = "Promocionado";
+                        break;
 
 
-                default:
-                    LblRes.Text = "Nota no valida";
-                    break;
+                    default:
+                        LblRes.Text = "Nota no valida";
+                        break;
+                }
+            }
+            catch (Exception)
+            {
+                LblRes.Text = "Ingreso no valido - Error";
+                
             }
         }
 
