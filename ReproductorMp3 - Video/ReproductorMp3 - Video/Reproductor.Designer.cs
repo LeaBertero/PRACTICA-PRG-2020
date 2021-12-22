@@ -44,6 +44,7 @@ namespace ReproductorMp3___Video
             // 
             // BtnCargar
             // 
+            this.BtnCargar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnCargar.Location = new System.Drawing.Point(12, 354);
             this.BtnCargar.Name = "BtnCargar";
             this.BtnCargar.Size = new System.Drawing.Size(75, 23);
@@ -54,6 +55,7 @@ namespace ReproductorMp3___Video
             // 
             // BtnRep
             // 
+            this.BtnRep.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRep.Location = new System.Drawing.Point(117, 354);
             this.BtnRep.Name = "BtnRep";
             this.BtnRep.Size = new System.Drawing.Size(75, 23);
@@ -64,6 +66,7 @@ namespace ReproductorMp3___Video
             // 
             // BtnStop
             // 
+            this.BtnStop.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnStop.Location = new System.Drawing.Point(226, 354);
             this.BtnStop.Name = "BtnStop";
             this.BtnStop.Size = new System.Drawing.Size(75, 23);
@@ -74,6 +77,7 @@ namespace ReproductorMp3___Video
             // 
             // BtnPause
             // 
+            this.BtnPause.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnPause.Location = new System.Drawing.Point(331, 354);
             this.BtnPause.Name = "BtnPause";
             this.BtnPause.Size = new System.Drawing.Size(75, 23);
@@ -118,6 +122,7 @@ namespace ReproductorMp3___Video
             // 
             // BtnSalir
             // 
+            this.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnSalir.Location = new System.Drawing.Point(432, 352);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(80, 25);
