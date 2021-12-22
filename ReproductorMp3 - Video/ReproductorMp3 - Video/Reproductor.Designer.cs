@@ -146,8 +146,9 @@ namespace ReproductorMp3___Video
             this.Controls.Add(this.BtnStop);
             this.Controls.Add(this.BtnRep);
             this.Controls.Add(this.BtnCargar);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Reproductor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reproductor";
             ((System.ComponentModel.ISupportInitialize)(this.WinMedaP)).EndInit();
             this.ResumeLayout(false);
