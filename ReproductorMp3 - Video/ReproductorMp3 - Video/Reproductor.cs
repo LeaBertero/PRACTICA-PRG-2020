@@ -28,7 +28,10 @@ namespace ReproductorMp3___Video
                 LblMensaje.Text = Ruta;
                 MessageBox.Show("Carga correcta"); 
             }
-            
+            //else
+            //{
+            //    MessageBox.Show("Carga incorrecta - no se detectaron archivos Mp3");
+            //}
         }
 
         private void BtnRep_Click(object sender, EventArgs e)
