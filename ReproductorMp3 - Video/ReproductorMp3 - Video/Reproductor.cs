@@ -26,6 +26,7 @@ namespace ReproductorMp3___Video
             {
                 Ruta = openFileDialog1.FileName;
                 LblMensaje.Text = Ruta;
+                MessageBox.Show("Carga correcta"); 
             }
             
         }
