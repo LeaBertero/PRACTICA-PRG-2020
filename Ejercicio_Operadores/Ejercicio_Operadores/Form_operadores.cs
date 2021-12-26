@@ -12,41 +12,116 @@ namespace Ejercicio_Operadores
 {
     public partial class Form_operadores : Form
     {
+
+        int Numero1;
+        int Numero2;
+        int Resultado;
+
         public Form_operadores()
         {
             InitializeComponent();
         }
 
+
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();
         }
+        
 
-        private void BtnRes_Click(object sender, EventArgs e)
+        private void BtnSuma_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                Numero1 = Convert.ToInt32(TxtSum1.Text);
+                Numero2 = Convert.ToInt32(TxtSum2.Text);
+
+                Resultado = Numero1 + Numero2;
+
+                LblResSuma.Text = (Resultado).ToString();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Debe ingresar dos numeros para sumar");
+
+            }
+        }
+                
+
+        private void BtnResta_Click(object sender, EventArgs e)
         {
 
             try
             {
-                int numero1;
-                int numero2;
-                int resultado;
+                Numero1 = Convert.ToInt32(TxtRes1.Text);
+                Numero2 = Convert.ToInt32(TxtRes2.Text);
 
-                numero1 = Convert.ToInt32(TxtOper1.Text);
-                numero2 = Convert.ToInt32(TxtOper2.Text);
+                Resultado = Numero1 - Numero2;
 
-                resultado = numero1 + numero2;
-
-                LblRes.Text = (resultado).ToString();
+                LblResResta.Text = (Resultado).ToString();
             }
             catch (Exception)
             {
-                LblRes.Text = "debe ingresar numeros para sumar";
-                
+                MessageBox.Show("Debe ingresar dos numeros para restar");
             }
         }
 
+        private void BtnMult_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                Numero1 = Convert.ToInt32(TxtMult1.Text);
+                Numero2 = Convert.ToInt32(TxtMult2.Text);
+
+                Resultado = Numero1 * Numero2;
+
+                LblResMult.Text = (Resultado).ToString();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Debe ingresar dos numeros para multiplicar");
+            }
+
+
+        }
+
+        private void BtnDiv_Click(object sender, EventArgs e)
+        {
+            decimal Numero1;
+            decimal Numero2;
+            decimal Resultado;
+
+            try
+            {
+
+                Numero1 = Convert.ToDecimal(TxtDiv1.Text);
+                Numero2 = Convert.ToDecimal(TxtDiv2.Text);
+
+                Resultado = Numero1 / Numero2;
+
+                LblResDiv.Text = (Resultado).ToString();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Debe ingresar dos numeros para Dividir");
+            }
+        }
     }
 }
+               
+
+
+
+               
+
+
+
+                
+
+
+
+
 
         
 
