@@ -375,7 +375,7 @@ namespace Ejercicio_Operadores
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Calculadora";
-            this.Text = "Form_operadores";
+            this.Text = "Calculadora";
             this.ResumeLayout(false);
             this.PerformLayout();
 
