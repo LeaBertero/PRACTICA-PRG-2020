@@ -338,7 +338,7 @@ namespace Ejercicio_Operadores
             this.label11.Text = "Calculadora";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Form_operadores
+            // Calculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -374,7 +374,7 @@ namespace Ejercicio_Operadores
             this.Controls.Add(this.TxtSum1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form_operadores";
+            this.Name = "Calculadora";
             this.Text = "Form_operadores";
             this.ResumeLayout(false);
             this.PerformLayout();
