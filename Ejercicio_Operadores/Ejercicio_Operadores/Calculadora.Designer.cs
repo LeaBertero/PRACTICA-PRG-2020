@@ -1,7 +1,7 @@
 ﻿
 namespace Ejercicio_Operadores
 {
-    partial class Form_operadores
+    partial class Calculadora
     {
         /// <summary>
         /// Required designer variable.

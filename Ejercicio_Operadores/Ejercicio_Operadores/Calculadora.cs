@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Ejercicio_Operadores
 {
-    public partial class Form_operadores : Form
+    public partial class Calculadora : Form
     {
 
         int Numero1;
         int Numero2;
         int Resultado;
 
-        public Form_operadores()
+        public Calculadora()
         {
             InitializeComponent();
         }
