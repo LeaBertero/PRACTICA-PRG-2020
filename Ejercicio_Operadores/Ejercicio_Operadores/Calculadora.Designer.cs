@@ -362,6 +362,7 @@ namespace Ejercicio_Operadores
             this.MaximizeBox = false;
             this.Name = "Calculadora";
             this.Opacity = 0.9D;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
