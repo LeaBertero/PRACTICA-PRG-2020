@@ -18,13 +18,6 @@ namespace Ejercicio_Operadores
         {
             InitializeComponent();
         }
-
-
-        private void BtnSalir_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-        
         private void BtnSuma_Click_1(object sender, EventArgs e)
         {
 
@@ -46,7 +39,6 @@ namespace Ejercicio_Operadores
                 MessageBox.Show("Debe ingresar dos numeros para sumar");
             }
         }
-
         private void BtnResta_Click(object sender, EventArgs e)
         {
             decimal Numero1;
@@ -67,7 +59,6 @@ namespace Ejercicio_Operadores
                 MessageBox.Show("Debe ingresar dos numeros para restar");
             }
         }
-
         private void BtnMult_Click(object sender, EventArgs e)
         {
             decimal Numero1;
@@ -90,7 +81,6 @@ namespace Ejercicio_Operadores
 
 
         }
-
         private void BtnDiv_Click(object sender, EventArgs e)
         {
             decimal Numero1;
@@ -112,9 +102,19 @@ namespace Ejercicio_Operadores
                 MessageBox.Show("Debe ingresar dos numeros para Dividir");
             }
         }
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
 
 
-                
+
+
+
+
+
+
+
     }
 }
                
