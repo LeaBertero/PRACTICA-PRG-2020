@@ -30,9 +30,10 @@ namespace prueba_1
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.NomSaludo = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.BtnEjecutar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -43,16 +44,14 @@ namespace prueba_1
             this.button1.TabIndex = 1;
             this.button1.Text = "Salir";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label1
+            // NomSaludo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(19, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "label1";
+            this.NomSaludo.AutoSize = true;
+            this.NomSaludo.Location = new System.Drawing.Point(19, 22);
+            this.NomSaludo.Name = "NomSaludo";
+            this.NomSaludo.Size = new System.Drawing.Size(0, 13);
+            this.NomSaludo.TabIndex = 2;
             // 
             // label2
             // 
@@ -71,20 +70,30 @@ namespace prueba_1
             this.button2.TabIndex = 4;
             this.button2.Text = "CLICK AQUI";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            
+            // 
+            // BtnEjecutar
+            // 
+            this.BtnEjecutar.Location = new System.Drawing.Point(349, 22);
+            this.BtnEjecutar.Name = "BtnEjecutar";
+            this.BtnEjecutar.Size = new System.Drawing.Size(99, 32);
+            this.BtnEjecutar.TabIndex = 5;
+            this.BtnEjecutar.Text = "Iniciar";
+            this.BtnEjecutar.UseVisualStyleBackColor = true;
+            this.BtnEjecutar.Click += new System.EventHandler(this.BtnEjecutar_Click);
             // 
             // FormInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(796, 183);
+            this.Controls.Add(this.BtnEjecutar);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.NomSaludo);
             this.Controls.Add(this.button1);
             this.Name = "FormInicial";
             this.Text = "Formulario de inicio";
-
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -93,8 +102,9 @@ namespace prueba_1
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label NomSaludo;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BtnEjecutar;
     }
 }

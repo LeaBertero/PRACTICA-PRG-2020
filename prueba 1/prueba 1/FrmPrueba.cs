@@ -14,26 +14,25 @@ namespace prueba_1
     {
 
        
-        string PrimerVariable = "Leandro";
+        string Nombre = "Leandro";
 
         public FormInicial()
         {
-            string SegundaVarible = "¿Que tal?";
+            string Saludo = "¿Que tal?";
             InitializeComponent();
-            label1.Text = "Hola" + " " + PrimerVariable + " " + SegundaVarible ;
+            NomSaludo.Text = "Hola" + " " + Nombre + " " + Saludo ;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
+        
 
-        private void button2_Click(object sender, EventArgs e)
+        private void BtnEjecutar_Click(object sender, EventArgs e)
         {
             string TercerVariable = "¿Como te va?";
 
-            label1.Text = "Hola" + PrimerVariable + TercerVariable; //+ SegundaVariable ;(No se puede usar en este ambito por la vida de las variables)
+            NomSaludo.Text = "Hola" + Nombre + TercerVariable; //+ SegundaVariable ;(No se puede usar en este ambito por la vida de las variables)
         }
+
+       
     } 
 }
        
