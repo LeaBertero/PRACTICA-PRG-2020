@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_Operadores", "Ejercicio_Operadores\Ejercicio_Operadores.csproj", "{5F60B05F-21FE-4796-A4CD-E594B29ADDA7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora", "Ejercicio_Operadores\Calculadora.csproj", "{5F60B05F-21FE-4796-A4CD-E594B29ADDA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
