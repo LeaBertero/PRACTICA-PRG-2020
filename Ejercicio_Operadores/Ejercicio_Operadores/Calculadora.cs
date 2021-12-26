@@ -13,9 +13,6 @@ namespace Ejercicio_Operadores
     public partial class Calculadora : Form
     {
 
-        int Numero1;
-        int Numero2;
-        int Resultado;
 
         public Calculadora()
         {
@@ -28,13 +25,17 @@ namespace Ejercicio_Operadores
             Close();
         }
         
-
         private void BtnSuma_Click_1(object sender, EventArgs e)
         {
+
+            decimal Numero1;
+            decimal Numero2;
+            decimal Resultado;
+
             try
             {
-                Numero1 = Convert.ToInt32(TxtSum1.Text);
-                Numero2 = Convert.ToInt32(TxtSum2.Text);
+                Numero1 = Convert.ToDecimal(TxtSum1.Text);
+                Numero2 = Convert.ToDecimal(TxtSum2.Text);
 
                 Resultado = Numero1 + Numero2;
 
@@ -43,18 +44,19 @@ namespace Ejercicio_Operadores
             catch (Exception)
             {
                 MessageBox.Show("Debe ingresar dos numeros para sumar");
-
             }
         }
-                
 
         private void BtnResta_Click(object sender, EventArgs e)
         {
+            decimal Numero1;
+            decimal Numero2;
+            decimal Resultado;
 
             try
             {
-                Numero1 = Convert.ToInt32(TxtRes1.Text);
-                Numero2 = Convert.ToInt32(TxtRes2.Text);
+                Numero1 = Convert.ToDecimal(TxtRes1.Text);
+                Numero2 = Convert.ToDecimal(TxtRes2.Text);
 
                 Resultado = Numero1 - Numero2;
 
@@ -68,11 +70,14 @@ namespace Ejercicio_Operadores
 
         private void BtnMult_Click(object sender, EventArgs e)
         {
+            decimal Numero1;
+            decimal Numero2;
+            decimal Resultado;
 
             try
             {
-                Numero1 = Convert.ToInt32(TxtMult1.Text);
-                Numero2 = Convert.ToInt32(TxtMult2.Text);
+                Numero1 = Convert.ToDecimal(TxtMult1.Text);
+                Numero2 = Convert.ToDecimal(TxtMult2.Text);
 
                 Resultado = Numero1 * Numero2;
 
@@ -107,6 +112,9 @@ namespace Ejercicio_Operadores
                 MessageBox.Show("Debe ingresar dos numeros para Dividir");
             }
         }
+
+
+                
     }
 }
                
