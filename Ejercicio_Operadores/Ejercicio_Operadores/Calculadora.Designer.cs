@@ -108,6 +108,7 @@ namespace Ejercicio_Operadores
             // BtnSalir
             // 
             this.BtnSalir.BackColor = System.Drawing.Color.Black;
+            this.BtnSalir.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSalir.ForeColor = System.Drawing.SystemColors.Control;
             this.BtnSalir.Location = new System.Drawing.Point(182, 491);
@@ -321,8 +322,10 @@ namespace Ejercicio_Operadores
             // 
             // Calculadora
             // 
+            this.AcceptButton = this.BtnSuma;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
             this.ClientSize = new System.Drawing.Size(758, 579);
             this.Controls.Add(this.label7);
@@ -353,8 +356,12 @@ namespace Ejercicio_Operadores
             this.Controls.Add(this.TxtSum2);
             this.Controls.Add(this.TxtSum1);
             this.Controls.Add(this.label1);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.MaximizeBox = false;
             this.Name = "Calculadora";
+            this.Opacity = 0.9D;
             this.Text = "Calculadora";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
