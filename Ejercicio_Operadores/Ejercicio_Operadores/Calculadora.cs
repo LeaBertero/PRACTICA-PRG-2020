@@ -20,7 +20,6 @@ namespace Ejercicio_Operadores
 
         private void BtnSuma_Click_1(object sender, EventArgs e)
         {
-
             decimal Numero1;
             decimal Numero2;
             decimal Resultado;
@@ -38,6 +37,7 @@ namespace Ejercicio_Operadores
             {
                 MessageBox.Show("Debe ingresar dos numeros para sumar");
             }
+
         }
         private void BtnResta_Click(object sender, EventArgs e)
         {
