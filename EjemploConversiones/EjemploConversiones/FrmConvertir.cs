@@ -29,7 +29,7 @@ namespace EjemploConversiones
 
             decimal resultado = numero1 + numero2;
 
-            LblRes.Text = System.Convert.ToString(resultado);
+            LblRes.Text = resultado.ToString();
         }
 
         

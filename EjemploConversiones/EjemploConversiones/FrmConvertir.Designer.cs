@@ -42,7 +42,7 @@ namespace EjemploConversiones
             // TxtNum1
             // 
             this.TxtNum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNum1.Location = new System.Drawing.Point(139, 67);
+            this.TxtNum1.Location = new System.Drawing.Point(121, 62);
             this.TxtNum1.Name = "TxtNum1";
             this.TxtNum1.Size = new System.Drawing.Size(100, 29);
             this.TxtNum1.TabIndex = 0;
@@ -50,7 +50,7 @@ namespace EjemploConversiones
             // TxtNum2
             // 
             this.TxtNum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNum2.Location = new System.Drawing.Point(307, 67);
+            this.TxtNum2.Location = new System.Drawing.Point(252, 62);
             this.TxtNum2.Name = "TxtNum2";
             this.TxtNum2.Size = new System.Drawing.Size(100, 29);
             this.TxtNum2.TabIndex = 1;
@@ -59,7 +59,7 @@ namespace EjemploConversiones
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(263, 70);
+            this.label1.Location = new System.Drawing.Point(227, 68);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(19, 20);
             this.label1.TabIndex = 2;
@@ -69,15 +69,16 @@ namespace EjemploConversiones
             // 
             this.LblRes.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.LblRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblRes.Location = new System.Drawing.Point(516, 57);
+            this.LblRes.Location = new System.Drawing.Point(121, 123);
             this.LblRes.Name = "LblRes";
-            this.LblRes.Size = new System.Drawing.Size(129, 49);
+            this.LblRes.Size = new System.Drawing.Size(231, 29);
             this.LblRes.TabIndex = 3;
+            this.LblRes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(136, 30);
+            this.label2.Location = new System.Drawing.Point(118, 46);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(111, 13);
             this.label2.TabIndex = 4;
@@ -86,7 +87,7 @@ namespace EjemploConversiones
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(304, 30);
+            this.label3.Location = new System.Drawing.Point(249, 46);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(124, 13);
             this.label3.TabIndex = 5;
@@ -94,7 +95,7 @@ namespace EjemploConversiones
             // 
             // BtnRes
             // 
-            this.BtnRes.Location = new System.Drawing.Point(426, 70);
+            this.BtnRes.Location = new System.Drawing.Point(199, 97);
             this.BtnRes.Name = "BtnRes";
             this.BtnRes.Size = new System.Drawing.Size(75, 23);
             this.BtnRes.TabIndex = 6;
@@ -104,7 +105,7 @@ namespace EjemploConversiones
             // 
             // BtnSalir
             // 
-            this.BtnSalir.Location = new System.Drawing.Point(727, 12);
+            this.BtnSalir.Location = new System.Drawing.Point(217, 192);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(61, 23);
             this.BtnSalir.TabIndex = 7;
@@ -116,7 +117,7 @@ namespace EjemploConversiones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 192);
+            this.ClientSize = new System.Drawing.Size(482, 229);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.BtnRes);
             this.Controls.Add(this.label3);
@@ -127,7 +128,6 @@ namespace EjemploConversiones
             this.Controls.Add(this.TxtNum1);
             this.Name = "FrmConvertir";
             this.Text = "Form1";
-
             this.ResumeLayout(false);
             this.PerformLayout();
 
