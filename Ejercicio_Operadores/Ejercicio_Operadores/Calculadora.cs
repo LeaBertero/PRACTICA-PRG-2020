@@ -109,42 +109,43 @@ namespace Ejercicio_Operadores
 
         private void BnBorrarNumSuma1_Click(object sender, EventArgs e)
         {
-            TxtSum1.Text = "";  
+            TxtSum1.Text = null;
+            //MessageBox.Show("Imposible borrar");
         }
         
         private void BnBorrarNumSuma2_Click(object sender, EventArgs e)
         {
-            TxtSum2.Text = "";
+            TxtSum2.Text = null;
         }
 
         private void BtnBorrarNumRes1_Click(object sender, EventArgs e)
         {
-            TxtRes1.Text = "";
+            TxtRes1.Text = null;
         }
 
         private void BtnBorrarNumRes2_Click(object sender, EventArgs e)
         {
-            TxtRes2.Text = "";
+            TxtRes2.Text = null;
         }
 
         private void BtnBorrarNumMult1_Click(object sender, EventArgs e)
         {
-            TxtMult1.Text = "";
+            TxtMult1.Text = null;
         }
 
         private void BtnBorrarNumMult2_Click(object sender, EventArgs e)
         {
-            TxtMult2.Text = "";
+            TxtMult2.Text = null;
         }
 
         private void BtnBorrarNumDiv1_Click(object sender, EventArgs e)
         {
-            TxtDiv1.Text = "";
+            TxtDiv1.Text = null;
         }
 
         private void BtnBorrarNumDiv2_Click(object sender, EventArgs e)
         {
-            TxtDiv2.Text = "";
+            TxtDiv2.Text = null;
         }
     }
 }
