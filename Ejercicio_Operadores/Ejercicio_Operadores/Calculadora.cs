@@ -147,6 +147,8 @@ namespace Ejercicio_Operadores
         {
             TxtDiv2.Text = null;
         }
+
+        
     }
 }
                
