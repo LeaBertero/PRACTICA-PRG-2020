@@ -12,12 +12,12 @@ namespace Ejercicio_Operadores
 {
     public partial class Calculadora : Form
     {
-
-
         public Calculadora()
         {
             InitializeComponent();
         }
+
+
         private void BtnSuma_Click_1(object sender, EventArgs e)
         {
 
