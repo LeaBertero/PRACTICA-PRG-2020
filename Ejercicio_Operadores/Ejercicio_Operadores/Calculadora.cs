@@ -107,14 +107,45 @@ namespace Ejercicio_Operadores
             Close();
         }
 
+        private void BnBorrarNumSuma1_Click(object sender, EventArgs e)
+        {
+            TxtSum1.Text = "";  
+        }
+        
+        private void BnBorrarNumSuma2_Click(object sender, EventArgs e)
+        {
+            TxtSum2.Text = "";
+        }
 
+        private void BtnBorrarNumRes1_Click(object sender, EventArgs e)
+        {
+            TxtRes1.Text = "";
+        }
 
+        private void BtnBorrarNumRes2_Click(object sender, EventArgs e)
+        {
+            TxtRes2.Text = "";
+        }
 
+        private void BtnBorrarNumMult1_Click(object sender, EventArgs e)
+        {
+            TxtMult1.Text = "";
+        }
 
+        private void BtnBorrarNumMult2_Click(object sender, EventArgs e)
+        {
+            TxtMult2.Text = "";
+        }
 
+        private void BtnBorrarNumDiv1_Click(object sender, EventArgs e)
+        {
+            TxtDiv1.Text = "";
+        }
 
-
-
+        private void BtnBorrarNumDiv2_Click(object sender, EventArgs e)
+        {
+            TxtDiv2.Text = "";
+        }
     }
 }
                
