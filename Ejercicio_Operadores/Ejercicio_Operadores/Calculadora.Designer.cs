@@ -74,7 +74,7 @@ namespace Ejercicio_Operadores
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(185, 131);
+            this.label1.Location = new System.Drawing.Point(178, 127);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(247, 20);
             this.label1.TabIndex = 0;
@@ -141,7 +141,7 @@ namespace Ejercicio_Operadores
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(298, 279);
+            this.label4.Location = new System.Drawing.Point(298, 288);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(15, 20);
             this.label4.TabIndex = 14;
@@ -151,14 +151,14 @@ namespace Ejercicio_Operadores
             // 
             this.LblResResta.AutoSize = true;
             this.LblResResta.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblResResta.Location = new System.Drawing.Point(571, 278);
+            this.LblResResta.Location = new System.Drawing.Point(571, 287);
             this.LblResResta.Name = "LblResResta";
             this.LblResResta.Size = new System.Drawing.Size(0, 17);
             this.LblResResta.TabIndex = 13;
             // 
             // BtnResta
             // 
-            this.BtnResta.Location = new System.Drawing.Point(466, 276);
+            this.BtnResta.Location = new System.Drawing.Point(466, 285);
             this.BtnResta.Name = "BtnResta";
             this.BtnResta.Size = new System.Drawing.Size(75, 23);
             this.BtnResta.TabIndex = 12;
@@ -168,14 +168,14 @@ namespace Ejercicio_Operadores
             // 
             // TxtRes2
             // 
-            this.TxtRes2.Location = new System.Drawing.Point(332, 278);
+            this.TxtRes2.Location = new System.Drawing.Point(332, 287);
             this.TxtRes2.Name = "TxtRes2";
             this.TxtRes2.Size = new System.Drawing.Size(101, 20);
             this.TxtRes2.TabIndex = 11;
             // 
             // TxtRes1
             // 
-            this.TxtRes1.Location = new System.Drawing.Point(182, 279);
+            this.TxtRes1.Location = new System.Drawing.Point(182, 288);
             this.TxtRes1.Name = "TxtRes1";
             this.TxtRes1.Size = new System.Drawing.Size(100, 20);
             this.TxtRes1.TabIndex = 10;
@@ -283,7 +283,7 @@ namespace Ejercicio_Operadores
             this.pictureBox1.Image = global::Ejercicio_Operadores.Properties.Resources.estilo_de_dibujos_animados_iconos_calculadora_negocios_icono_cálculo_negocio_caricatura_del_vector_para_el_diseño_web_aislado_en_189188571;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(126, 128);
+            this.pictureBox1.Size = new System.Drawing.Size(126, 235);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 30;
             this.pictureBox1.TabStop = false;
@@ -293,7 +293,7 @@ namespace Ejercicio_Operadores
             this.pictureBox2.Image = global::Ejercicio_Operadores.Properties.Resources.estilo_de_dibujos_animados_iconos_calculadora_negocios_icono_cálculo_negocio_caricatura_del_vector_para_el_diseño_web_aislado_en_189188571;
             this.pictureBox2.Location = new System.Drawing.Point(620, 9);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(126, 128);
+            this.pictureBox2.Size = new System.Drawing.Size(126, 238);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 31;
             this.pictureBox2.TabStop = false;
@@ -302,7 +302,7 @@ namespace Ejercicio_Operadores
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(178, 216);
+            this.label2.Location = new System.Drawing.Point(178, 227);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(245, 20);
             this.label2.TabIndex = 32;
@@ -312,7 +312,7 @@ namespace Ejercicio_Operadores
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(178, 324);
+            this.label6.Location = new System.Drawing.Point(185, 325);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(279, 20);
             this.label6.TabIndex = 33;
@@ -322,7 +322,7 @@ namespace Ejercicio_Operadores
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(178, 443);
+            this.label7.Location = new System.Drawing.Point(178, 441);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(244, 20);
             this.label7.TabIndex = 34;
@@ -350,7 +350,7 @@ namespace Ejercicio_Operadores
             // 
             // BtnBorrarNumRes2
             // 
-            this.BtnBorrarNumRes2.Location = new System.Drawing.Point(332, 250);
+            this.BtnBorrarNumRes2.Location = new System.Drawing.Point(332, 259);
             this.BtnBorrarNumRes2.Name = "BtnBorrarNumRes2";
             this.BtnBorrarNumRes2.Size = new System.Drawing.Size(100, 23);
             this.BtnBorrarNumRes2.TabIndex = 38;
@@ -360,7 +360,7 @@ namespace Ejercicio_Operadores
             // 
             // BtnBorrarNumRes1
             // 
-            this.BtnBorrarNumRes1.Location = new System.Drawing.Point(182, 250);
+            this.BtnBorrarNumRes1.Location = new System.Drawing.Point(182, 259);
             this.BtnBorrarNumRes1.Name = "BtnBorrarNumRes1";
             this.BtnBorrarNumRes1.Size = new System.Drawing.Size(100, 23);
             this.BtnBorrarNumRes1.TabIndex = 37;
