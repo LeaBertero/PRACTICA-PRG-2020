@@ -66,6 +66,7 @@ namespace Ejercicio_Operadores
             this.BtnBorrarNumMult1 = new System.Windows.Forms.Button();
             this.BtnBorrarNumDiv2 = new System.Windows.Forms.Button();
             this.BtnBorrarNumDiv1 = new System.Windows.Forms.Button();
+            this.BtnLimpiar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -119,9 +120,9 @@ namespace Ejercicio_Operadores
             this.BtnSalir.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSalir.ForeColor = System.Drawing.SystemColors.Control;
-            this.BtnSalir.Location = new System.Drawing.Point(250, 532);
+            this.BtnSalir.Location = new System.Drawing.Point(739, 517);
             this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(360, 41);
+            this.BtnSalir.Size = new System.Drawing.Size(137, 67);
             this.BtnSalir.TabIndex = 6;
             this.BtnSalir.Text = "Salir";
             this.BtnSalir.UseVisualStyleBackColor = false;
@@ -408,6 +409,20 @@ namespace Ejercicio_Operadores
             this.BtnBorrarNumDiv1.UseVisualStyleBackColor = true;
             this.BtnBorrarNumDiv1.Click += new System.EventHandler(this.BtnBorrarNumDiv1_Click);
             // 
+            // BtnLimpiar
+            // 
+            this.BtnLimpiar.BackColor = System.Drawing.Color.Black;
+            this.BtnLimpiar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.BtnLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnLimpiar.ForeColor = System.Drawing.SystemColors.Control;
+            this.BtnLimpiar.Location = new System.Drawing.Point(251, 517);
+            this.BtnLimpiar.Name = "BtnLimpiar";
+            this.BtnLimpiar.Size = new System.Drawing.Size(252, 67);
+            this.BtnLimpiar.TabIndex = 43;
+            this.BtnLimpiar.Text = "Limpiar resultados";
+            this.BtnLimpiar.UseVisualStyleBackColor = false;
+            this.BtnLimpiar.Click += new System.EventHandler(this.BtnLimpiar_Click);
+            // 
             // Calculadora
             // 
             this.AcceptButton = this.BtnSuma;
@@ -416,6 +431,7 @@ namespace Ejercicio_Operadores
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
             this.ClientSize = new System.Drawing.Size(888, 596);
+            this.Controls.Add(this.BtnLimpiar);
             this.Controls.Add(this.BtnBorrarNumDiv2);
             this.Controls.Add(this.BtnBorrarNumDiv1);
             this.Controls.Add(this.BtnBorrarNumMult2);
@@ -504,5 +520,6 @@ namespace Ejercicio_Operadores
         private System.Windows.Forms.Button BtnBorrarNumMult1;
         private System.Windows.Forms.Button BtnBorrarNumDiv2;
         private System.Windows.Forms.Button BtnBorrarNumDiv1;
+        private System.Windows.Forms.Button BtnLimpiar;
     }
 }

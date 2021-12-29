@@ -148,7 +148,13 @@ namespace Ejercicio_Operadores
             TxtDiv2.Text = null;
         }
 
-        
+        private void BtnLimpiar_Click(object sender, EventArgs e)
+        {
+            LblResSuma.Text = null;
+            LblResResta.Text = null;
+            LblResMult.Text = null;
+            LblResDiv.Text = null;
+        }
     }
 }
                
