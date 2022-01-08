@@ -12,11 +12,11 @@ namespace Ejemplowhile
 {
     public partial class EjemploDoWhile : Form
     {
+
         public EjemploDoWhile()
         {
             InitializeComponent();
         }
-
        
 
         private void BtnIniciar_Click(object sender, EventArgs e)
@@ -35,14 +35,14 @@ namespace Ejemplowhile
                 repeticion = repeticion + 1;
 
 
-               
-
-                while (x < Anchoformulario - ancholabel - anchoborde)
+                while (x < Anchoformulario + ancholabel + anchoborde)
                 {
                     LblMovimiento.Left = x;
                     x = x + paso;
                     this.Refresh();
                 }
+               
+
             } while (repeticion < totalrepeticion);
                     
         }
