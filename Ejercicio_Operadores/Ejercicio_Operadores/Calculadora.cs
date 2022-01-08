@@ -18,7 +18,7 @@ namespace Ejercicio_Operadores
         }
 
 
-        private void BtnSuma_Click_1(object sender, EventArgs e)
+        public void BtnSuma_Click_1(object sender, EventArgs e)
         {
             decimal Numero1;
             decimal Numero2;

@@ -13,7 +13,7 @@ namespace EjemploFor
     public partial class FrmClave : Form
     {
         
-        string contraseña = "Usuario";
+        string Clave = "Usuario";
 
         public FrmClave()
         {
@@ -22,7 +22,7 @@ namespace EjemploFor
 
         private void BtnAceptar_Click(object sender, EventArgs e)
         {
-            if (TxtClave.Text != contraseña)
+            if (TxtClave.Text != Clave)
             {
                 MessageBox.Show("clave incorrecta");
                 TxtClave.Clear();
