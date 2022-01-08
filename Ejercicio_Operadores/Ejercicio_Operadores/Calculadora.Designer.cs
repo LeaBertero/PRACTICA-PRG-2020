@@ -67,6 +67,7 @@ namespace Ejercicio_Operadores
             this.BtnBorrarNumDiv2 = new System.Windows.Forms.Button();
             this.BtnBorrarNumDiv1 = new System.Windows.Forms.Button();
             this.BtnLimpiar = new System.Windows.Forms.Button();
+            this.BtnOperaciones = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -415,13 +416,27 @@ namespace Ejercicio_Operadores
             this.BtnLimpiar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.BtnLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnLimpiar.ForeColor = System.Drawing.SystemColors.Control;
-            this.BtnLimpiar.Location = new System.Drawing.Point(251, 517);
+            this.BtnLimpiar.Location = new System.Drawing.Point(230, 530);
             this.BtnLimpiar.Name = "BtnLimpiar";
-            this.BtnLimpiar.Size = new System.Drawing.Size(252, 67);
+            this.BtnLimpiar.Size = new System.Drawing.Size(179, 54);
             this.BtnLimpiar.TabIndex = 43;
             this.BtnLimpiar.Text = "Limpiar resultados";
             this.BtnLimpiar.UseVisualStyleBackColor = false;
             this.BtnLimpiar.Click += new System.EventHandler(this.BtnLimpiar_Click);
+            // 
+            // BtnOperaciones
+            // 
+            this.BtnOperaciones.BackColor = System.Drawing.Color.Black;
+            this.BtnOperaciones.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.BtnOperaciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnOperaciones.ForeColor = System.Drawing.SystemColors.Control;
+            this.BtnOperaciones.Location = new System.Drawing.Point(431, 530);
+            this.BtnOperaciones.Name = "BtnOperaciones";
+            this.BtnOperaciones.Size = new System.Drawing.Size(179, 54);
+            this.BtnOperaciones.TabIndex = 44;
+            this.BtnOperaciones.Text = "Limpiar Operaciones";
+            this.BtnOperaciones.UseVisualStyleBackColor = false;
+            this.BtnOperaciones.Click += new System.EventHandler(this.BtnOperaciones_Click);
             // 
             // Calculadora
             // 
@@ -431,6 +446,7 @@ namespace Ejercicio_Operadores
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
             this.ClientSize = new System.Drawing.Size(888, 596);
+            this.Controls.Add(this.BtnOperaciones);
             this.Controls.Add(this.BtnLimpiar);
             this.Controls.Add(this.BtnBorrarNumDiv2);
             this.Controls.Add(this.BtnBorrarNumDiv1);
@@ -521,5 +537,6 @@ namespace Ejercicio_Operadores
         private System.Windows.Forms.Button BtnBorrarNumDiv2;
         private System.Windows.Forms.Button BtnBorrarNumDiv1;
         private System.Windows.Forms.Button BtnLimpiar;
+        private System.Windows.Forms.Button BtnOperaciones;
     }
 }

@@ -155,6 +155,18 @@ namespace Ejercicio_Operadores
             LblResMult.Text = null;
             LblResDiv.Text = null;
         }
+
+        private void BtnOperaciones_Click(object sender, EventArgs e)
+        {
+            TxtSum1.Text = null;
+            TxtSum2.Text = null;
+            TxtRes1.Text = null;
+            TxtRes2.Text = null;
+            TxtMult1.Text = null;
+            TxtMult2.Text = null;
+            TxtDiv1.Text = null;
+            TxtDiv2.Text = null;
+        }
     }
 }
                
