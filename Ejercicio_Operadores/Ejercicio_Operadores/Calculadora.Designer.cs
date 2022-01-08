@@ -121,9 +121,9 @@ namespace Ejercicio_Operadores
             this.BtnSalir.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSalir.ForeColor = System.Drawing.SystemColors.Control;
-            this.BtnSalir.Location = new System.Drawing.Point(739, 517);
+            this.BtnSalir.Location = new System.Drawing.Point(750, 530);
             this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(137, 67);
+            this.BtnSalir.Size = new System.Drawing.Size(126, 54);
             this.BtnSalir.TabIndex = 6;
             this.BtnSalir.Text = "Salir";
             this.BtnSalir.UseVisualStyleBackColor = false;
