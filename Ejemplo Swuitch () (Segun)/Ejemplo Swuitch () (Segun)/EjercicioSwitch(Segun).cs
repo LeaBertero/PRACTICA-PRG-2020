@@ -112,12 +112,7 @@ namespace Ejemplo_Swuitch_____Segun_
             }
         }
 
-        private void BtnEjemplo2_Click(object sender, EventArgs e)
-        {
-            Ejemplo2Operaciones Ejemplo2 = new Ejemplo2Operaciones();
-            Ejemplo2.ShowDialog();
-            
-        }
+        
 
         private void BtnSalir_Click(object sender, EventArgs e)
         {

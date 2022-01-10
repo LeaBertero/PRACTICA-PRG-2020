@@ -38,7 +38,6 @@ namespace Ejemplo_Swuitch_____Segun_
             this.TxtRes = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.BtnEjemplo2 = new System.Windows.Forms.Button();
             this.lblError = new System.Windows.Forms.Label();
             this.BtnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -132,18 +131,6 @@ namespace Ejemplo_Swuitch_____Segun_
             this.label4.TabIndex = 8;
             this.label4.Text = "Ingrese signo";
             // 
-            // BtnEjemplo2
-            // 
-            this.BtnEjemplo2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnEjemplo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnEjemplo2.Location = new System.Drawing.Point(675, 213);
-            this.BtnEjemplo2.Name = "BtnEjemplo2";
-            this.BtnEjemplo2.Size = new System.Drawing.Size(205, 41);
-            this.BtnEjemplo2.TabIndex = 9;
-            this.BtnEjemplo2.Text = "Nuevo ejemplo";
-            this.BtnEjemplo2.UseVisualStyleBackColor = true;
-            this.BtnEjemplo2.Click += new System.EventHandler(this.BtnEjemplo2_Click);
-            // 
             // lblError
             // 
             this.lblError.AutoSize = true;
@@ -157,7 +144,7 @@ namespace Ejemplo_Swuitch_____Segun_
             // 
             this.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSalir.Location = new System.Drawing.Point(12, 213);
+            this.BtnSalir.Location = new System.Drawing.Point(21, 130);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(93, 41);
             this.BtnSalir.TabIndex = 11;
@@ -169,10 +156,9 @@ namespace Ejemplo_Swuitch_____Segun_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(892, 266);
+            this.ClientSize = new System.Drawing.Size(892, 183);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.lblError);
-            this.Controls.Add(this.BtnEjemplo2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.TxtRes);
@@ -200,7 +186,6 @@ namespace Ejemplo_Swuitch_____Segun_
         private System.Windows.Forms.TextBox TxtRes;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button BtnEjemplo2;
         private System.Windows.Forms.Label lblError;
         private System.Windows.Forms.Button BtnSalir;
     }
