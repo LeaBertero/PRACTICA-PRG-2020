@@ -39,7 +39,7 @@ namespace Prueba_For
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS PGothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(19, 17);
+            this.label1.Location = new System.Drawing.Point(19, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(156, 14);
             this.label1.TabIndex = 10;
@@ -65,10 +65,10 @@ namespace Prueba_For
             // 
             // BtnEjecutar
             // 
-            this.BtnEjecutar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnEjecutar.Location = new System.Drawing.Point(122, 42);
+            this.BtnEjecutar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEjecutar.Location = new System.Drawing.Point(138, 38);
             this.BtnEjecutar.Name = "BtnEjecutar";
-            this.BtnEjecutar.Size = new System.Drawing.Size(81, 26);
+            this.BtnEjecutar.Size = new System.Drawing.Size(81, 30);
             this.BtnEjecutar.TabIndex = 7;
             this.BtnEjecutar.Text = "Ejecutar";
             this.BtnEjecutar.UseVisualStyleBackColor = true;
