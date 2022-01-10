@@ -57,7 +57,7 @@ namespace Prueba_For
             // 
             this.LblRojo.BackColor = System.Drawing.Color.Red;
             this.LblRojo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblRojo.Location = new System.Drawing.Point(18, 108);
+            this.LblRojo.Location = new System.Drawing.Point(0, 108);
             this.LblRojo.Name = "LblRojo";
             this.LblRojo.Size = new System.Drawing.Size(48, 41);
             this.LblRojo.TabIndex = 8;
@@ -76,9 +76,10 @@ namespace Prueba_For
             // 
             // Ejemplo2
             // 
+            this.AcceptButton = this.BtnEjecutar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(618, 333);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtValInicial);
             this.Controls.Add(this.LblRojo);

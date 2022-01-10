@@ -25,7 +25,7 @@ namespace Prueba_For
             
             int x = Convert.ToInt32(TxtValInicial.Text);
 
-            for ( ; x < 500; )
+            for ( ; x < 750; )
             {
                 LblRojo.Left = x;
                 x = x + 2;
