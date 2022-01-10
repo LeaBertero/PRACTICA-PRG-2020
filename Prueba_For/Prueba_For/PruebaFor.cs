@@ -10,20 +10,23 @@ using System.Windows.Forms;
 
 namespace Prueba_For
 {
+
+
     public partial class PruebaFor : Form
     {
+
         public PruebaFor()
         {
             InitializeComponent();
         }
-
+        
         //MessageBox.Show("Debe ingresar un valor ");
-        private void BtnEjecutar_Click(object sender, EventArgs e)
+        public void BtnEjecutar_Click(object sender, EventArgs e)
         {
-            
+
             int desplazamiento = Convert.ToInt32(TxtValInicial.Text);
 
-           
+
             for (int inical = desplazamiento; inical < 659; inical++)
             {
                 LblRojo.Left = inical;
@@ -50,8 +53,6 @@ namespace Prueba_For
 
             LblFin.Visible = true;
         }
-
-
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();
@@ -62,7 +63,12 @@ namespace Prueba_For
             Ejemplo2 segundoEj = new Ejemplo2();
             segundoEj.ShowDialog();
         }
+
     }
 }
+        
+       
+
+
 
        
