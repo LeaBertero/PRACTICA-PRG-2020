@@ -20,17 +20,19 @@ namespace Prueba_For
         //MessageBox.Show("Debe ingresar un valor ");
         private void BtnEjecutar_Click(object sender, EventArgs e)
         {
+            
             int desplazamiento = Convert.ToInt32(TxtValInicial.Text);
 
            
-
             for (int inical = desplazamiento; inical < 659; inical++)
             {
                 LblRojo.Left = inical;
                 this.Refresh();
                 Task.Delay(1000);
+
             }
 
+           
             for (int inical = desplazamiento; inical < 659; inical++)
             {
                 Lblamarillo.Left = inical;
@@ -38,6 +40,7 @@ namespace Prueba_For
                 Task.Delay(1000);
             }
 
+           
             for (int inical = desplazamiento; inical < 659; inical++)
             {
                 LblVerde.Left = inical;
@@ -48,15 +51,18 @@ namespace Prueba_For
             LblFin.Visible = true;
         }
 
+
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void BtnSiguiente_Click(object sender, EventArgs e)
+        private void BtnEjemplo2_Click(object sender, EventArgs e)
         {
-            SegundoEj segundo = new SegundoEj();
-            segundo.ShowDialog();
+            Ejemplo2 segundoEj = new Ejemplo2();
+            segundoEj.ShowDialog();
         }
     }
 }
+
+       

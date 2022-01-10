@@ -34,10 +34,10 @@ namespace Prueba_For
             this.BtnSalir = new System.Windows.Forms.Button();
             this.TxtValInicial = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.Ejdos = new System.Windows.Forms.Button();
             this.Lblamarillo = new System.Windows.Forms.Label();
             this.LblFin = new System.Windows.Forms.Label();
             this.LblVerde = new System.Windows.Forms.Label();
+            this.BtnEjemplo2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LblRojo
@@ -90,17 +90,6 @@ namespace Prueba_For
             this.label1.TabIndex = 6;
             this.label1.Text = "Ingrese el valor inicial";
             // 
-            // Ejdos
-            // 
-            this.Ejdos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ejdos.Location = new System.Drawing.Point(646, 406);
-            this.Ejdos.Name = "Ejdos";
-            this.Ejdos.Size = new System.Drawing.Size(94, 32);
-            this.Ejdos.TabIndex = 7;
-            this.Ejdos.Text = "Ejemplo 2";
-            this.Ejdos.UseVisualStyleBackColor = true;
-            this.Ejdos.Click += new System.EventHandler(this.BtnSiguiente_Click);
-            // 
             // Lblamarillo
             // 
             this.Lblamarillo.BackColor = System.Drawing.Color.Gold;
@@ -132,6 +121,17 @@ namespace Prueba_For
             this.LblVerde.TabIndex = 10;
             this.LblVerde.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // BtnEjemplo2
+            // 
+            this.BtnEjemplo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEjemplo2.Location = new System.Drawing.Point(666, 14);
+            this.BtnEjemplo2.Name = "BtnEjemplo2";
+            this.BtnEjemplo2.Size = new System.Drawing.Size(98, 29);
+            this.BtnEjemplo2.TabIndex = 11;
+            this.BtnEjemplo2.Text = " Ejemplo 2";
+            this.BtnEjemplo2.UseVisualStyleBackColor = true;
+            this.BtnEjemplo2.Click += new System.EventHandler(this.BtnEjemplo2_Click);
+            // 
             // PruebaFor
             // 
             this.AcceptButton = this.BtnEjecutar;
@@ -141,10 +141,10 @@ namespace Prueba_For
             this.BackColor = System.Drawing.Color.Aquamarine;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
+            this.Controls.Add(this.BtnEjemplo2);
             this.Controls.Add(this.LblVerde);
             this.Controls.Add(this.LblFin);
             this.Controls.Add(this.Lblamarillo);
-            this.Controls.Add(this.Ejdos);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtValInicial);
             this.Controls.Add(this.BtnSalir);
@@ -168,9 +168,9 @@ namespace Prueba_For
         private System.Windows.Forms.Button BtnSalir;
         private System.Windows.Forms.TextBox TxtValInicial;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button Ejdos;
         private System.Windows.Forms.Label Lblamarillo;
         private System.Windows.Forms.Label LblFin;
         private System.Windows.Forms.Label LblVerde;
+        private System.Windows.Forms.Button BtnEjemplo2;
     }
 }

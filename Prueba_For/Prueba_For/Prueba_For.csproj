@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ejemplo2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplo2.Designer.cs">
+      <DependentUpon>Ejemplo2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PruebaFor.cs">
@@ -54,12 +60,9 @@
     <Compile Include="PruebaFor.Designer.cs">
       <DependentUpon>PruebaFor.cs</DependentUpon>
     </Compile>
-    <Compile Include="SegundoEj.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SegundoEj.Designer.cs">
-      <DependentUpon>SegundoEj.cs</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="Ejemplo2.resx">
+      <DependentUpon>Ejemplo2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -71,9 +74,6 @@
     </Compile>
     <EmbeddedResource Include="PruebaFor.resx">
       <DependentUpon>PruebaFor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SegundoEj.resx">
-      <DependentUpon>SegundoEj.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
