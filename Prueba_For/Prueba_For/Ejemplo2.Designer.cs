@@ -33,6 +33,8 @@ namespace Prueba_For
             this.TxtValInicial = new System.Windows.Forms.TextBox();
             this.LblRojo = new System.Windows.Forms.Label();
             this.BtnEjecutar = new System.Windows.Forms.Button();
+            this.PicImag = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.PicImag)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -74,18 +76,30 @@ namespace Prueba_For
             this.BtnEjecutar.UseVisualStyleBackColor = true;
             this.BtnEjecutar.Click += new System.EventHandler(this.BtnEjecutar_Click);
             // 
+            // PicImag
+            // 
+            this.PicImag.Image = global::Prueba_For.Properties.Resources.Pájaro_Loco;
+            this.PicImag.Location = new System.Drawing.Point(36, 177);
+            this.PicImag.Name = "PicImag";
+            this.PicImag.Size = new System.Drawing.Size(104, 122);
+            this.PicImag.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PicImag.TabIndex = 11;
+            this.PicImag.TabStop = false;
+            // 
             // Ejemplo2
             // 
             this.AcceptButton = this.BtnEjecutar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.PicImag);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtValInicial);
             this.Controls.Add(this.LblRojo);
             this.Controls.Add(this.BtnEjecutar);
             this.Name = "Ejemplo2";
             this.Text = "Ejemplo2";
+            ((System.ComponentModel.ISupportInitialize)(this.PicImag)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -97,5 +111,6 @@ namespace Prueba_For
         private System.Windows.Forms.TextBox TxtValInicial;
         private System.Windows.Forms.Label LblRojo;
         private System.Windows.Forms.Button BtnEjecutar;
+        private System.Windows.Forms.PictureBox PicImag;
     }
 }

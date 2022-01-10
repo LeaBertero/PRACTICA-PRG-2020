@@ -27,7 +27,7 @@ namespace Prueba_For
             int desplazamiento = Convert.ToInt32(TxtValInicial.Text);
 
 
-            for (int inical = desplazamiento; inical < 659; inical++)
+            for (int inical = desplazamiento; inical < 200; inical++)
             {
                 LblRojo.Left = inical;
                 this.Refresh();
@@ -36,7 +36,7 @@ namespace Prueba_For
             }
 
            
-            for (int inical = desplazamiento; inical < 659; inical++)
+            for (int inical = desplazamiento; inical < 525; inical++)
             {
                 Lblamarillo.Left = inical;
                 this.Refresh();
@@ -44,7 +44,7 @@ namespace Prueba_For
             }
 
            
-            for (int inical = desplazamiento; inical < 659; inical++)
+            for (int inical = desplazamiento; inical < 315; inical++)
             {
                 LblVerde.Left = inical;
                 this.Refresh();
