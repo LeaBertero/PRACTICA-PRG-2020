@@ -16,6 +16,8 @@ namespace Operadores_practica
         //int variable = 0;
         //bool resultado;
 
+        int numero = 0;
+        
         public Operadores()
         {
             InitializeComponent();
@@ -26,7 +28,6 @@ namespace Operadores_practica
         //si la variable numero es cero la operacion logica es false
         //Si la variable numero es distinto de 0 es true
 
-        int numero = 0;
 
         private void BtnEjecutar_Click(object sender, EventArgs e)
         {
