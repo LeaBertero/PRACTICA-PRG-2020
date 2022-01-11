@@ -25,11 +25,11 @@ namespace Prueba_For
         {
 
             int desplazamiento = Convert.ToInt32(TxtValInicial.Text);
+            
 
-
-            for (int inical = desplazamiento; inical < 200; inical++)
+            for (int Paso = desplazamiento; Paso < 200; Paso++)
             {
-                LblRojo.Left = inical;
+                LblRojo.Left = Paso;
                 this.Refresh();
                 Task.Delay(1000);
 

@@ -67,6 +67,7 @@ namespace Pruebe_while
             this.BtnComenzar.TabIndex = 2;
             this.BtnComenzar.Text = "Comenzar";
             this.BtnComenzar.UseVisualStyleBackColor = true;
+            this.BtnComenzar.Click += new System.EventHandler(this.BtnComenzar_Click);
             // 
             // Prueba_While_movimientos
             // 

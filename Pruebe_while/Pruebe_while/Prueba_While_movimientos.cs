@@ -16,5 +16,10 @@ namespace Pruebe_while
         {
             InitializeComponent();
         }
+
+        private void BtnComenzar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
