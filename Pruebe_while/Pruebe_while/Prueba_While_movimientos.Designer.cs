@@ -30,66 +30,96 @@ namespace Pruebe_while
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Prueba_While_movimientos));
-            this.Pic1 = new System.Windows.Forms.PictureBox();
-            this.Pic2 = new System.Windows.Forms.PictureBox();
-            this.BtnComenzar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.Pic1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pic2)).BeginInit();
+            this.PicCoyote = new System.Windows.Forms.PictureBox();
+            this.PicBeep = new System.Windows.Forms.PictureBox();
+            this.BtnMovCoyote = new System.Windows.Forms.Button();
+            this.BtnMovMicMic = new System.Windows.Forms.Button();
+            this.BtnReac = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.PicCoyote)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBeep)).BeginInit();
             this.SuspendLayout();
             // 
-            // Pic1
+            // PicCoyote
             // 
-            this.Pic1.Image = ((System.Drawing.Image)(resources.GetObject("Pic1.Image")));
-            this.Pic1.Location = new System.Drawing.Point(41, 139);
-            this.Pic1.Name = "Pic1";
-            this.Pic1.Size = new System.Drawing.Size(146, 165);
-            this.Pic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Pic1.TabIndex = 0;
-            this.Pic1.TabStop = false;
+            this.PicCoyote.Image = ((System.Drawing.Image)(resources.GetObject("PicCoyote.Image")));
+            this.PicCoyote.Location = new System.Drawing.Point(275, 83);
+            this.PicCoyote.Name = "PicCoyote";
+            this.PicCoyote.Size = new System.Drawing.Size(110, 112);
+            this.PicCoyote.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PicCoyote.TabIndex = 0;
+            this.PicCoyote.TabStop = false;
+            this.PicCoyote.Click += new System.EventHandler(this.PicCoyote_Click);
             // 
-            // Pic2
+            // PicBeep
             // 
-            this.Pic2.Image = ((System.Drawing.Image)(resources.GetObject("Pic2.Image")));
-            this.Pic2.Location = new System.Drawing.Point(580, 139);
-            this.Pic2.Name = "Pic2";
-            this.Pic2.Size = new System.Drawing.Size(146, 165);
-            this.Pic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Pic2.TabIndex = 1;
-            this.Pic2.TabStop = false;
+            this.PicBeep.Image = ((System.Drawing.Image)(resources.GetObject("PicBeep.Image")));
+            this.PicBeep.Location = new System.Drawing.Point(500, 290);
+            this.PicBeep.Name = "PicBeep";
+            this.PicBeep.Size = new System.Drawing.Size(110, 112);
+            this.PicBeep.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PicBeep.TabIndex = 1;
+            this.PicBeep.TabStop = false;
             // 
-            // BtnComenzar
+            // BtnMovCoyote
             // 
-            this.BtnComenzar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnComenzar.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnComenzar.Location = new System.Drawing.Point(41, 12);
-            this.BtnComenzar.Name = "BtnComenzar";
-            this.BtnComenzar.Size = new System.Drawing.Size(685, 67);
-            this.BtnComenzar.TabIndex = 2;
-            this.BtnComenzar.Text = "Comenzar";
-            this.BtnComenzar.UseVisualStyleBackColor = true;
-            this.BtnComenzar.Click += new System.EventHandler(this.BtnComenzar_Click);
+            this.BtnMovCoyote.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnMovCoyote.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMovCoyote.Location = new System.Drawing.Point(28, 479);
+            this.BtnMovCoyote.Name = "BtnMovCoyote";
+            this.BtnMovCoyote.Size = new System.Drawing.Size(97, 37);
+            this.BtnMovCoyote.TabIndex = 2;
+            this.BtnMovCoyote.Text = "Coyote";
+            this.BtnMovCoyote.UseVisualStyleBackColor = true;
+            this.BtnMovCoyote.Click += new System.EventHandler(this.BtnMovCoyote_Click);
+            // 
+            // BtnMovMicMic
+            // 
+            this.BtnMovMicMic.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnMovMicMic.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMovMicMic.Location = new System.Drawing.Point(824, 479);
+            this.BtnMovMicMic.Name = "BtnMovMicMic";
+            this.BtnMovMicMic.Size = new System.Drawing.Size(121, 37);
+            this.BtnMovMicMic.TabIndex = 3;
+            this.BtnMovMicMic.Text = "CorreCaminos";
+            this.BtnMovMicMic.UseVisualStyleBackColor = true;
+            this.BtnMovMicMic.Click += new System.EventHandler(this.BtnMovMicMic_Click);
+            // 
+            // BtnReac
+            // 
+            this.BtnReac.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnReac.Location = new System.Drawing.Point(466, 12);
+            this.BtnReac.Name = "BtnReac";
+            this.BtnReac.Size = new System.Drawing.Size(113, 29);
+            this.BtnReac.TabIndex = 4;
+            this.BtnReac.Text = "Reacomodar";
+            this.BtnReac.UseVisualStyleBackColor = true;
+            this.BtnReac.Click += new System.EventHandler(this.BtnReac_Click);
             // 
             // Prueba_While_movimientos
             // 
-            this.AcceptButton = this.BtnComenzar;
+            this.AcceptButton = this.BtnMovCoyote;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.BtnComenzar);
-            this.Controls.Add(this.Pic2);
-            this.Controls.Add(this.Pic1);
+            this.ClientSize = new System.Drawing.Size(1047, 528);
+            this.Controls.Add(this.BtnReac);
+            this.Controls.Add(this.PicBeep);
+            this.Controls.Add(this.PicCoyote);
+            this.Controls.Add(this.BtnMovMicMic);
+            this.Controls.Add(this.BtnMovCoyote);
             this.Name = "Prueba_While_movimientos";
             this.Text = "Prueba_While_movimientos";
-            ((System.ComponentModel.ISupportInitialize)(this.Pic1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pic2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicCoyote)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBeep)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox Pic1;
-        private System.Windows.Forms.PictureBox Pic2;
-        private System.Windows.Forms.Button BtnComenzar;
+        private System.Windows.Forms.PictureBox PicCoyote;
+        private System.Windows.Forms.PictureBox PicBeep;
+        private System.Windows.Forms.Button BtnMovCoyote;
+        private System.Windows.Forms.Button BtnMovMicMic;
+        private System.Windows.Forms.Button BtnReac;
     }
 }
