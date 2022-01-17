@@ -35,6 +35,7 @@ namespace Pruebe_while
             this.BtnMovCoyote = new System.Windows.Forms.Button();
             this.BtnMovMicMic = new System.Windows.Forms.Button();
             this.BtnReac = new System.Windows.Forms.Button();
+            this.LblMensaje = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PicCoyote)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBeep)).BeginInit();
             this.SuspendLayout();
@@ -95,12 +96,23 @@ namespace Pruebe_while
             this.BtnReac.UseVisualStyleBackColor = true;
             this.BtnReac.Click += new System.EventHandler(this.BtnReac_Click);
             // 
+            // LblMensaje
+            // 
+            this.LblMensaje.AutoSize = true;
+            this.LblMensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblMensaje.Location = new System.Drawing.Point(421, 483);
+            this.LblMensaje.Name = "LblMensaje";
+            this.LblMensaje.Size = new System.Drawing.Size(0, 17);
+            this.LblMensaje.TabIndex = 5;
+            this.LblMensaje.Visible = false;
+            // 
             // Prueba_While_movimientos
             // 
             this.AcceptButton = this.BtnMovCoyote;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1047, 528);
+            this.Controls.Add(this.LblMensaje);
             this.Controls.Add(this.BtnReac);
             this.Controls.Add(this.PicBeep);
             this.Controls.Add(this.PicCoyote);
@@ -111,6 +123,7 @@ namespace Pruebe_while
             ((System.ComponentModel.ISupportInitialize)(this.PicCoyote)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBeep)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -121,5 +134,6 @@ namespace Pruebe_while
         private System.Windows.Forms.Button BtnMovCoyote;
         private System.Windows.Forms.Button BtnMovMicMic;
         private System.Windows.Forms.Button BtnReac;
+        private System.Windows.Forms.Label LblMensaje;
     }
 }

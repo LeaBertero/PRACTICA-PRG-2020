@@ -25,6 +25,8 @@ namespace Pruebe_while
             {
                 PicBeep.Left = PicBeep.Left + 1;
                 this.Refresh();
+                LblMensaje.Text = "Beep, Beep";
+                LblMensaje.Visible = true;
             }
 
         }
@@ -32,16 +34,16 @@ namespace Pruebe_while
         private void BtnReac_Click(object sender, EventArgs e)
         {
             PicCoyote.Top = 70;
-            //PicCoyote.Visible = true;
             this.Refresh();
-            //LblTexto.Text = "Por fin te he atrapado !!";
-
+            
             PicBeep.Top = 70;
-            //PicBeep.Visible = true;
             this.Refresh();
+            
+        }
+
+            
 
            
-        }
 
         private void BtnMovCoyote_Click(object sender, EventArgs e)
         {
@@ -49,7 +51,17 @@ namespace Pruebe_while
             {
                 PicCoyote.Left = PicCoyote.Left + 1;
                 this.Refresh();
+
+                if ((PicCoyote.Left + PicCoyote.Width) == PicBeep.Left )
+                {
+                    break;
+                }
+                
             }
+
+            LblMensaje.Text = "Te atrapé";
+            LblMensaje.Visible = true;
+
         }
 
         private void PicCoyote_Click(object sender, EventArgs e)
