@@ -101,7 +101,7 @@ namespace Pruebe_while
             this.BtnAparecer.FlatAppearance.BorderSize = 5;
             this.BtnAparecer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnAparecer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAparecer.Location = new System.Drawing.Point(210, 12);
+            this.BtnAparecer.Location = new System.Drawing.Point(249, 12);
             this.BtnAparecer.Name = "BtnAparecer";
             this.BtnAparecer.Size = new System.Drawing.Size(194, 58);
             this.BtnAparecer.TabIndex = 6;
@@ -115,7 +115,7 @@ namespace Pruebe_while
             this.BntAparecer2.FlatAppearance.BorderSize = 5;
             this.BntAparecer2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BntAparecer2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BntAparecer2.Location = new System.Drawing.Point(747, 12);
+            this.BntAparecer2.Location = new System.Drawing.Point(711, 12);
             this.BntAparecer2.Name = "BntAparecer2";
             this.BntAparecer2.Size = new System.Drawing.Size(194, 58);
             this.BntAparecer2.TabIndex = 7;
@@ -129,7 +129,7 @@ namespace Pruebe_while
             this.BtnBorrarPers1.FlatAppearance.BorderSize = 5;
             this.BtnBorrarPers1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnBorrarPers1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnBorrarPers1.Location = new System.Drawing.Point(45, 12);
+            this.BtnBorrarPers1.Location = new System.Drawing.Point(286, 76);
             this.BtnBorrarPers1.Name = "BtnBorrarPers1";
             this.BtnBorrarPers1.Size = new System.Drawing.Size(132, 58);
             this.BtnBorrarPers1.TabIndex = 8;
@@ -143,7 +143,7 @@ namespace Pruebe_while
             this.BtnBorrarPers2.FlatAppearance.BorderSize = 5;
             this.BtnBorrarPers2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnBorrarPers2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnBorrarPers2.Location = new System.Drawing.Point(982, 12);
+            this.BtnBorrarPers2.Location = new System.Drawing.Point(748, 76);
             this.BtnBorrarPers2.Name = "BtnBorrarPers2";
             this.BtnBorrarPers2.Size = new System.Drawing.Size(132, 58);
             this.BtnBorrarPers2.TabIndex = 9;
