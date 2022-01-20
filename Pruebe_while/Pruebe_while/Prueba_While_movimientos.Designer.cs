@@ -84,6 +84,7 @@ namespace Pruebe_while
             // 
             // BtnReac
             // 
+            this.BtnReac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnReac.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.BtnReac.FlatAppearance.BorderSize = 5;
             this.BtnReac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -98,6 +99,7 @@ namespace Pruebe_while
             // 
             // BtnAparecer
             // 
+            this.BtnAparecer.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnAparecer.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.BtnAparecer.FlatAppearance.BorderSize = 5;
             this.BtnAparecer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -112,6 +114,7 @@ namespace Pruebe_while
             // 
             // BntAparecer2
             // 
+            this.BntAparecer2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BntAparecer2.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.BntAparecer2.FlatAppearance.BorderSize = 5;
             this.BntAparecer2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -126,6 +129,7 @@ namespace Pruebe_while
             // 
             // BtnBorrarPers1
             // 
+            this.BtnBorrarPers1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnBorrarPers1.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.BtnBorrarPers1.FlatAppearance.BorderSize = 5;
             this.BtnBorrarPers1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -140,6 +144,7 @@ namespace Pruebe_while
             // 
             // BtnBorrarPers2
             // 
+            this.BtnBorrarPers2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnBorrarPers2.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.BtnBorrarPers2.FlatAppearance.BorderSize = 5;
             this.BtnBorrarPers2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
