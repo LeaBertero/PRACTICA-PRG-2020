@@ -197,6 +197,7 @@ namespace Pruebe_while
             this.Controls.Add(this.PicCoyote);
             this.Controls.Add(this.BtnMovCoyote);
             this.Controls.Add(this.BtnReac);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Prueba_While_movimientos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Prueba_While_movimientos";
