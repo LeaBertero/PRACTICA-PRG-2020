@@ -33,10 +33,13 @@ namespace Pruebe_while
             this.PicCoyote = new System.Windows.Forms.PictureBox();
             this.PicBeep = new System.Windows.Forms.PictureBox();
             this.BtnMovCoyote = new System.Windows.Forms.Button();
-            this.BtnMovMicMic = new System.Windows.Forms.Button();
             this.BtnReac = new System.Windows.Forms.Button();
-            this.LblMensaje = new System.Windows.Forms.Label();
             this.BtnAparecer = new System.Windows.Forms.Button();
+            this.BntAparecer2 = new System.Windows.Forms.Button();
+            this.BtnBorrarPers1 = new System.Windows.Forms.Button();
+            this.BtnBorrarPers2 = new System.Windows.Forms.Button();
+            this.LblMensaje = new System.Windows.Forms.Label();
+            this.BtnSalir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PicCoyote)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBeep)).BeginInit();
             this.SuspendLayout();
@@ -44,19 +47,18 @@ namespace Pruebe_while
             // PicCoyote
             // 
             this.PicCoyote.Image = ((System.Drawing.Image)(resources.GetObject("PicCoyote.Image")));
-            this.PicCoyote.Location = new System.Drawing.Point(180, 404);
+            this.PicCoyote.Location = new System.Drawing.Point(45, 320);
             this.PicCoyote.Name = "PicCoyote";
             this.PicCoyote.Size = new System.Drawing.Size(110, 112);
             this.PicCoyote.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicCoyote.TabIndex = 0;
             this.PicCoyote.TabStop = false;
             this.PicCoyote.Visible = false;
-            
             // 
             // PicBeep
             // 
             this.PicBeep.Image = ((System.Drawing.Image)(resources.GetObject("PicBeep.Image")));
-            this.PicBeep.Location = new System.Drawing.Point(779, 71);
+            this.PicBeep.Location = new System.Drawing.Point(1025, 157);
             this.PicBeep.Name = "PicBeep";
             this.PicBeep.Size = new System.Drawing.Size(110, 112);
             this.PicBeep.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -67,73 +69,132 @@ namespace Pruebe_while
             // BtnMovCoyote
             // 
             this.BtnMovCoyote.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnMovCoyote.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BtnMovCoyote.FlatAppearance.BorderSize = 5;
+            this.BtnMovCoyote.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMovCoyote.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMovCoyote.Location = new System.Drawing.Point(12, 247);
+            this.BtnMovCoyote.Location = new System.Drawing.Point(483, 451);
             this.BtnMovCoyote.Name = "BtnMovCoyote";
-            this.BtnMovCoyote.Size = new System.Drawing.Size(140, 269);
+            this.BtnMovCoyote.Size = new System.Drawing.Size(202, 50);
             this.BtnMovCoyote.TabIndex = 2;
-            this.BtnMovCoyote.Text = "Coyote";
+            this.BtnMovCoyote.Text = "Mover";
             this.BtnMovCoyote.UseVisualStyleBackColor = true;
             this.BtnMovCoyote.Click += new System.EventHandler(this.BtnMovCoyote_Click);
             // 
-            // BtnMovMicMic
-            // 
-            this.BtnMovMicMic.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnMovMicMic.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMovMicMic.Location = new System.Drawing.Point(1140, 257);
-            this.BtnMovMicMic.Name = "BtnMovMicMic";
-            this.BtnMovMicMic.Size = new System.Drawing.Size(140, 269);
-            this.BtnMovMicMic.TabIndex = 3;
-            this.BtnMovMicMic.Text = "CorreCaminos";
-            this.BtnMovMicMic.UseVisualStyleBackColor = true;
-            this.BtnMovMicMic.Click += new System.EventHandler(this.BtnMovMicMic_Click);
-            // 
             // BtnReac
             // 
+            this.BtnReac.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.BtnReac.FlatAppearance.BorderSize = 5;
+            this.BtnReac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnReac.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnReac.Location = new System.Drawing.Point(332, 441);
+            this.BtnReac.Location = new System.Drawing.Point(483, 12);
             this.BtnReac.Name = "BtnReac";
-            this.BtnReac.Size = new System.Drawing.Size(692, 53);
+            this.BtnReac.Size = new System.Drawing.Size(194, 58);
             this.BtnReac.TabIndex = 4;
-            this.BtnReac.Text = "Reacomodar";
+            this.BtnReac.Text = "Reacomodar personajes";
             this.BtnReac.UseVisualStyleBackColor = true;
             this.BtnReac.Click += new System.EventHandler(this.BtnReac_Click);
+            // 
+            // BtnAparecer
+            // 
+            this.BtnAparecer.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.BtnAparecer.FlatAppearance.BorderSize = 5;
+            this.BtnAparecer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAparecer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAparecer.Location = new System.Drawing.Point(210, 12);
+            this.BtnAparecer.Name = "BtnAparecer";
+            this.BtnAparecer.Size = new System.Drawing.Size(194, 58);
+            this.BtnAparecer.TabIndex = 6;
+            this.BtnAparecer.Text = "Aparecer personaje 1";
+            this.BtnAparecer.UseVisualStyleBackColor = true;
+            this.BtnAparecer.Click += new System.EventHandler(this.BtnAparecer_Click);
+            // 
+            // BntAparecer2
+            // 
+            this.BntAparecer2.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.BntAparecer2.FlatAppearance.BorderSize = 5;
+            this.BntAparecer2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BntAparecer2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BntAparecer2.Location = new System.Drawing.Point(747, 12);
+            this.BntAparecer2.Name = "BntAparecer2";
+            this.BntAparecer2.Size = new System.Drawing.Size(194, 58);
+            this.BntAparecer2.TabIndex = 7;
+            this.BntAparecer2.Text = "Aparecer personaje 2";
+            this.BntAparecer2.UseVisualStyleBackColor = true;
+            this.BntAparecer2.Click += new System.EventHandler(this.BntAparecer2_Click);
+            // 
+            // BtnBorrarPers1
+            // 
+            this.BtnBorrarPers1.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.BtnBorrarPers1.FlatAppearance.BorderSize = 5;
+            this.BtnBorrarPers1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnBorrarPers1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnBorrarPers1.Location = new System.Drawing.Point(45, 12);
+            this.BtnBorrarPers1.Name = "BtnBorrarPers1";
+            this.BtnBorrarPers1.Size = new System.Drawing.Size(132, 58);
+            this.BtnBorrarPers1.TabIndex = 8;
+            this.BtnBorrarPers1.Text = "Borrar personaje 1";
+            this.BtnBorrarPers1.UseVisualStyleBackColor = true;
+            this.BtnBorrarPers1.Click += new System.EventHandler(this.BtnBorrarPers1_Click);
+            // 
+            // BtnBorrarPers2
+            // 
+            this.BtnBorrarPers2.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.BtnBorrarPers2.FlatAppearance.BorderSize = 5;
+            this.BtnBorrarPers2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnBorrarPers2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnBorrarPers2.Location = new System.Drawing.Point(982, 12);
+            this.BtnBorrarPers2.Name = "BtnBorrarPers2";
+            this.BtnBorrarPers2.Size = new System.Drawing.Size(132, 58);
+            this.BtnBorrarPers2.TabIndex = 9;
+            this.BtnBorrarPers2.Text = "Borrar personaje 2";
+            this.BtnBorrarPers2.UseVisualStyleBackColor = true;
+            this.BtnBorrarPers2.Click += new System.EventHandler(this.BtnBorrarPers2_Click);
             // 
             // LblMensaje
             // 
             this.LblMensaje.AutoSize = true;
-            this.LblMensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMensaje.Location = new System.Drawing.Point(605, 404);
+            this.LblMensaje.Font = new System.Drawing.Font("MV Boli", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblMensaje.Location = new System.Drawing.Point(370, 400);
             this.LblMensaje.Name = "LblMensaje";
-            this.LblMensaje.Size = new System.Drawing.Size(0, 17);
-            this.LblMensaje.TabIndex = 5;
+            this.LblMensaje.Size = new System.Drawing.Size(0, 20);
+            this.LblMensaje.TabIndex = 10;
+            this.LblMensaje.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.LblMensaje.Visible = false;
             // 
-            // BtnAparecer
+            // BtnSalir
             // 
-            this.BtnAparecer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAparecer.Location = new System.Drawing.Point(332, 12);
-            this.BtnAparecer.Name = "BtnAparecer";
-            this.BtnAparecer.Size = new System.Drawing.Size(692, 53);
-            this.BtnAparecer.TabIndex = 6;
-            this.BtnAparecer.Text = "Aparecer personajes";
-            this.BtnAparecer.UseVisualStyleBackColor = true;
-            this.BtnAparecer.Click += new System.EventHandler(this.BtnAparecer_Click);
+            this.BtnSalir.BackColor = System.Drawing.Color.DarkCyan;
+            this.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnSalir.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.BtnSalir.FlatAppearance.BorderSize = 5;
+            this.BtnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalir.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.BtnSalir.Location = new System.Drawing.Point(1033, 466);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(145, 50);
+            this.BtnSalir.TabIndex = 11;
+            this.BtnSalir.Text = "Salir";
+            this.BtnSalir.UseVisualStyleBackColor = false;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // Prueba_While_movimientos
             // 
             this.AcceptButton = this.BtnMovCoyote;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::Pruebe_while.Properties.Resources.f86a954f550c45a3af14a2b645732022__bugs_bunny_looney_tunes;
+            this.BackColor = System.Drawing.Color.PowderBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(1292, 528);
+            this.ClientSize = new System.Drawing.Size(1190, 528);
+            this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.LblMensaje);
+            this.Controls.Add(this.BtnBorrarPers2);
+            this.Controls.Add(this.BtnBorrarPers1);
+            this.Controls.Add(this.BntAparecer2);
             this.Controls.Add(this.BtnAparecer);
             this.Controls.Add(this.PicBeep);
             this.Controls.Add(this.PicCoyote);
-            this.Controls.Add(this.BtnMovMicMic);
             this.Controls.Add(this.BtnMovCoyote);
             this.Controls.Add(this.BtnReac);
             this.Name = "Prueba_While_movimientos";
@@ -151,9 +212,12 @@ namespace Pruebe_while
         private System.Windows.Forms.PictureBox PicCoyote;
         private System.Windows.Forms.PictureBox PicBeep;
         private System.Windows.Forms.Button BtnMovCoyote;
-        private System.Windows.Forms.Button BtnMovMicMic;
         private System.Windows.Forms.Button BtnReac;
-        private System.Windows.Forms.Label LblMensaje;
         private System.Windows.Forms.Button BtnAparecer;
+        private System.Windows.Forms.Button BntAparecer2;
+        private System.Windows.Forms.Button BtnBorrarPers1;
+        private System.Windows.Forms.Button BtnBorrarPers2;
+        private System.Windows.Forms.Label LblMensaje;
+        private System.Windows.Forms.Button BtnSalir;
     }
 }

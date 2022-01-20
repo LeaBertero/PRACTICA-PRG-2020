@@ -12,100 +12,109 @@ namespace Pruebe_while
 {
     public partial class Prueba_While_movimientos : Form
     {
-        int anchoformulario = 120;
+        
 
         public Prueba_While_movimientos()
         {
             InitializeComponent();
         }
 
-        
-
-        private void BtnMovMicMic_Click(object sender, EventArgs e)
-        {
-            while (true)
-            {
-                //PicBeep.Left = PicBeep.Left + 1;
-                //this.Refresh();
-                //LblMensaje.Text = "Beep, Beep";
-                //LblMensaje.Visible = true;
-
-                while (true)
-                {
-                    PicBeep.Left = PicBeep.Left + 1;
-                    this.Refresh();
-
-                    if ((PicBeep.Left + PicBeep.Width - anchoformulario) == PicBeep.Left)
-                    {
-                        break;
-                    }
-
-                    LblMensaje.Text = "Beep - Beep !!";
-                    LblMensaje.Visible = true;
-
-                }
-            }
-
-        }
-
-        private void BtnReac_Click(object sender, EventArgs e)
-        {
-            PicCoyote.Top = 90;
-            this.Refresh();
-            
-            PicBeep.Top = 90;
-            this.Refresh();
-
-            PicCoyote.Left = 0;
-            PicBeep.Left = 360; 
-            
-        }
-
-            
-
-           
 
         private void BtnMovCoyote_Click(object sender, EventArgs e)
         {
             while (true)
             {
-                PicCoyote.Left = PicCoyote.Left + 1;
+                PicCoyote.Left = PicCoyote.Left + 5;
                 this.Refresh();
 
-                if ((PicCoyote.Left + PicCoyote.Width) == PicBeep.Left )
+                PicBeep.Left = PicBeep.Left - 5;
+                this.Refresh();
+
+                if ((PicCoyote.Left + PicCoyote.Width) == PicBeep.Left)
                 {
                     break;
                 }
-                
+
+                if ((PicBeep.Left - PicBeep.Width) == PicCoyote.Left)
+                {
+                    break;
+                }
+
             }
 
-            LblMensaje.Text = "Te atrapé";
+            LblMensaje.Text = "Correcaminos: La dinamita ACME no funciona con migo xD";
             LblMensaje.Visible = true;
 
+
         }
-
-        //private void PicCoyote_Click(object sender, EventArgs e)
-        //{
-        //    while (true)
-        //    {
-        //        PicBeep.Left = PicBeep.Left + 1;
-        //        this.Refresh();
-
-        //        if ((PicBeep.Left - PicBeep.Width) == PicBeep.Left)
-        //        {
-        //            break;
-        //        }
-
-        //    }
-        //}
-
-
-
-
+        
         private void BtnAparecer_Click(object sender, EventArgs e)
         {
             PicCoyote.Visible = true;
+            
+
+        }
+        
+        private void BtnReac_Click(object sender, EventArgs e)
+        {
+            PicCoyote.Top = 150;
+            this.Refresh();
+            
+            PicBeep.Top = 150;
+            this.Refresh();
+
+            PicCoyote.Left = 50;
+            PicBeep.Left = 1030;
+
+            LblMensaje.Visible = false;
+        }
+
+        private void BntAparecer2_Click(object sender, EventArgs e)
+        {
             PicBeep.Visible = true;
         }
+
+        private void BtnBorrarPers1_Click(object sender, EventArgs e)
+        {
+            PicCoyote.Visible = false;
+        }
+
+        private void BtnBorrarPers2_Click(object sender, EventArgs e)
+        {
+            PicBeep.Visible = false;
+        }
+
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
+                    
 }
+
+
+           
+
+        
+
+
+       
+        
+                
+
+
+       
+
+
+        
+            
+            
+
+           
+
+
+        
+
+
+
+
