@@ -40,6 +40,7 @@ namespace Pruebe_while
             this.BtnBorrarPers2 = new System.Windows.Forms.Button();
             this.LblMensaje = new System.Windows.Forms.Label();
             this.BtnSalir = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PicCoyote)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBeep)).BeginInit();
             this.SuspendLayout();
@@ -179,6 +180,16 @@ namespace Pruebe_while
             this.BtnSalir.UseVisualStyleBackColor = false;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("MV Boli", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(242, 157);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(663, 63);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Pantalla inicial - Juego del coyote";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Prueba_While_movimientos
             // 
             this.AcceptButton = this.BtnMovCoyote;
@@ -187,6 +198,7 @@ namespace Pruebe_while
             this.BackColor = System.Drawing.Color.PowderBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1190, 528);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.LblMensaje);
             this.Controls.Add(this.BtnBorrarPers2);
@@ -220,5 +232,6 @@ namespace Pruebe_while
         private System.Windows.Forms.Button BtnBorrarPers2;
         private System.Windows.Forms.Label LblMensaje;
         private System.Windows.Forms.Button BtnSalir;
+        private System.Windows.Forms.Label label1;
     }
 }

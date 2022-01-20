@@ -57,10 +57,10 @@ namespace Pruebe_while
         
         private void BtnReac_Click(object sender, EventArgs e)
         {
-            PicCoyote.Top = 150;
+            PicCoyote.Top = 220;
             this.Refresh();
             
-            PicBeep.Top = 150;
+            PicBeep.Top = 220;
             this.Refresh();
 
             PicCoyote.Left = 50;
