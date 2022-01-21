@@ -158,6 +158,7 @@ namespace Try_catch_Prueba_de_errores_
             this.Controls.Add(this.button1);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
             this.Name = "TryCatch_Prueba_de_errores_";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TryCatch_Prueba_de_errores_";
