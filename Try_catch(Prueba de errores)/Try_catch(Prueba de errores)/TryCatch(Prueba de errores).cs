@@ -23,17 +23,15 @@ namespace Try_catch_Prueba_de_errores_
             {
                Lblres.Text = (Convert.ToInt32(TxtNum1.Text)
                     + Convert.ToInt32(TxtNum2.Text)).ToString();
-
-
             }
-            catch (Exception)
+            catch (Exception Error)
             {
-                //LblError.Text = "imposible sumar, debe agregar dos numeros";
+                LblError.Text = Error.Message;
+                //Lblres.Text = "La cadena de entrada no tiene el formato correcto";
                 MessageBox.Show("imposible sumar, debe agregar dos numeros");
-               
             }
-
         }
+                
 
         private void Btnclean_Click(object sender, EventArgs e)
         {
@@ -44,6 +42,11 @@ namespace Try_catch_Prueba_de_errores_
         private void BtnCleanRes_Click(object sender, EventArgs e)
         {
             Lblres.Text = null;
+        }
+
+        private void BtnCleanError_Click(object sender, EventArgs e)
+        {
+            LblError.Text = null;
         }
     }
 }

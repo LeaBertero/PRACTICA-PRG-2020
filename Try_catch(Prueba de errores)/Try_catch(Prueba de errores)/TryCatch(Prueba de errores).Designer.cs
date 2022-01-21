@@ -38,6 +38,7 @@ namespace Try_catch_Prueba_de_errores_
             this.label1 = new System.Windows.Forms.Label();
             this.Btnclean = new System.Windows.Forms.Button();
             this.BtnCleanRes = new System.Windows.Forms.Button();
+            this.BtnCleanError = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -120,7 +121,7 @@ namespace Try_catch_Prueba_de_errores_
             // BtnCleanRes
             // 
             this.BtnCleanRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCleanRes.Location = new System.Drawing.Point(12, 102);
+            this.BtnCleanRes.Location = new System.Drawing.Point(12, 67);
             this.BtnCleanRes.Name = "BtnCleanRes";
             this.BtnCleanRes.Size = new System.Drawing.Size(107, 45);
             this.BtnCleanRes.TabIndex = 8;
@@ -128,12 +129,24 @@ namespace Try_catch_Prueba_de_errores_
             this.BtnCleanRes.UseVisualStyleBackColor = true;
             this.BtnCleanRes.Click += new System.EventHandler(this.BtnCleanRes_Click);
             // 
+            // BtnCleanError
+            // 
+            this.BtnCleanError.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCleanError.Location = new System.Drawing.Point(12, 127);
+            this.BtnCleanError.Name = "BtnCleanError";
+            this.BtnCleanError.Size = new System.Drawing.Size(107, 45);
+            this.BtnCleanError.TabIndex = 9;
+            this.BtnCleanError.Text = "Limpiar Mens de error";
+            this.BtnCleanError.UseVisualStyleBackColor = true;
+            this.BtnCleanError.Click += new System.EventHandler(this.BtnCleanError_Click);
+            // 
             // TryCatch_Prueba_de_errores_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(800, 181);
+            this.Controls.Add(this.BtnCleanError);
             this.Controls.Add(this.BtnCleanRes);
             this.Controls.Add(this.Btnclean);
             this.Controls.Add(this.label1);
@@ -164,5 +177,6 @@ namespace Try_catch_Prueba_de_errores_
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Btnclean;
         private System.Windows.Forms.Button BtnCleanRes;
+        private System.Windows.Forms.Button BtnCleanError;
     }
 }
