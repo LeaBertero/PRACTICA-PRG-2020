@@ -39,6 +39,19 @@ namespace ReproductorMp3___Video
             WinMedaP.URL = Ruta;
             WinMedaP.Ctlcontrols.play();
 
+            //try
+            //{
+               
+            //    //mensajeError.Text = "Debe cargar un archivo de audio / video";
+            //}
+            //catch (Exception)
+            //{
+                
+            //    //MessageBox.Show("Debe cargar un archivo de audio / video");
+               
+                
+            //}
+
         }
 
         private void BtnStop_Click(object sender, EventArgs e)
@@ -55,5 +68,7 @@ namespace ReproductorMp3___Video
         {
             Close();
         }
+
+        
     }
 }

@@ -34,7 +34,6 @@ namespace ReproductorMp3___Video
             this.BtnRep = new System.Windows.Forms.Button();
             this.BtnStop = new System.Windows.Forms.Button();
             this.BtnPause = new System.Windows.Forms.Button();
-            this.LblMensaje = new System.Windows.Forms.Label();
             this.WinMedaP = new AxWMPLib.AxWindowsMediaPlayer();
             this.label1 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
@@ -86,14 +85,6 @@ namespace ReproductorMp3___Video
             this.BtnPause.UseVisualStyleBackColor = true;
             this.BtnPause.Click += new System.EventHandler(this.BtnPause_Click);
             // 
-            // LblMensaje
-            // 
-            this.LblMensaje.AutoSize = true;
-            this.LblMensaje.Location = new System.Drawing.Point(9, 399);
-            this.LblMensaje.Name = "LblMensaje";
-            this.LblMensaje.Size = new System.Drawing.Size(0, 13);
-            this.LblMensaje.TabIndex = 4;
-            // 
             // WinMedaP
             // 
             this.WinMedaP.Enabled = true;
@@ -141,7 +132,6 @@ namespace ReproductorMp3___Video
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.WinMedaP);
-            this.Controls.Add(this.LblMensaje);
             this.Controls.Add(this.BtnPause);
             this.Controls.Add(this.BtnStop);
             this.Controls.Add(this.BtnRep);
@@ -152,7 +142,6 @@ namespace ReproductorMp3___Video
             this.Text = "Reproductor";
             ((System.ComponentModel.ISupportInitialize)(this.WinMedaP)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -162,7 +151,6 @@ namespace ReproductorMp3___Video
         private System.Windows.Forms.Button BtnRep;
         private System.Windows.Forms.Button BtnStop;
         private System.Windows.Forms.Button BtnPause;
-        private System.Windows.Forms.Label LblMensaje;
         private AxWMPLib.AxWindowsMediaPlayer WinMedaP;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
