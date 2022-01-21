@@ -17,12 +17,16 @@ namespace Ejercicio_Operadores
             InitializeComponent();
         }
 
+        decimal Numero1;
+        decimal Numero2;
+        decimal Resultado;
+
 
         public void BtnSuma_Click_1(object sender, EventArgs e)
         {
-            decimal Numero1;
-            decimal Numero2;
-            decimal Resultado;
+            //decimal Numero1;
+            //decimal Numero2;
+            //decimal Resultado;
 
             try
             {
@@ -41,9 +45,9 @@ namespace Ejercicio_Operadores
         }
         private void BtnResta_Click(object sender, EventArgs e)
         {
-            decimal Numero1;
-            decimal Numero2;
-            decimal Resultado;
+            //decimal Numero1;
+            //decimal Numero2;
+            //decimal Resultado;
 
             try
             {
@@ -61,9 +65,9 @@ namespace Ejercicio_Operadores
         }
         private void BtnMult_Click(object sender, EventArgs e)
         {
-            decimal Numero1;
-            decimal Numero2;
-            decimal Resultado;
+            //decimal Numero1;
+            //decimal Numero2;
+            //decimal Resultado;
 
             try
             {
@@ -83,9 +87,9 @@ namespace Ejercicio_Operadores
         }
         private void BtnDiv_Click(object sender, EventArgs e)
         {
-            decimal Numero1;
-            decimal Numero2;
-            decimal Resultado;
+            //decimal Numero1;
+            //decimal Numero2;
+            //decimal Resultado;
 
             try
             {

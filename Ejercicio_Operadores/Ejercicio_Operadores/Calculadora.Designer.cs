@@ -88,6 +88,7 @@ namespace Ejercicio_Operadores
             this.TxtSum1.Name = "TxtSum1";
             this.TxtSum1.Size = new System.Drawing.Size(100, 20);
             this.TxtSum1.TabIndex = 2;
+            this.TxtSum1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtSum2
             // 
@@ -95,6 +96,7 @@ namespace Ejercicio_Operadores
             this.TxtSum2.Name = "TxtSum2";
             this.TxtSum2.Size = new System.Drawing.Size(97, 20);
             this.TxtSum2.TabIndex = 3;
+            this.TxtSum2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // BtnSuma
             // 
@@ -174,6 +176,7 @@ namespace Ejercicio_Operadores
             this.TxtRes2.Name = "TxtRes2";
             this.TxtRes2.Size = new System.Drawing.Size(101, 20);
             this.TxtRes2.TabIndex = 11;
+            this.TxtRes2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtRes1
             // 
@@ -181,6 +184,7 @@ namespace Ejercicio_Operadores
             this.TxtRes1.Name = "TxtRes1";
             this.TxtRes1.Size = new System.Drawing.Size(100, 20);
             this.TxtRes1.TabIndex = 10;
+            this.TxtRes1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label5
             // 
@@ -217,6 +221,7 @@ namespace Ejercicio_Operadores
             this.TxtMult2.Name = "TxtMult2";
             this.TxtMult2.Size = new System.Drawing.Size(101, 20);
             this.TxtMult2.TabIndex = 18;
+            this.TxtMult2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtMult1
             // 
@@ -224,6 +229,7 @@ namespace Ejercicio_Operadores
             this.TxtMult1.Name = "TxtMult1";
             this.TxtMult1.Size = new System.Drawing.Size(100, 20);
             this.TxtMult1.TabIndex = 17;
+            this.TxtMult1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label8
             // 
@@ -260,6 +266,7 @@ namespace Ejercicio_Operadores
             this.TxtDiv2.Name = "TxtDiv2";
             this.TxtDiv2.Size = new System.Drawing.Size(102, 20);
             this.TxtDiv2.TabIndex = 25;
+            this.TxtDiv2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtDiv1
             // 
@@ -267,6 +274,7 @@ namespace Ejercicio_Operadores
             this.TxtDiv1.Name = "TxtDiv1";
             this.TxtDiv1.Size = new System.Drawing.Size(100, 20);
             this.TxtDiv1.TabIndex = 24;
+            this.TxtDiv1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label11
             // 
