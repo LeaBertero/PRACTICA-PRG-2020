@@ -27,12 +27,9 @@ namespace Try_catch_Prueba_de_errores_
             catch (Exception Error)
             {
                 LblError.Text = Error.Message;
-                //Lblres.Text = "La cadena de entrada no tiene el formato correcto";
                 MessageBox.Show("imposible sumar, debe agregar dos numeros");
             }
         }
-                
-
         private void Btnclean_Click(object sender, EventArgs e)
         {
             TxtNum1.Text = null;
@@ -48,5 +45,8 @@ namespace Try_catch_Prueba_de_errores_
         {
             LblError.Text = null;
         }
+                
     }
+                
+
 }
