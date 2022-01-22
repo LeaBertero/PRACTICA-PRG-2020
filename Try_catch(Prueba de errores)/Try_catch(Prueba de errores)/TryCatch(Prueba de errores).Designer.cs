@@ -39,6 +39,7 @@ namespace Try_catch_Prueba_de_errores_
             this.Btnclean = new System.Windows.Forms.Button();
             this.BtnCleanRes = new System.Windows.Forms.Button();
             this.BtnCleanError = new System.Windows.Forms.Button();
+            this.BtnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -48,7 +49,7 @@ namespace Try_catch_Prueba_de_errores_
             this.button1.FlatAppearance.BorderSize = 4;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(245, 77);
+            this.button1.Location = new System.Drawing.Point(287, 47);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(38, 35);
             this.button1.TabIndex = 0;
@@ -57,22 +58,22 @@ namespace Try_catch_Prueba_de_errores_
             // 
             // TxtNum1
             // 
-            this.TxtNum1.Location = new System.Drawing.Point(111, 85);
+            this.TxtNum1.Location = new System.Drawing.Point(153, 55);
             this.TxtNum1.Name = "TxtNum1";
             this.TxtNum1.Size = new System.Drawing.Size(100, 20);
             this.TxtNum1.TabIndex = 1;
             // 
             // TxtNum2
             // 
-            this.TxtNum2.Location = new System.Drawing.Point(319, 85);
+            this.TxtNum2.Location = new System.Drawing.Point(361, 55);
             this.TxtNum2.Name = "TxtNum2";
             this.TxtNum2.Size = new System.Drawing.Size(100, 20);
             this.TxtNum2.TabIndex = 2;
             // 
             // BtnRes
             // 
-            this.BtnRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRes.Location = new System.Drawing.Point(455, 81);
+            this.BtnRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRes.Location = new System.Drawing.Point(497, 51);
             this.BtnRes.Name = "BtnRes";
             this.BtnRes.Size = new System.Drawing.Size(82, 27);
             this.BtnRes.TabIndex = 3;
@@ -92,16 +93,17 @@ namespace Try_catch_Prueba_de_errores_
             // Lblres
             // 
             this.Lblres.AutoSize = true;
-            this.Lblres.Location = new System.Drawing.Point(593, 88);
+            this.Lblres.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lblres.Location = new System.Drawing.Point(618, 58);
             this.Lblres.Name = "Lblres";
-            this.Lblres.Size = new System.Drawing.Size(0, 13);
+            this.Lblres.Size = new System.Drawing.Size(0, 20);
             this.Lblres.TabIndex = 5;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(159, 22);
+            this.label1.Location = new System.Drawing.Point(159, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(327, 22);
             this.label1.TabIndex = 6;
@@ -110,7 +112,7 @@ namespace Try_catch_Prueba_de_errores_
             // Btnclean
             // 
             this.Btnclean.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btnclean.Location = new System.Drawing.Point(111, 127);
+            this.Btnclean.Location = new System.Drawing.Point(153, 97);
             this.Btnclean.Name = "Btnclean";
             this.Btnclean.Size = new System.Drawing.Size(107, 45);
             this.Btnclean.TabIndex = 7;
@@ -121,7 +123,7 @@ namespace Try_catch_Prueba_de_errores_
             // BtnCleanRes
             // 
             this.BtnCleanRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCleanRes.Location = new System.Drawing.Point(224, 127);
+            this.BtnCleanRes.Location = new System.Drawing.Point(266, 97);
             this.BtnCleanRes.Name = "BtnCleanRes";
             this.BtnCleanRes.Size = new System.Drawing.Size(107, 45);
             this.BtnCleanRes.TabIndex = 8;
@@ -132,7 +134,7 @@ namespace Try_catch_Prueba_de_errores_
             // BtnCleanError
             // 
             this.BtnCleanError.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCleanError.Location = new System.Drawing.Point(337, 127);
+            this.BtnCleanError.Location = new System.Drawing.Point(379, 97);
             this.BtnCleanError.Name = "BtnCleanError";
             this.BtnCleanError.Size = new System.Drawing.Size(107, 45);
             this.BtnCleanError.TabIndex = 9;
@@ -140,13 +142,25 @@ namespace Try_catch_Prueba_de_errores_
             this.BtnCleanError.UseVisualStyleBackColor = true;
             this.BtnCleanError.Click += new System.EventHandler(this.BtnCleanError_Click);
             // 
+            // BtnSalir
+            // 
+            this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalir.Location = new System.Drawing.Point(566, 181);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(90, 36);
+            this.BtnSalir.TabIndex = 10;
+            this.BtnSalir.Text = "Salir";
+            this.BtnSalir.UseVisualStyleBackColor = true;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
+            // 
             // TryCatch_Prueba_de_errores_
             // 
             this.AcceptButton = this.BtnRes;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(664, 236);
+            this.ClientSize = new System.Drawing.Size(664, 225);
+            this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.BtnCleanError);
             this.Controls.Add(this.BtnCleanRes);
             this.Controls.Add(this.Btnclean);
@@ -180,5 +194,6 @@ namespace Try_catch_Prueba_de_errores_
         private System.Windows.Forms.Button Btnclean;
         private System.Windows.Forms.Button BtnCleanRes;
         private System.Windows.Forms.Button BtnCleanError;
+        private System.Windows.Forms.Button BtnSalir;
     }
 }
