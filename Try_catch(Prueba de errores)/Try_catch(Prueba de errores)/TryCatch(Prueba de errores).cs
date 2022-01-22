@@ -67,11 +67,7 @@ namespace Try_catch_Prueba_de_errores_
             Close();
         }
 
-        private void FrmContador_Click(object sender, EventArgs e)
-        {
-            Contador contador = new Contador();
-            contador.ShowDialog();
-        }
+        
     }
 
 }
