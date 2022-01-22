@@ -27,14 +27,16 @@ namespace Try_catch_Prueba_de_errores_
                      + Convert.ToInt32(TxtNum2.Text)).ToString();
 
             }
-            catch (Exception Error)
+            catch (Exception )
             {
-
-                LblError.Text = Error.Message;
-                MessageBox.Show("imposible sumar, debe agregar dos numeros");
+                LblError.Text = "imposible sumar, debe agregar dos numeros";
+                //LblError.Text = Error.Message;
+                //MessageBox.Show("imposible sumar, debe agregar dos numeros");
             }
 
         }
+           
+
 
         private void Btnclean_Click(object sender, EventArgs e)
         {
@@ -56,7 +58,7 @@ namespace Try_catch_Prueba_de_errores_
         {
             if (e.KeyCode == Keys.Enter)
             {
-               
+
                 LblError.Text = "Imposible sumar letras";
 
             }
@@ -67,10 +69,15 @@ namespace Try_catch_Prueba_de_errores_
             Close();
         }
 
-        
     }
-
+        
 }
+
+
+
+
+
+
 
 
 
