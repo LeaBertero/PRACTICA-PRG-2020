@@ -21,8 +21,14 @@ namespace Try_catch_Prueba_de_errores_
         {
             try
             {
-               Lblres.Text = (Convert.ToInt32(TxtNum1.Text)
-                    + Convert.ToInt32(TxtNum2.Text)).ToString();
+                Lblres.Text = (Convert.ToInt32(TxtNum1.Text)
+                     + Convert.ToInt32(TxtNum2.Text)).ToString();
+
+                if (Lblres.Text != null)
+                {
+                    Exception error = new Exception("Imposible dividir letras");
+                    throw error;
+                }
             }
             catch (Exception Error)
             {
@@ -45,7 +51,7 @@ namespace Try_catch_Prueba_de_errores_
         {
             LblError.Text = null;
         }
-                
+
     }
                 
 
