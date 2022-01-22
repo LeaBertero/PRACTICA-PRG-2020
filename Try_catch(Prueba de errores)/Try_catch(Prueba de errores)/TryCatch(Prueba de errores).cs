@@ -19,23 +19,23 @@ namespace Try_catch_Prueba_de_errores_
 
         private void BtnRes_Click(object sender, EventArgs e)
         {
+
             try
             {
+
                 Lblres.Text = (Convert.ToInt32(TxtNum1.Text)
                      + Convert.ToInt32(TxtNum2.Text)).ToString();
 
-                //if (Lblres.Text != null)
-                //{
-                //    Exception error = new Exception("Imposible dividir letras");
-                //    throw error;
-                //}
             }
             catch (Exception Error)
             {
+
                 LblError.Text = Error.Message;
                 MessageBox.Show("imposible sumar, debe agregar dos numeros");
             }
+
         }
+
         private void Btnclean_Click(object sender, EventArgs e)
         {
             TxtNum1.Text = null;
@@ -52,11 +52,37 @@ namespace Try_catch_Prueba_de_errores_
             LblError.Text = null;
         }
 
+        private void TxtNum1_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+               
+                LblError.Text = "Imposible sumar letras";
+
+            }
+        }
+
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();
         }
+
+        private void FrmContador_Click(object sender, EventArgs e)
+        {
+            Contador contador = new Contador();
+            contador.ShowDialog();
+        }
     }
-                
 
 }
+
+
+
+
+        
+
+
+
+
+                
+

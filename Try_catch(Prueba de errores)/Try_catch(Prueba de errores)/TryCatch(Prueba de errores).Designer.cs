@@ -40,6 +40,7 @@ namespace Try_catch_Prueba_de_errores_
             this.BtnCleanRes = new System.Windows.Forms.Button();
             this.BtnCleanError = new System.Windows.Forms.Button();
             this.BtnSalir = new System.Windows.Forms.Button();
+            this.FrmContador = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -62,6 +63,7 @@ namespace Try_catch_Prueba_de_errores_
             this.TxtNum1.Name = "TxtNum1";
             this.TxtNum1.Size = new System.Drawing.Size(100, 20);
             this.TxtNum1.TabIndex = 1;
+            this.TxtNum1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtNum1_KeyUp);
             // 
             // TxtNum2
             // 
@@ -153,6 +155,17 @@ namespace Try_catch_Prueba_de_errores_
             this.BtnSalir.UseVisualStyleBackColor = true;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
+            // FrmContador
+            // 
+            this.FrmContador.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FrmContador.Location = new System.Drawing.Point(3, 12);
+            this.FrmContador.Name = "FrmContador";
+            this.FrmContador.Size = new System.Drawing.Size(90, 36);
+            this.FrmContador.TabIndex = 11;
+            this.FrmContador.Text = "Nuevo Contador";
+            this.FrmContador.UseVisualStyleBackColor = true;
+            this.FrmContador.Click += new System.EventHandler(this.FrmContador_Click);
+            // 
             // TryCatch_Prueba_de_errores_
             // 
             this.AcceptButton = this.BtnRes;
@@ -160,6 +173,7 @@ namespace Try_catch_Prueba_de_errores_
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(664, 225);
+            this.Controls.Add(this.FrmContador);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.BtnCleanError);
             this.Controls.Add(this.BtnCleanRes);
@@ -195,5 +209,6 @@ namespace Try_catch_Prueba_de_errores_
         private System.Windows.Forms.Button BtnCleanRes;
         private System.Windows.Forms.Button BtnCleanError;
         private System.Windows.Forms.Button BtnSalir;
+        private System.Windows.Forms.Button FrmContador;
     }
 }
