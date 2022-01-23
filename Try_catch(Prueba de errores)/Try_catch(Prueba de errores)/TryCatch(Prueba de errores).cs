@@ -76,26 +76,18 @@ namespace Try_catch_Prueba_de_errores_
             LblError.Text = null;
         }
             
-
-        //private void TxtNum1_KeyUp(object sender, KeyEventArgs e)
-        //{
-        //    if (e.KeyCode == Keys.Enter)
-        //    {
-
-        //        LblError.Text = "Imposible sumar letras";
-
-        //    }
-        //}
-
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-       
     }
         
 }
+
+
+       
+        
 
 
 
