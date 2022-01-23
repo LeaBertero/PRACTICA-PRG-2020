@@ -44,6 +44,8 @@ namespace CargaDePersonas
             this.BtnLimpiar = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.BtSalir = new System.Windows.Forms.Button();
+            this.BtBorrar = new System.Windows.Forms.Button();
+            this.BtCleanLista = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnAgregar
@@ -194,6 +196,32 @@ namespace CargaDePersonas
             this.BtSalir.UseVisualStyleBackColor = true;
             this.BtSalir.Click += new System.EventHandler(this.BtSalir_Click);
             // 
+            // BtBorrar
+            // 
+            this.BtBorrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtBorrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtBorrar.Location = new System.Drawing.Point(59, 275);
+            this.BtBorrar.Name = "BtBorrar";
+            this.BtBorrar.Size = new System.Drawing.Size(184, 35);
+            this.BtBorrar.TabIndex = 15;
+            this.BtBorrar.Text = "Borrar datos cargados";
+            this.BtBorrar.UseVisualStyleBackColor = true;
+            this.BtBorrar.Click += new System.EventHandler(this.BtBorrar_Click);
+            // 
+            // BtCleanLista
+            // 
+            this.BtCleanLista.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtCleanLista.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtCleanLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtCleanLista.Location = new System.Drawing.Point(59, 316);
+            this.BtCleanLista.Name = "BtCleanLista";
+            this.BtCleanLista.Size = new System.Drawing.Size(131, 35);
+            this.BtCleanLista.TabIndex = 16;
+            this.BtCleanLista.Text = "Borrar lista";
+            this.BtCleanLista.UseVisualStyleBackColor = true;
+            this.BtCleanLista.Click += new System.EventHandler(this.BtCleanLista_Click);
+            // 
             // FormCargaPers
             // 
             this.AcceptButton = this.BtnAgregar;
@@ -201,6 +229,8 @@ namespace CargaDePersonas
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Turquoise;
             this.ClientSize = new System.Drawing.Size(999, 642);
+            this.Controls.Add(this.BtCleanLista);
+            this.Controls.Add(this.BtBorrar);
             this.Controls.Add(this.BtSalir);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.BtnLimpiar);
@@ -240,5 +270,7 @@ namespace CargaDePersonas
         private System.Windows.Forms.Button BtnLimpiar;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button BtSalir;
+        private System.Windows.Forms.Button BtBorrar;
+        private System.Windows.Forms.Button BtCleanLista;
     }
 }
