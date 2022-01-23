@@ -27,7 +27,18 @@ namespace CargaDePersonas
                 Mostrar.Apellido = TxtApellido.Text;
                 Mostrar.Edad = Convert.ToInt32(TxtEdad.Text);
 
-                LblistaMostrar.Text = "Nombre:  " + "  "  + Mostrar.Nombre + "  " + "Apellido:  " + "  " + Mostrar.Apellido + "  " + "Edad:  " + "  " + Mostrar.Edad +  "  ";
+                LblistaMostrar.Text = "Nombre:  " 
+                    + "  "  
+                    + Mostrar.Nombre 
+                    + "  " 
+                    + "Apellido:  " 
+                    + "  " 
+                    + Mostrar.Apellido 
+                    + "  " 
+                    + "Edad:  " 
+                    + "  " 
+                    + Mostrar.Edad 
+                    +  "  ";
 
             }
             catch (Exception)
