@@ -145,7 +145,7 @@ namespace CargaDePersonas
             // 
             this.LblistaMostrar.AutoSize = true;
             this.LblistaMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblistaMostrar.Location = new System.Drawing.Point(578, 112);
+            this.LblistaMostrar.Location = new System.Drawing.Point(661, 133);
             this.LblistaMostrar.Name = "LblistaMostrar";
             this.LblistaMostrar.Size = new System.Drawing.Size(0, 16);
             this.LblistaMostrar.TabIndex = 10;
