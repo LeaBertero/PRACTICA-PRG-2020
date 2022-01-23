@@ -1,0 +1,51 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace CargaDePersonas
+{
+    public partial class FormCargaPers : Form
+    {
+        public FormCargaPers()
+        {
+            InitializeComponent();
+        }
+
+        private void BtnAgregar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Persona Mostrar = new Persona();
+
+                Mostrar.Nombre = TxtNombre.Text;
+                Mostrar.Apellido = TxtApellido.Text;
+                Mostrar.Edad = Convert.ToInt32(TxtEdad.Text);
+
+                LblistaMostrar.Text = "Nombre:  " + "  "  + Mostrar.Nombre + "  " + "Apellido:  " + "  " + Mostrar.Apellido + "  " + "Edad:  " + "  " + Mostrar.Edad +  "  ";
+
+            }
+            catch (Exception)
+            {
+
+                LblError.Text = "Imposible Cargar -  debe completar con datos correctos";
+            }
+            
+        }
+
+        private void BtnLimpiar_Click(object sender, EventArgs e)
+        {
+            LblError.Text = null;
+        }
+
+        private void BtSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+    }
+}
