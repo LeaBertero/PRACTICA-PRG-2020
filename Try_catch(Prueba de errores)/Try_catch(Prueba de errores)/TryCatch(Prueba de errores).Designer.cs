@@ -90,7 +90,7 @@ namespace Try_catch_Prueba_de_errores_
             // 
             this.LblError.AutoSize = true;
             this.LblError.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblError.Location = new System.Drawing.Point(26, 432);
+            this.LblError.Location = new System.Drawing.Point(149, 305);
             this.LblError.Name = "LblError";
             this.LblError.Size = new System.Drawing.Size(0, 22);
             this.LblError.TabIndex = 4;
@@ -117,7 +117,7 @@ namespace Try_catch_Prueba_de_errores_
             // Btnclean
             // 
             this.Btnclean.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btnclean.Location = new System.Drawing.Point(153, 366);
+            this.Btnclean.Location = new System.Drawing.Point(266, 440);
             this.Btnclean.Name = "Btnclean";
             this.Btnclean.Size = new System.Drawing.Size(107, 45);
             this.Btnclean.TabIndex = 7;
@@ -128,7 +128,7 @@ namespace Try_catch_Prueba_de_errores_
             // BtnCleanRes
             // 
             this.BtnCleanRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCleanRes.Location = new System.Drawing.Point(266, 366);
+            this.BtnCleanRes.Location = new System.Drawing.Point(379, 440);
             this.BtnCleanRes.Name = "BtnCleanRes";
             this.BtnCleanRes.Size = new System.Drawing.Size(107, 45);
             this.BtnCleanRes.TabIndex = 8;
@@ -139,7 +139,7 @@ namespace Try_catch_Prueba_de_errores_
             // BtnCleanError
             // 
             this.BtnCleanError.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCleanError.Location = new System.Drawing.Point(379, 366);
+            this.BtnCleanError.Location = new System.Drawing.Point(497, 440);
             this.BtnCleanError.Name = "BtnCleanError";
             this.BtnCleanError.Size = new System.Drawing.Size(107, 45);
             this.BtnCleanError.TabIndex = 9;
