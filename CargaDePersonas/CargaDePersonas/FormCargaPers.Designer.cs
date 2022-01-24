@@ -145,7 +145,7 @@ namespace CargaDePersonas
             // 
             this.LblistaMostrar.AutoSize = true;
             this.LblistaMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblistaMostrar.Location = new System.Drawing.Point(661, 133);
+            this.LblistaMostrar.Location = new System.Drawing.Point(641, 133);
             this.LblistaMostrar.Name = "LblistaMostrar";
             this.LblistaMostrar.Size = new System.Drawing.Size(0, 16);
             this.LblistaMostrar.TabIndex = 10;
@@ -179,9 +179,9 @@ namespace CargaDePersonas
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(632, 75);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(232, 16);
+            this.label6.Size = new System.Drawing.Size(200, 16);
             this.label6.TabIndex = 13;
-            this.label6.Text = "Nombre    -    Apellido    -    Edad";
+            this.label6.Text = "Nombre  -  Apellido  -  Edad";
             // 
             // BtSalir
             // 

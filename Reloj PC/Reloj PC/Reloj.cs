@@ -17,14 +17,20 @@ namespace Reloj_PC
         {
             InitializeComponent();
         }
-        
-        private void Reloj_Load(object sender, EventArgs e)
+
+        private void timer1Reloj_Tick(object sender, EventArgs e)
         {
-            
-            LblReloj.Text = DateTime.Now.ToString("hh:mm:ss");
-            
+            //Lblrel.Text = DateTime.Now.ToLongTimeString();
+
+            LblReloj.Text = DateTime.Now.ToString("HH:mm:ss");
+
+
         }
-            
+
+        private void BtSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
             
 }
