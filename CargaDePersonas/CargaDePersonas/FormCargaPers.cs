@@ -17,7 +17,7 @@ namespace CargaDePersonas
             InitializeComponent();
         }
 
-        private void BtnAgregar_Click(object sender, EventArgs e)
+        public void BtnAgregar_Click(object sender, EventArgs e)
         {
             try
             {
@@ -26,8 +26,11 @@ namespace CargaDePersonas
                 Mostrar.Nombre = TxtNombre.Text;
                 Mostrar.Apellido = TxtApellido.Text;
                 Mostrar.Edad = Convert.ToInt32(TxtEdad.Text);
+               
 
                 LblistaMostrar.Text = Mostrar.Nombre + "  " + Mostrar.Apellido + "  " + Mostrar.Edad;
+
+                LblistaMostrar.Text = Mostrar.NombreCompleto();
                      
 
             }
@@ -43,11 +46,14 @@ namespace CargaDePersonas
         {
             LblError.Text = null;
         }
+            
+           
 
         private void BtSalir_Click(object sender, EventArgs e)
         {
             Close();
         }
+
 
         private void BtBorrar_Click(object sender, EventArgs e)
         {
