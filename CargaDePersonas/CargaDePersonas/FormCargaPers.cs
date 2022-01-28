@@ -31,7 +31,9 @@ namespace CargaDePersonas
                 LblistaMostrar.Text = Mostrar.Nombre + "  " + Mostrar.Apellido + "  " + Mostrar.Edad;
 
                 LblistaMostrar.Text = Mostrar.NombreCompleto();
-                     
+
+                Mostrar = null;
+                Mostrar = new Persona();
 
             }
             catch (Exception)

@@ -52,9 +52,9 @@ namespace CargaDePersonas
             this.BtnAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAgregar.Location = new System.Drawing.Point(324, 94);
+            this.BtnAgregar.Location = new System.Drawing.Point(354, 75);
             this.BtnAgregar.Name = "BtnAgregar";
-            this.BtnAgregar.Size = new System.Drawing.Size(184, 167);
+            this.BtnAgregar.Size = new System.Drawing.Size(101, 65);
             this.BtnAgregar.TabIndex = 0;
             this.BtnAgregar.Text = "Agregar";
             this.BtnAgregar.UseVisualStyleBackColor = true;
@@ -62,7 +62,7 @@ namespace CargaDePersonas
             // 
             // TxtNombre
             // 
-            this.TxtNombre.Location = new System.Drawing.Point(59, 94);
+            this.TxtNombre.Location = new System.Drawing.Point(155, 75);
             this.TxtNombre.Name = "TxtNombre";
             this.TxtNombre.Size = new System.Drawing.Size(184, 20);
             this.TxtNombre.TabIndex = 1;
@@ -71,7 +71,7 @@ namespace CargaDePersonas
             // 
             this.TxtApellido.BackColor = System.Drawing.SystemColors.Window;
             this.TxtApellido.Enabled = false;
-            this.TxtApellido.Location = new System.Drawing.Point(59, 195);
+            this.TxtApellido.Location = new System.Drawing.Point(155, 146);
             this.TxtApellido.Name = "TxtApellido";
             this.TxtApellido.Size = new System.Drawing.Size(184, 20);
             this.TxtApellido.TabIndex = 2;
@@ -82,15 +82,15 @@ namespace CargaDePersonas
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(40, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(468, 28);
+            this.label1.Size = new System.Drawing.Size(463, 28);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Indique el nombre de cada uno de los particulares";
+            this.label1.Text = "Indique el nombre de cada uno de los estudiantes";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(73, 64);
+            this.label2.Location = new System.Drawing.Point(12, 79);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(137, 16);
             this.label2.TabIndex = 4;
@@ -109,7 +109,7 @@ namespace CargaDePersonas
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(73, 124);
+            this.label4.Location = new System.Drawing.Point(89, 124);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(45, 16);
             this.label4.TabIndex = 8;
@@ -117,7 +117,7 @@ namespace CargaDePersonas
             // 
             // TxtEdad
             // 
-            this.TxtEdad.Location = new System.Drawing.Point(59, 143);
+            this.TxtEdad.Location = new System.Drawing.Point(155, 120);
             this.TxtEdad.Name = "TxtEdad";
             this.TxtEdad.Size = new System.Drawing.Size(184, 20);
             this.TxtEdad.TabIndex = 7;
@@ -156,7 +156,7 @@ namespace CargaDePersonas
             this.BtnLimpiar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnLimpiar.Location = new System.Drawing.Point(856, 12);
+            this.BtnLimpiar.Location = new System.Drawing.Point(182, 265);
             this.BtnLimpiar.Name = "BtnLimpiar";
             this.BtnLimpiar.Size = new System.Drawing.Size(131, 35);
             this.BtnLimpiar.TabIndex = 12;
@@ -192,7 +192,7 @@ namespace CargaDePersonas
             this.BtBorrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtBorrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtBorrar.Location = new System.Drawing.Point(59, 275);
+            this.BtBorrar.Location = new System.Drawing.Point(155, 183);
             this.BtBorrar.Name = "BtBorrar";
             this.BtBorrar.Size = new System.Drawing.Size(184, 35);
             this.BtBorrar.TabIndex = 15;
@@ -205,7 +205,7 @@ namespace CargaDePersonas
             this.BtCleanLista.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtCleanLista.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtCleanLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtCleanLista.Location = new System.Drawing.Point(59, 316);
+            this.BtCleanLista.Location = new System.Drawing.Point(182, 224);
             this.BtCleanLista.Name = "BtCleanLista";
             this.BtCleanLista.Size = new System.Drawing.Size(131, 35);
             this.BtCleanLista.TabIndex = 16;
@@ -237,6 +237,7 @@ namespace CargaDePersonas
             this.Controls.Add(this.TxtNombre);
             this.Controls.Add(this.BtnAgregar);
             this.Name = "FormCargaPers";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormCargaPers";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -11,15 +11,21 @@ namespace CargaDePersonas
         //Get = leer
         //Set = modificar
 
-        public string Nombre { get; set; }
+        public string Nombre { get; set; } //Propiedades de personas o cosas
 
-        public string Apellido { get; set; }
+        public string Apellido { get; set; } //Propiedades de personas o cosas
 
-        public int Edad { get; set; }
+        public int Edad { get; set; } //Propiedades de personas o cosas
 
-        public string NombreCompleto()
-        {
+        public string NombreCompleto() //Métodos // Return: Retorna las propiedades de la
+        {                                        // persona, cuando se cargan los datos en nombre / apellido / Edad     
+            
             return Nombre + ", " + Apellido + ", " + Edad;
+
         }
+
+        public CursadoDeMateria CursadoDeMateria { get; set; }
+
+
     }
 }
