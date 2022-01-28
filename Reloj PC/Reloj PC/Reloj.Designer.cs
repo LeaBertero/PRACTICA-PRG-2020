@@ -40,7 +40,7 @@ namespace Reloj_PC
             // 
             this.LblReloj.AutoSize = true;
             this.LblReloj.Font = new System.Drawing.Font("Old English Text MT", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblReloj.Location = new System.Drawing.Point(57, 53);
+            this.LblReloj.Location = new System.Drawing.Point(57, 47);
             this.LblReloj.Name = "LblReloj";
             this.LblReloj.Size = new System.Drawing.Size(0, 77);
             this.LblReloj.TabIndex = 0;
@@ -57,11 +57,11 @@ namespace Reloj_PC
             this.BtSalir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BtSalir.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtSalir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtSalir.Location = new System.Drawing.Point(344, 179);
+            this.BtSalir.Location = new System.Drawing.Point(351, 5);
             this.BtSalir.Name = "BtSalir";
             this.BtSalir.Size = new System.Drawing.Size(77, 27);
             this.BtSalir.TabIndex = 1;
-            this.BtSalir.Text = "Salir";
+            this.BtSalir.Text = "Cerrar";
             this.BtSalir.UseVisualStyleBackColor = false;
             this.BtSalir.Click += new System.EventHandler(this.BtSalir_Click);
             // 
@@ -70,13 +70,16 @@ namespace Reloj_PC
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(433, 218);
+            this.ClientSize = new System.Drawing.Size(433, 153);
             this.Controls.Add(this.BtSalir);
             this.Controls.Add(this.LblReloj);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Reloj";
+            this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reloj";
             this.ResumeLayout(false);
