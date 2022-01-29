@@ -12,6 +12,9 @@ namespace CargaDePersonas
 {
     public partial class FormCargaPers : Form
     {
+
+        Persona Mostrar = new Persona();
+
         public FormCargaPers()
         {
             InitializeComponent();
@@ -21,7 +24,7 @@ namespace CargaDePersonas
         {
             try
             {
-                Persona Mostrar = new Persona();
+               
 
                 Mostrar.Nombre = TxtNombre.Text;
                 Mostrar.Apellido = TxtApellido.Text;
@@ -67,6 +70,15 @@ namespace CargaDePersonas
         private void BtCleanLista_Click(object sender, EventArgs e)
         {
             LblistaMostrar.Text = null;
+        }
+
+        private void BtnInscripcion_Click(object sender, EventArgs e)
+        {
+            Materia InscripcionMateria = new Materia();
+
+            InscripcionMateria.Nombre = TxtInsMateria.Text;
+            InscripcionMateria.Año = Convert.ToInt32(TxtAñoMateria.Text);
+
         }
     }
 }

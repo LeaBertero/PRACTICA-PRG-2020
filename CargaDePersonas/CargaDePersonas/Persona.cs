@@ -24,7 +24,15 @@ namespace CargaDePersonas
 
         }
 
-        public CursadoDeMateria CursadoDeMateria { get; set; }
+        public Materia MateriaCursada { get; set; } //Propiedad de la persona, en este caso tambien incluye la materia
+                                                    //Materia es en este caso la clase creada, donde anexamos con la clase persona, su propiedad
+
+        public void Inscribir(Materia materia)  //Propiedad de la persona
+        {
+            MateriaCursada = materia;
+            
+        }
+
 
 
     }
