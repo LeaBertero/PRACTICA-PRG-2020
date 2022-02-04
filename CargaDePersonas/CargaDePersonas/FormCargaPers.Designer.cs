@@ -31,14 +31,13 @@ namespace CargaDePersonas
         {
             this.BtnAgregar = new System.Windows.Forms.Button();
             this.TxtNombre = new System.Windows.Forms.TextBox();
-            this.TxtApellido = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.LblError = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.TxtEdad = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.LblistaMostrar = new System.Windows.Forms.Label();
+            this.LblMostrarLista = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.BtnLimpiar = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
@@ -50,7 +49,7 @@ namespace CargaDePersonas
             this.BtnInscripcion = new System.Windows.Forms.Button();
             this.TxtInsMateria = new System.Windows.Forms.TextBox();
             this.TxtAñoMateria = new System.Windows.Forms.TextBox();
-            this.LblInscripcion = new System.Windows.Forms.Label();
+            this.LblInsMateria = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -71,25 +70,16 @@ namespace CargaDePersonas
             // 
             // TxtNombre
             // 
-            this.TxtNombre.Location = new System.Drawing.Point(18, 75);
+            this.TxtNombre.Location = new System.Drawing.Point(18, 81);
             this.TxtNombre.Name = "TxtNombre";
             this.TxtNombre.Size = new System.Drawing.Size(184, 20);
             this.TxtNombre.TabIndex = 1;
-            // 
-            // TxtApellido
-            // 
-            this.TxtApellido.BackColor = System.Drawing.SystemColors.Window;
-            this.TxtApellido.Enabled = false;
-            this.TxtApellido.Location = new System.Drawing.Point(120, 101);
-            this.TxtApellido.Name = "TxtApellido";
-            this.TxtApellido.Size = new System.Drawing.Size(184, 20);
-            this.TxtApellido.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(40, 18);
+            this.label1.Location = new System.Drawing.Point(13, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(463, 28);
             this.label1.TabIndex = 3;
@@ -109,7 +99,7 @@ namespace CargaDePersonas
             // 
             this.LblError.AutoSize = true;
             this.LblError.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblError.Location = new System.Drawing.Point(55, 400);
+            this.LblError.Location = new System.Drawing.Point(15, 349);
             this.LblError.Name = "LblError";
             this.LblError.Size = new System.Drawing.Size(0, 16);
             this.LblError.TabIndex = 6;
@@ -118,7 +108,7 @@ namespace CargaDePersonas
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(213, 56);
+            this.label4.Location = new System.Drawing.Point(217, 56);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(45, 16);
             this.label4.TabIndex = 8;
@@ -126,7 +116,7 @@ namespace CargaDePersonas
             // 
             // TxtEdad
             // 
-            this.TxtEdad.Location = new System.Drawing.Point(216, 75);
+            this.TxtEdad.Location = new System.Drawing.Point(216, 81);
             this.TxtEdad.Name = "TxtEdad";
             this.TxtEdad.Size = new System.Drawing.Size(184, 20);
             this.TxtEdad.TabIndex = 7;
@@ -135,26 +125,26 @@ namespace CargaDePersonas
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(55, 364);
+            this.label5.Location = new System.Drawing.Point(15, 313);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(486, 15);
             this.label5.TabIndex = 9;
             this.label5.Text = "Mensaje de error de carga - (En caso de que exista), aparecerá aquí abajo";
             // 
-            // LblistaMostrar
+            // LblMostrarLista
             // 
-            this.LblistaMostrar.AutoSize = true;
-            this.LblistaMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblistaMostrar.Location = new System.Drawing.Point(668, 133);
-            this.LblistaMostrar.Name = "LblistaMostrar";
-            this.LblistaMostrar.Size = new System.Drawing.Size(0, 16);
-            this.LblistaMostrar.TabIndex = 10;
+            this.LblMostrarLista.AutoSize = true;
+            this.LblMostrarLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblMostrarLista.Location = new System.Drawing.Point(637, 114);
+            this.LblMostrarLista.Name = "LblMostrarLista";
+            this.LblMostrarLista.Size = new System.Drawing.Size(0, 16);
+            this.LblMostrarLista.TabIndex = 10;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(659, 30);
+            this.label7.Location = new System.Drawing.Point(628, 11);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(202, 16);
             this.label7.TabIndex = 11;
@@ -167,7 +157,7 @@ namespace CargaDePersonas
             this.BtnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnLimpiar.ForeColor = System.Drawing.Color.ForestGreen;
-            this.BtnLimpiar.Location = new System.Drawing.Point(269, 209);
+            this.BtnLimpiar.Location = new System.Drawing.Point(345, 206);
             this.BtnLimpiar.Name = "BtnLimpiar";
             this.BtnLimpiar.Size = new System.Drawing.Size(131, 49);
             this.BtnLimpiar.TabIndex = 12;
@@ -179,7 +169,7 @@ namespace CargaDePersonas
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(659, 75);
+            this.label6.Location = new System.Drawing.Point(628, 56);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(200, 16);
             this.label6.TabIndex = 13;
@@ -190,9 +180,9 @@ namespace CargaDePersonas
             this.BtSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtSalir.Location = new System.Drawing.Point(1072, 12);
+            this.BtSalir.Location = new System.Drawing.Point(1044, 438);
             this.BtSalir.Name = "BtSalir";
-            this.BtSalir.Size = new System.Drawing.Size(77, 27);
+            this.BtSalir.Size = new System.Drawing.Size(108, 48);
             this.BtSalir.TabIndex = 14;
             this.BtSalir.Text = "Salir";
             this.BtSalir.UseVisualStyleBackColor = true;
@@ -205,7 +195,7 @@ namespace CargaDePersonas
             this.BtBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtBorrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtBorrar.ForeColor = System.Drawing.Color.ForestGreen;
-            this.BtBorrar.Location = new System.Drawing.Point(106, 209);
+            this.BtBorrar.Location = new System.Drawing.Point(18, 206);
             this.BtBorrar.Name = "BtBorrar";
             this.BtBorrar.Size = new System.Drawing.Size(131, 49);
             this.BtBorrar.TabIndex = 15;
@@ -220,7 +210,7 @@ namespace CargaDePersonas
             this.BtCleanLista.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtCleanLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtCleanLista.ForeColor = System.Drawing.Color.ForestGreen;
-            this.BtCleanLista.Location = new System.Drawing.Point(189, 275);
+            this.BtCleanLista.Location = new System.Drawing.Point(185, 206);
             this.BtCleanLista.Name = "BtCleanLista";
             this.BtCleanLista.Size = new System.Drawing.Size(131, 49);
             this.BtCleanLista.TabIndex = 16;
@@ -232,7 +222,7 @@ namespace CargaDePersonas
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(213, 141);
+            this.label3.Location = new System.Drawing.Point(217, 125);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(117, 16);
             this.label3.TabIndex = 17;
@@ -242,7 +232,7 @@ namespace CargaDePersonas
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(9, 141);
+            this.label8.Location = new System.Drawing.Point(15, 125);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(119, 16);
             this.label8.TabIndex = 18;
@@ -255,7 +245,7 @@ namespace CargaDePersonas
             this.BtnInscripcion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnInscripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnInscripcion.ForeColor = System.Drawing.Color.ForestGreen;
-            this.BtnInscripcion.Location = new System.Drawing.Point(420, 152);
+            this.BtnInscripcion.Location = new System.Drawing.Point(420, 145);
             this.BtnInscripcion.Name = "BtnInscripcion";
             this.BtnInscripcion.Size = new System.Drawing.Size(121, 34);
             this.BtnInscripcion.TabIndex = 19;
@@ -265,32 +255,32 @@ namespace CargaDePersonas
             // 
             // TxtInsMateria
             // 
-            this.TxtInsMateria.Location = new System.Drawing.Point(12, 160);
+            this.TxtInsMateria.Location = new System.Drawing.Point(18, 153);
             this.TxtInsMateria.Name = "TxtInsMateria";
             this.TxtInsMateria.Size = new System.Drawing.Size(184, 20);
             this.TxtInsMateria.TabIndex = 20;
             // 
             // TxtAñoMateria
             // 
-            this.TxtAñoMateria.Location = new System.Drawing.Point(216, 160);
+            this.TxtAñoMateria.Location = new System.Drawing.Point(216, 153);
             this.TxtAñoMateria.Name = "TxtAñoMateria";
             this.TxtAñoMateria.Size = new System.Drawing.Size(184, 20);
             this.TxtAñoMateria.TabIndex = 21;
             // 
-            // LblInscripcion
+            // LblInsMateria
             // 
-            this.LblInscripcion.AutoSize = true;
-            this.LblInscripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblInscripcion.Location = new System.Drawing.Point(918, 133);
-            this.LblInscripcion.Name = "LblInscripcion";
-            this.LblInscripcion.Size = new System.Drawing.Size(0, 16);
-            this.LblInscripcion.TabIndex = 22;
+            this.LblInsMateria.AutoSize = true;
+            this.LblInsMateria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblInsMateria.Location = new System.Drawing.Point(887, 114);
+            this.LblInsMateria.Name = "LblInsMateria";
+            this.LblInsMateria.Size = new System.Drawing.Size(0, 16);
+            this.LblInsMateria.TabIndex = 22;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(907, 75);
+            this.label9.Location = new System.Drawing.Point(876, 56);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(160, 16);
             this.label9.TabIndex = 23;
@@ -304,7 +294,7 @@ namespace CargaDePersonas
             this.BackColor = System.Drawing.Color.Turquoise;
             this.ClientSize = new System.Drawing.Size(1161, 495);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.LblInscripcion);
+            this.Controls.Add(this.LblInsMateria);
             this.Controls.Add(this.TxtAñoMateria);
             this.Controls.Add(this.TxtInsMateria);
             this.Controls.Add(this.BtnInscripcion);
@@ -316,14 +306,13 @@ namespace CargaDePersonas
             this.Controls.Add(this.label6);
             this.Controls.Add(this.BtnLimpiar);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.LblistaMostrar);
+            this.Controls.Add(this.LblMostrarLista);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.TxtEdad);
             this.Controls.Add(this.LblError);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.TxtApellido);
             this.Controls.Add(this.TxtNombre);
             this.Controls.Add(this.BtnAgregar);
             this.Name = "FormCargaPers";
@@ -338,14 +327,13 @@ namespace CargaDePersonas
 
         private System.Windows.Forms.Button BtnAgregar;
         private System.Windows.Forms.TextBox TxtNombre;
-        private System.Windows.Forms.TextBox TxtApellido;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label LblError;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox TxtEdad;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label LblistaMostrar;
+        private System.Windows.Forms.Label LblMostrarLista;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button BtnLimpiar;
         private System.Windows.Forms.Label label6;
@@ -357,7 +345,7 @@ namespace CargaDePersonas
         private System.Windows.Forms.Button BtnInscripcion;
         private System.Windows.Forms.TextBox TxtInsMateria;
         private System.Windows.Forms.TextBox TxtAñoMateria;
-        private System.Windows.Forms.Label LblInscripcion;
+        private System.Windows.Forms.Label LblInsMateria;
         private System.Windows.Forms.Label label9;
     }
 }
