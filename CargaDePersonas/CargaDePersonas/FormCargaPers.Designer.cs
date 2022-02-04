@@ -56,20 +56,22 @@ namespace CargaDePersonas
             // 
             // BtnAgregar
             // 
+            this.BtnAgregar.BackColor = System.Drawing.Color.Khaki;
             this.BtnAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAgregar.Location = new System.Drawing.Point(354, 75);
+            this.BtnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAgregar.ForeColor = System.Drawing.Color.ForestGreen;
+            this.BtnAgregar.Location = new System.Drawing.Point(420, 67);
             this.BtnAgregar.Name = "BtnAgregar";
-            this.BtnAgregar.Size = new System.Drawing.Size(104, 65);
+            this.BtnAgregar.Size = new System.Drawing.Size(121, 34);
             this.BtnAgregar.TabIndex = 0;
-            this.BtnAgregar.Text = "Inscribir";
-            this.BtnAgregar.UseVisualStyleBackColor = true;
+            this.BtnAgregar.Text = "Inscribir Alumno";
+            this.BtnAgregar.UseVisualStyleBackColor = false;
             this.BtnAgregar.Click += new System.EventHandler(this.BtnAgregar_Click);
             // 
             // TxtNombre
             // 
-            this.TxtNombre.Location = new System.Drawing.Point(155, 75);
+            this.TxtNombre.Location = new System.Drawing.Point(18, 75);
             this.TxtNombre.Name = "TxtNombre";
             this.TxtNombre.Size = new System.Drawing.Size(184, 20);
             this.TxtNombre.TabIndex = 1;
@@ -78,7 +80,7 @@ namespace CargaDePersonas
             // 
             this.TxtApellido.BackColor = System.Drawing.SystemColors.Window;
             this.TxtApellido.Enabled = false;
-            this.TxtApellido.Location = new System.Drawing.Point(155, 146);
+            this.TxtApellido.Location = new System.Drawing.Point(120, 101);
             this.TxtApellido.Name = "TxtApellido";
             this.TxtApellido.Size = new System.Drawing.Size(184, 20);
             this.TxtApellido.TabIndex = 2;
@@ -97,7 +99,7 @@ namespace CargaDePersonas
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 79);
+            this.label2.Location = new System.Drawing.Point(15, 56);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(137, 16);
             this.label2.TabIndex = 4;
@@ -107,7 +109,7 @@ namespace CargaDePersonas
             // 
             this.LblError.AutoSize = true;
             this.LblError.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblError.Location = new System.Drawing.Point(213, 609);
+            this.LblError.Location = new System.Drawing.Point(55, 400);
             this.LblError.Name = "LblError";
             this.LblError.Size = new System.Drawing.Size(0, 16);
             this.LblError.TabIndex = 6;
@@ -116,7 +118,7 @@ namespace CargaDePersonas
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(89, 124);
+            this.label4.Location = new System.Drawing.Point(213, 56);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(45, 16);
             this.label4.TabIndex = 8;
@@ -124,7 +126,7 @@ namespace CargaDePersonas
             // 
             // TxtEdad
             // 
-            this.TxtEdad.Location = new System.Drawing.Point(155, 120);
+            this.TxtEdad.Location = new System.Drawing.Point(216, 75);
             this.TxtEdad.Name = "TxtEdad";
             this.TxtEdad.Size = new System.Drawing.Size(184, 20);
             this.TxtEdad.TabIndex = 7;
@@ -133,7 +135,7 @@ namespace CargaDePersonas
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(213, 573);
+            this.label5.Location = new System.Drawing.Point(55, 364);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(486, 15);
             this.label5.TabIndex = 9;
@@ -160,15 +162,17 @@ namespace CargaDePersonas
             // 
             // BtnLimpiar
             // 
+            this.BtnLimpiar.BackColor = System.Drawing.Color.Khaki;
             this.BtnLimpiar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnLimpiar.Location = new System.Drawing.Point(360, 356);
+            this.BtnLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnLimpiar.ForeColor = System.Drawing.Color.ForestGreen;
+            this.BtnLimpiar.Location = new System.Drawing.Point(269, 209);
             this.BtnLimpiar.Name = "BtnLimpiar";
-            this.BtnLimpiar.Size = new System.Drawing.Size(98, 91);
+            this.BtnLimpiar.Size = new System.Drawing.Size(131, 49);
             this.BtnLimpiar.TabIndex = 12;
             this.BtnLimpiar.Text = "Limpiar errores";
-            this.BtnLimpiar.UseVisualStyleBackColor = true;
+            this.BtnLimpiar.UseVisualStyleBackColor = false;
             this.BtnLimpiar.Click += new System.EventHandler(this.BtnLimpiar_Click);
             // 
             // label6
@@ -186,7 +190,7 @@ namespace CargaDePersonas
             this.BtSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtSalir.Location = new System.Drawing.Point(1015, 603);
+            this.BtSalir.Location = new System.Drawing.Point(1072, 12);
             this.BtSalir.Name = "BtSalir";
             this.BtSalir.Size = new System.Drawing.Size(77, 27);
             this.BtSalir.TabIndex = 14;
@@ -196,35 +200,39 @@ namespace CargaDePersonas
             // 
             // BtBorrar
             // 
+            this.BtBorrar.BackColor = System.Drawing.Color.Khaki;
             this.BtBorrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtBorrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtBorrar.Location = new System.Drawing.Point(18, 356);
+            this.BtBorrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtBorrar.ForeColor = System.Drawing.Color.ForestGreen;
+            this.BtBorrar.Location = new System.Drawing.Point(106, 209);
             this.BtBorrar.Name = "BtBorrar";
-            this.BtBorrar.Size = new System.Drawing.Size(98, 91);
+            this.BtBorrar.Size = new System.Drawing.Size(131, 49);
             this.BtBorrar.TabIndex = 15;
             this.BtBorrar.Text = "Borrar datos cargados";
-            this.BtBorrar.UseVisualStyleBackColor = true;
+            this.BtBorrar.UseVisualStyleBackColor = false;
             this.BtBorrar.Click += new System.EventHandler(this.BtBorrar_Click);
             // 
             // BtCleanLista
             // 
+            this.BtCleanLista.BackColor = System.Drawing.Color.Khaki;
             this.BtCleanLista.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtCleanLista.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtCleanLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtCleanLista.Location = new System.Drawing.Point(191, 356);
+            this.BtCleanLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtCleanLista.ForeColor = System.Drawing.Color.ForestGreen;
+            this.BtCleanLista.Location = new System.Drawing.Point(189, 275);
             this.BtCleanLista.Name = "BtCleanLista";
-            this.BtCleanLista.Size = new System.Drawing.Size(98, 91);
+            this.BtCleanLista.Size = new System.Drawing.Size(131, 49);
             this.BtCleanLista.TabIndex = 16;
             this.BtCleanLista.Text = "Borrar lista";
-            this.BtCleanLista.UseVisualStyleBackColor = true;
+            this.BtCleanLista.UseVisualStyleBackColor = false;
             this.BtCleanLista.Click += new System.EventHandler(this.BtCleanLista_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 274);
+            this.label3.Location = new System.Drawing.Point(213, 141);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(117, 16);
             this.label3.TabIndex = 17;
@@ -234,7 +242,7 @@ namespace CargaDePersonas
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(15, 225);
+            this.label8.Location = new System.Drawing.Point(9, 141);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(119, 16);
             this.label8.TabIndex = 18;
@@ -242,27 +250,29 @@ namespace CargaDePersonas
             // 
             // BtnInscripcion
             // 
+            this.BtnInscripcion.BackColor = System.Drawing.Color.Khaki;
             this.BtnInscripcion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnInscripcion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnInscripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnInscripcion.Location = new System.Drawing.Point(354, 225);
+            this.BtnInscripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnInscripcion.ForeColor = System.Drawing.Color.ForestGreen;
+            this.BtnInscripcion.Location = new System.Drawing.Point(420, 152);
             this.BtnInscripcion.Name = "BtnInscripcion";
-            this.BtnInscripcion.Size = new System.Drawing.Size(104, 65);
+            this.BtnInscripcion.Size = new System.Drawing.Size(121, 34);
             this.BtnInscripcion.TabIndex = 19;
-            this.BtnInscripcion.Text = "Inscribir";
-            this.BtnInscripcion.UseVisualStyleBackColor = true;
+            this.BtnInscripcion.Text = "Inscribir Materia";
+            this.BtnInscripcion.UseVisualStyleBackColor = false;
             this.BtnInscripcion.Click += new System.EventHandler(this.BtnInscripcion_Click);
             // 
             // TxtInsMateria
             // 
-            this.TxtInsMateria.Location = new System.Drawing.Point(155, 225);
+            this.TxtInsMateria.Location = new System.Drawing.Point(12, 160);
             this.TxtInsMateria.Name = "TxtInsMateria";
             this.TxtInsMateria.Size = new System.Drawing.Size(184, 20);
             this.TxtInsMateria.TabIndex = 20;
             // 
             // TxtAñoMateria
             // 
-            this.TxtAñoMateria.Location = new System.Drawing.Point(155, 270);
+            this.TxtAñoMateria.Location = new System.Drawing.Point(216, 160);
             this.TxtAñoMateria.Name = "TxtAñoMateria";
             this.TxtAñoMateria.Size = new System.Drawing.Size(184, 20);
             this.TxtAñoMateria.TabIndex = 21;
@@ -292,7 +302,7 @@ namespace CargaDePersonas
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Turquoise;
-            this.ClientSize = new System.Drawing.Size(1104, 642);
+            this.ClientSize = new System.Drawing.Size(1161, 495);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.LblInscripcion);
             this.Controls.Add(this.TxtAñoMateria);

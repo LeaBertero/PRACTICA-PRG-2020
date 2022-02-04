@@ -65,6 +65,8 @@ namespace CargaDePersonas
             TxtNombre.Text = null;
             TxtApellido.Text = null;
             TxtEdad.Text = null;
+            TxtInsMateria.Text = null;
+            TxtAñoMateria.Text = null;
         }
 
         private void BtCleanLista_Click(object sender, EventArgs e)
@@ -74,10 +76,20 @@ namespace CargaDePersonas
 
         private void BtnInscripcion_Click(object sender, EventArgs e)
         {
-            Materia InscripcionMateria = new Materia();
+            try
+            {
 
-            InscripcionMateria.Nombre = TxtInsMateria.Text;
-            InscripcionMateria.Año = Convert.ToInt32(TxtAñoMateria.Text);
+                Materia InscripcionMateria = new Materia();
+
+                InscripcionMateria.Nombre = TxtInsMateria.Text;
+                InscripcionMateria.Año = Convert.ToInt32(TxtAñoMateria.Text);
+
+            }
+            catch (Exception)
+            {
+
+                LblError.Text = "Imposible Cargar -  debe completar con datos correctos";
+            }
 
         }
     }
