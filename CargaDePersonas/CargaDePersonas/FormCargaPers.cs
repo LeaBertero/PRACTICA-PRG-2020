@@ -72,6 +72,8 @@ namespace CargaDePersonas
         private void BtCleanLista_Click(object sender, EventArgs e)
         {
             LblMostrarLista.Text = null;
+            LblInsMateria.Text = null;
+
         }
         private void BtnInscripcion_Click(object sender, EventArgs e)
         {
@@ -85,7 +87,7 @@ namespace CargaDePersonas
 
                 Mostrar.MateriaCursada = InscripcionMateria;
 
-                LblInsMateria.Text = Mostrar.MateriaCursada.Nombre + "Año " + Mostrar.MateriaCursada.Año.ToString(); 
+                LblInsMateria.Text = Mostrar.MateriaCursada.Nombre + " - " + "Año " + Mostrar.MateriaCursada.Año.ToString(); 
                 
                 
             }
