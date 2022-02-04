@@ -37,7 +37,7 @@ namespace CargaDePersonas
 
                 LblMostrarLista.Text = Mostrar.Nombre + "  " + Mostrar.Apellido + "  " + Mostrar.Edad;
 
-                LblMostrarLista.Text = Mostrar.NombreCompleto();
+                LblMostrarLista.Text = Mostrar.NombreCompletoPersonaConEdad();
 
                 Mostrar = null;
                 Mostrar = new Persona();
@@ -47,11 +47,11 @@ namespace CargaDePersonas
             {
                 LblError.Text = "Imposible Cargar -  debe completar con datos correctos";
             }
-
         }
 
+
             
-        private void BtnLimpiar_Click(object sender, EventArgs e)
+        public void BtnLimpiar_Click(object sender, EventArgs e)
         {
             LblError.Text = null;
         }
@@ -60,7 +60,8 @@ namespace CargaDePersonas
         {
             Close();
         }
-        private void BtBorrar_Click(object sender, EventArgs e)
+
+        public void BtBorrar_Click(object sender, EventArgs e)
         {
             TxtNombre.Text = null;
             //TxtApellido.Text = null;
@@ -69,37 +70,42 @@ namespace CargaDePersonas
             TxtAñoMateria.Text = null;
         }
 
-        private void BtCleanLista_Click(object sender, EventArgs e)
+        public void BtCleanLista_Click(object sender, EventArgs e)
         {
             LblMostrarLista.Text = null;
             LblInsMateria.Text = null;
-
         }
-        private void BtnInscripcion_Click(object sender, EventArgs e)
+
+
+        public void BtnInscripcion_Click(object sender, EventArgs e)
         {
             try
             {
-
                 Materia InscripcionMateria = new Materia();
 
                 InscripcionMateria.Nombre = TxtInsMateria.Text;
                 InscripcionMateria.Año = Convert.ToInt32(TxtAñoMateria.Text);
 
-                Mostrar.MateriaCursada = InscripcionMateria;
+                //Mostrar.MateriaCursada = InscripcionMateria;
+                Mostrar.Inscribir(InscripcionMateria);
 
-                LblInsMateria.Text = Mostrar.MateriaCursada.Nombre + " - " + "Año " + Mostrar.MateriaCursada.Año.ToString(); 
+                LblInsMateria.Text = Mostrar.NombreCompletoDeMateria();
+
                 
                 
+
+                //Mostrar.MateriaCursada.Nombre + " - " + "Año " + Mostrar.MateriaCursada.Año.ToString();
             }
             catch (Exception)
             {
                 LblError.Text = "Imposible Cargar -  debe completar con datos correctos";
             }
-
-
         }
     }
 }
+
+
+
 
 
             

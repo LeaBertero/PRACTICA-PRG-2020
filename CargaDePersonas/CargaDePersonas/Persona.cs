@@ -17,10 +17,11 @@ namespace CargaDePersonas
 
         public int Edad { get; set; } //Propiedades de personas o cosas
 
-        public string NombreCompleto() //Métodos // Return: Retorna las propiedades de la
+        public string NombreCompletoPersonaConEdad() //Métodos // Return: Retorna las propiedades de la
         {                                        // persona, cuando se cargan los datos en nombre / apellido / Edad     
-            
-            return Nombre + ", " + Apellido + ", " + Edad;
+            //Variable = Nombre completo con materia
+
+            return  Nombre + ", " + Apellido + ", " + Edad;
 
         }
 
@@ -30,8 +31,16 @@ namespace CargaDePersonas
         public void Inscribir(Materia materia)  //Propiedad de la persona
         {
             MateriaCursada = materia;
-            
         }
+
+        public string NombreCompletoDeMateria()
+        {
+            string NombreMateria = "";
+            NombreMateria = NombreCompletoPersonaConEdad() + "\r\n" + MateriaCursada.Nombre + " - " + MateriaCursada.Año.ToString();
+
+            return NombreMateria;
+        }
+            
 
 
 
