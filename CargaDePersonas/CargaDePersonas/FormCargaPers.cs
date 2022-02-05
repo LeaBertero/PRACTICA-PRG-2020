@@ -91,10 +91,8 @@ namespace CargaDePersonas
 
                 LblInsMateria.Text = Mostrar.NombreCompletoDeMateria();
 
-                
-                
-
                 //Mostrar.MateriaCursada.Nombre + " - " + "Año " + Mostrar.MateriaCursada.Año.ToString();
+                
             }
             catch (Exception)
             {
@@ -102,6 +100,8 @@ namespace CargaDePersonas
             }
         }
     }
+                
+
 }
 
 
