@@ -222,7 +222,7 @@ namespace Arreglos_Ejemplos_
             this.BtLimpiarSemana.Name = "BtLimpiarSemana";
             this.BtLimpiarSemana.Size = new System.Drawing.Size(267, 53);
             this.BtLimpiarSemana.TabIndex = 15;
-            this.BtLimpiarSemana.Text = "Borrar días";
+            this.BtLimpiarSemana.Text = "Borrar semana completa";
             this.BtLimpiarSemana.UseVisualStyleBackColor = true;
             this.BtLimpiarSemana.Click += new System.EventHandler(this.BtLimpiarSemana_Click);
             // 
