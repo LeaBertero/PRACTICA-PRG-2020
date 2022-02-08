@@ -41,6 +41,7 @@ namespace PrgCargaPersonas2022_Practica_
             this.label3 = new System.Windows.Forms.Label();
             this.BtErrores = new System.Windows.Forms.Button();
             this.BtFinalizar = new System.Windows.Forms.Button();
+            this.BtDatosKill = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnCargar
@@ -96,7 +97,7 @@ namespace PrgCargaPersonas2022_Practica_
             // LblError
             // 
             this.LblError.AutoSize = true;
-            this.LblError.Location = new System.Drawing.Point(277, 494);
+            this.LblError.Location = new System.Drawing.Point(467, 184);
             this.LblError.Name = "LblError";
             this.LblError.Size = new System.Drawing.Size(0, 13);
             this.LblError.TabIndex = 5;
@@ -146,7 +147,7 @@ namespace PrgCargaPersonas2022_Practica_
             // BtErrores
             // 
             this.BtErrores.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtErrores.Location = new System.Drawing.Point(3, 494);
+            this.BtErrores.Location = new System.Drawing.Point(3, 593);
             this.BtErrores.Name = "BtErrores";
             this.BtErrores.Size = new System.Drawing.Size(148, 34);
             this.BtErrores.TabIndex = 10;
@@ -157,7 +158,7 @@ namespace PrgCargaPersonas2022_Practica_
             // BtFinalizar
             // 
             this.BtFinalizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtFinalizar.Location = new System.Drawing.Point(718, 467);
+            this.BtFinalizar.Location = new System.Drawing.Point(820, 584);
             this.BtFinalizar.Name = "BtFinalizar";
             this.BtFinalizar.Size = new System.Drawing.Size(114, 53);
             this.BtFinalizar.TabIndex = 11;
@@ -165,13 +166,25 @@ namespace PrgCargaPersonas2022_Practica_
             this.BtFinalizar.UseVisualStyleBackColor = true;
             this.BtFinalizar.Click += new System.EventHandler(this.BtFinalizar_Click);
             // 
+            // BtDatosKill
+            // 
+            this.BtDatosKill.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtDatosKill.Location = new System.Drawing.Point(157, 593);
+            this.BtDatosKill.Name = "BtDatosKill";
+            this.BtDatosKill.Size = new System.Drawing.Size(168, 34);
+            this.BtDatosKill.TabIndex = 12;
+            this.BtDatosKill.Text = "Borrar datos cargados";
+            this.BtDatosKill.UseVisualStyleBackColor = true;
+            this.BtDatosKill.Click += new System.EventHandler(this.BtDatosKill_Click);
+            // 
             // Prg_IngresoDe_Datos
             // 
             this.AcceptButton = this.BtnCargar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SandyBrown;
-            this.ClientSize = new System.Drawing.Size(844, 532);
+            this.ClientSize = new System.Drawing.Size(935, 639);
+            this.Controls.Add(this.BtDatosKill);
             this.Controls.Add(this.BtFinalizar);
             this.Controls.Add(this.BtErrores);
             this.Controls.Add(this.label3);
@@ -207,5 +220,6 @@ namespace PrgCargaPersonas2022_Practica_
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button BtErrores;
         private System.Windows.Forms.Button BtFinalizar;
+        private System.Windows.Forms.Button BtDatosKill;
     }
 }

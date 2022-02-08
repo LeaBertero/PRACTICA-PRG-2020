@@ -29,13 +29,16 @@ namespace PrgCargaPersonas2022_Practica_
                 posicion = posicion + 1;
                 TxtIngreso.Focus();
                 TxtIngreso.SelectAll();
+
             }
             catch (Exception)
             {
-
+                
                 LblError.Text = "Carga completa - Imposible seguir";
             }
+            
         }
+
 
         private void BtDim_Click(object sender, EventArgs e)
         {
@@ -52,7 +55,7 @@ namespace PrgCargaPersonas2022_Practica_
                 LblError.Text = "Debe ingresar una cantidad expresada en numeros de personas a cargar";
             }
         }
-
+           
         private void BtErrores_Click(object sender, EventArgs e)
         {
             LblError.Text = null;
@@ -62,5 +65,17 @@ namespace PrgCargaPersonas2022_Practica_
         {
             Close();
         }
+
+        private void BtDatosKill_Click(object sender, EventArgs e)
+        {
+            TxtIngreso.Text = null;
+            TxtDim.Text = null;
+        }
     }
 }
+
+
+
+
+
+
