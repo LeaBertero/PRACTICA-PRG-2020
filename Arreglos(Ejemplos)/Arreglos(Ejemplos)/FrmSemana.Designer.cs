@@ -206,9 +206,9 @@ namespace Arreglos_Ejemplos_
             // 
             this.BtSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtSalir.Location = new System.Drawing.Point(1007, 473);
+            this.BtSalir.Location = new System.Drawing.Point(425, 451);
             this.BtSalir.Name = "BtSalir";
-            this.BtSalir.Size = new System.Drawing.Size(120, 69);
+            this.BtSalir.Size = new System.Drawing.Size(120, 39);
             this.BtSalir.TabIndex = 14;
             this.BtSalir.Text = "Finalizar";
             this.BtSalir.UseVisualStyleBackColor = true;
