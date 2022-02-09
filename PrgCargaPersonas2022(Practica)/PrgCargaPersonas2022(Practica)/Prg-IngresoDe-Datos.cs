@@ -34,7 +34,8 @@ namespace PrgCargaPersonas2022_Practica_
             catch (Exception)
             {
                 
-                LblError.Text = "Carga completa - Imposible seguir";
+                //LblError.Text = "Carga completa - Imposible seguir";
+                MessageBox.Show("Carga completa - use una nueva dimension");
             }
             
         }
@@ -47,19 +48,18 @@ namespace PrgCargaPersonas2022_Practica_
                 int cantidad = Convert.ToInt32(TxtDim.Text);
                 Nombres = new string[cantidad];
 
-                LblError.Text = "Carga correcta";
+                //LblError.Text = "Carga correcta";
+                MessageBox.Show("Carga correcta");
             }
             catch (Exception)
             {
 
-                LblError.Text = "Debe ingresar una cantidad expresada en numeros de personas a cargar";
+                //LblError.Text = "Debe ingresar una cantidad expresada en numeros de personas a cargar";
+                MessageBox.Show("Debe ingresar una cantidad expresada en numeros");
             }
         }
            
-        private void BtErrores_Click(object sender, EventArgs e)
-        {
-            LblError.Text = null;
-        }
+       
 
         private void BtFinalizar_Click(object sender, EventArgs e)
         {
@@ -70,6 +70,17 @@ namespace PrgCargaPersonas2022_Practica_
         {
             TxtIngreso.Text = null;
             TxtDim.Text = null;
+            LbLista.Text = null;
+        }
+
+        private void BtMostrar_Click(object sender, EventArgs e)
+        {
+            LbLista.Text = null;
+
+            foreach (string Nombres in Nombres)
+            {
+                LbLista.Text = LbLista.Text + Nombres + "\r\n";
+            }
         }
     }
 }
