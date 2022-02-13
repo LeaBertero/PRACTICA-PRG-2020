@@ -121,6 +121,7 @@ namespace Prg_Lista_clases_2020
             this.Controls.Add(this.TxIngreso);
             this.Controls.Add(this.BtIngreso);
             this.Name = "Prg_lista_2020_práctica_con_Clases";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Prg_lista_2020_práctica_con_Clases";
             this.ResumeLayout(false);
             this.PerformLayout();

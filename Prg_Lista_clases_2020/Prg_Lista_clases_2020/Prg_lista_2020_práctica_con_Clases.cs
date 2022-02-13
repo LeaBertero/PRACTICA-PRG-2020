@@ -13,8 +13,8 @@ namespace Prg_Lista_clases_2020
 {
     public partial class Prg_lista_2020_práctica_con_Clases : Form
     {
-
-        public Personas[] persona { get; set; } = new Personas[1];
+        
+        public Persona[] personas { get; set; } = new Persona[2];    //Propiedad de la clase persona
 
         public Prg_lista_2020_práctica_con_Clases()
         {
@@ -23,18 +23,21 @@ namespace Prg_Lista_clases_2020
 
         private void BtIngreso_Click(object sender, EventArgs e)
         {
-            Personas persona = new Personas();
-            persona.Nombre = TxIngreso.Text;
-            //persona[] = Personas;
+            Persona personas = new Persona();
+
+            personas.Nombre = TxIngreso.Text;
+
+
+            Persona[0] = personas;
         }
 
         private void BtVer_Click(object sender, EventArgs e)
         {
             lbLista.Text = "Lista: \r\n";
 
-            foreach (Personas Prop in persona)
+            foreach (Persona Item in personas)
             {
-                lbLista.Text = lbLista.Text + Prop.Nombre + "\r\n";
+                lbLista.Text = lbLista.Text + Item.Nombre + "\r\n";
                 
             }
         }
