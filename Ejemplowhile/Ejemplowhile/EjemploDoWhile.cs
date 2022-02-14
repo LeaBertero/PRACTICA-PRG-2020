@@ -22,7 +22,7 @@ namespace Ejemplowhile
         private void BtnIniciar_Click(object sender, EventArgs e)
         {
             int repeticion = 0;
-            int totalrepeticion = 2;
+            int totalrepeticion = 3;
 
             do
             {
@@ -33,15 +33,29 @@ namespace Ejemplowhile
                 int x = 0;
                 int paso = 1;
                 repeticion = repeticion + 1;
+                //repeticion = totalrepeticion;
 
 
-                while (x < Anchoformulario + ancholabel + anchoborde)
+                try
                 {
-                    LblMovimiento.Left = x;
-                    x = x + paso;
-                    this.Refresh();
+                    while (x < Anchoformulario + ancholabel + anchoborde)
+                    {
+                        LblMovimiento.Left = x;
+                        x = x + paso;
+                        this.Refresh();
+                    }
+                        
+                    MessageBox.Show("Para repetir la secencia presione - *Aceptar");
+                        
+                }
+                catch (Exception)
+                {
+
+                    //MessageBox.Show("repetición finalizada");
                 }
                
+                        
+
 
             } while (repeticion < totalrepeticion);
                     

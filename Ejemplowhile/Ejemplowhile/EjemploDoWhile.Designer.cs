@@ -53,9 +53,9 @@ namespace Ejemplowhile
             this.LblMovimiento.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblMovimiento.Location = new System.Drawing.Point(347, 130);
             this.LblMovimiento.Name = "LblMovimiento";
-            this.LblMovimiento.Size = new System.Drawing.Size(130, 24);
+            this.LblMovimiento.Size = new System.Drawing.Size(138, 24);
             this.LblMovimiento.TabIndex = 1;
-            this.LblMovimiento.Text = "Insert Coin";
+            this.LblMovimiento.Text = " Insert Coin";
             // 
             // BtnSalir
             // 
