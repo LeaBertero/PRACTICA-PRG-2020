@@ -32,7 +32,10 @@ namespace prueba_1
             NomSaludo.Text = "Hola" + Nombre + TercerVariable; //+ SegundaVariable ;(No se puede usar en este ambito por la vida de las variables)
         }
 
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     } 
 }
        
