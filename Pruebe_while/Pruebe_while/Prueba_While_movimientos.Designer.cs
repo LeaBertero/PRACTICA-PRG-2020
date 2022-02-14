@@ -187,12 +187,12 @@ namespace Pruebe_while
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("MV Boli", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(242, 496);
+            this.label1.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(352, 498);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(663, 63);
+            this.label1.Size = new System.Drawing.Size(478, 60);
             this.label1.TabIndex = 12;
-            this.label1.Text = "Pantalla inicial - Juego del coyote";
+            this.label1.Text = "Pulse \"Mover\", para iniciar ...";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Prueba_While_movimientos
