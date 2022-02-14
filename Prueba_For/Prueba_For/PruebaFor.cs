@@ -14,45 +14,57 @@ namespace Prueba_For
 
     public partial class PruebaFor : Form
     {
+        
 
         public PruebaFor()
         {
             InitializeComponent();
         }
+           
         
         //MessageBox.Show("Debe ingresar un valor ");
         public void BtnEjecutar_Click(object sender, EventArgs e)
         {
+            try
+            {
+                int desplazamiento = Convert.ToInt32(TxtValInicial.Text);
 
-            int desplazamiento = Convert.ToInt32(TxtValInicial.Text);
+
+                for (int Paso = desplazamiento; Paso < 200; Paso++)
+                {
+                    LblRojo.Left = Paso;
+                    this.Refresh();
+                    Task.Delay(1000);
+
+                }
+
+
+                for (int inical = desplazamiento; inical < 525; inical++)
+                {
+                    Lblamarillo.Left = inical;
+                    this.Refresh();
+                    Task.Delay(1000);
+                }
+
+
+                for (int inical = desplazamiento; inical < 315; inical++)
+                {
+                    LblVerde.Left = inical;
+                    this.Refresh();
+                    //Task.Delay(1000);
+                }
+
+                LblFin.Visible = true;
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Debe ingresar valores para mover los cuadrados");
+            }
+        
             
-
-            for (int Paso = desplazamiento; Paso < 200; Paso++)
-            {
-                LblRojo.Left = Paso;
-                this.Refresh();
-                Task.Delay(1000);
-
-            }
-
-           
-            for (int inical = desplazamiento; inical < 525; inical++)
-            {
-                Lblamarillo.Left = inical;
-                this.Refresh();
-                Task.Delay(1000);
-            }
-
-           
-            for (int inical = desplazamiento; inical < 315; inical++)
-            {
-                LblVerde.Left = inical;
-                this.Refresh();
-                //Task.Delay(1000);
-            }
-
-            LblFin.Visible = true;
         }
+       
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();
