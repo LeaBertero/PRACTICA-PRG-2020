@@ -74,9 +74,9 @@ namespace Pruebe_while
             this.BtnMovCoyote.FlatAppearance.BorderSize = 5;
             this.BtnMovCoyote.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMovCoyote.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMovCoyote.Location = new System.Drawing.Point(483, 451);
+            this.BtnMovCoyote.Location = new System.Drawing.Point(286, 575);
             this.BtnMovCoyote.Name = "BtnMovCoyote";
-            this.BtnMovCoyote.Size = new System.Drawing.Size(202, 50);
+            this.BtnMovCoyote.Size = new System.Drawing.Size(594, 50);
             this.BtnMovCoyote.TabIndex = 2;
             this.BtnMovCoyote.Text = "Mover";
             this.BtnMovCoyote.UseVisualStyleBackColor = true;
@@ -177,7 +177,7 @@ namespace Pruebe_while
             this.BtnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSalir.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.BtnSalir.Location = new System.Drawing.Point(1033, 466);
+            this.BtnSalir.Location = new System.Drawing.Point(1033, 575);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(145, 50);
             this.BtnSalir.TabIndex = 11;
@@ -188,7 +188,7 @@ namespace Pruebe_while
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("MV Boli", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(242, 157);
+            this.label1.Location = new System.Drawing.Point(242, 496);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(663, 63);
             this.label1.TabIndex = 12;
@@ -202,7 +202,9 @@ namespace Pruebe_while
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(1190, 528);
+            this.ClientSize = new System.Drawing.Size(1190, 654);
+            this.Controls.Add(this.PicCoyote);
+            this.Controls.Add(this.PicBeep);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.LblMensaje);
@@ -210,8 +212,6 @@ namespace Pruebe_while
             this.Controls.Add(this.BtnBorrarPers1);
             this.Controls.Add(this.BntAparecer2);
             this.Controls.Add(this.BtnAparecer);
-            this.Controls.Add(this.PicBeep);
-            this.Controls.Add(this.PicCoyote);
             this.Controls.Add(this.BtnMovCoyote);
             this.Controls.Add(this.BtnReac);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
