@@ -48,7 +48,7 @@ namespace Pruebe_while
             // PicCoyote
             // 
             this.PicCoyote.Image = ((System.Drawing.Image)(resources.GetObject("PicCoyote.Image")));
-            this.PicCoyote.Location = new System.Drawing.Point(45, 320);
+            this.PicCoyote.Location = new System.Drawing.Point(438, 371);
             this.PicCoyote.Name = "PicCoyote";
             this.PicCoyote.Size = new System.Drawing.Size(110, 112);
             this.PicCoyote.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -59,7 +59,7 @@ namespace Pruebe_while
             // PicBeep
             // 
             this.PicBeep.Image = ((System.Drawing.Image)(resources.GetObject("PicBeep.Image")));
-            this.PicBeep.Location = new System.Drawing.Point(1025, 157);
+            this.PicBeep.Location = new System.Drawing.Point(923, 55);
             this.PicBeep.Name = "PicBeep";
             this.PicBeep.Size = new System.Drawing.Size(110, 112);
             this.PicBeep.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -200,7 +200,7 @@ namespace Pruebe_while
             this.AcceptButton = this.BtnMovCoyote;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.PowderBlue;
+            this.BackColor = System.Drawing.Color.Goldenrod;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1190, 654);
             this.Controls.Add(this.PicCoyote);

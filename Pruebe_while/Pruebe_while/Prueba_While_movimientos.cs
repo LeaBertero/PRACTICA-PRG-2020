@@ -44,15 +44,13 @@ namespace Pruebe_while
 
             LblMensaje.Text = "Correcaminos: La dinamita ACME no funciona con migo xD";
             LblMensaje.Visible = true;
-
-
         }
+
+
         
         private void BtnAparecer_Click(object sender, EventArgs e)
         {
             PicCoyote.Visible = true;
-            
-
         }
         
         private void BtnReac_Click(object sender, EventArgs e)
@@ -68,29 +66,38 @@ namespace Pruebe_while
 
             LblMensaje.Visible = false;
         }
-
+      
         private void BntAparecer2_Click(object sender, EventArgs e)
         {
             PicBeep.Visible = true;
         }
-
+        
         private void BtnBorrarPers1_Click(object sender, EventArgs e)
         {
             PicCoyote.Visible = false;
         }
-
+        
         private void BtnBorrarPers2_Click(object sender, EventArgs e)
         {
             PicBeep.Visible = false;
         }
-
+        
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();
         }
     }
-                    
 }
+            
+
+        
+
+
+
+
+
+       
+                    
 
 
            
