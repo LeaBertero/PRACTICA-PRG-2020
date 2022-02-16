@@ -74,16 +74,19 @@ namespace PrgCargaPersonas2022_Practica_
         {
             TxtNombre.Text = null;
             TxtDim.Text = null;
-            LbLista.Text = null;
+            LblMostrar.Text = null;
         }
 
         private void BtMostrar_Click(object sender, EventArgs e)
         {
-            LbLista.Text = null;
+            LblMostrar.Text = "Lista: = \r\n";
 
-            foreach (string Nombres in Nombres)
+            foreach (Persona item in personas)
             {
-                LbLista.Text = LbLista.Text + Nombres + "\r\n";
+                LblMostrar.Text = LblMostrar.Text + Nombres + "Lista: \r\n";
+
+
+                //LblMostrar.Text = LblMostrar.Text + Nombres + "\r\n";
             }
         }
 

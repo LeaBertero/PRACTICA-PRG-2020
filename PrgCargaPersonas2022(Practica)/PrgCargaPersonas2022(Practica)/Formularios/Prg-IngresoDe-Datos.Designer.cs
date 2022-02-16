@@ -40,7 +40,6 @@ namespace PrgCargaPersonas2022_Practica_
             this.label3 = new System.Windows.Forms.Label();
             this.BtFinalizar = new System.Windows.Forms.Button();
             this.BtDatosKill = new System.Windows.Forms.Button();
-            this.LbLista = new System.Windows.Forms.Label();
             this.TxtEdad = new System.Windows.Forms.TextBox();
             this.BtEdad = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
@@ -80,7 +79,7 @@ namespace PrgCargaPersonas2022_Practica_
             // LblMostrar
             // 
             this.LblMostrar.AutoSize = true;
-            this.LblMostrar.Location = new System.Drawing.Point(12, 316);
+            this.LblMostrar.Location = new System.Drawing.Point(646, 122);
             this.LblMostrar.Name = "LblMostrar";
             this.LblMostrar.Size = new System.Drawing.Size(0, 13);
             this.LblMostrar.TabIndex = 3;
@@ -160,16 +159,6 @@ namespace PrgCargaPersonas2022_Practica_
             this.BtDatosKill.UseVisualStyleBackColor = true;
             this.BtDatosKill.Click += new System.EventHandler(this.BtDatosKill_Click);
             // 
-            // LbLista
-            // 
-            this.LbLista.AutoSize = true;
-            this.LbLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LbLista.Location = new System.Drawing.Point(188, 265);
-            this.LbLista.Name = "LbLista";
-            this.LbLista.Size = new System.Drawing.Size(0, 17);
-            this.LbLista.TabIndex = 13;
-            this.LbLista.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // TxtEdad
             // 
             this.TxtEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -211,7 +200,6 @@ namespace PrgCargaPersonas2022_Practica_
             this.Controls.Add(this.TxtEdad);
             this.Controls.Add(this.BtEdad);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.LbLista);
             this.Controls.Add(this.BtDatosKill);
             this.Controls.Add(this.BtFinalizar);
             this.Controls.Add(this.label2);
@@ -245,7 +233,6 @@ namespace PrgCargaPersonas2022_Practica_
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button BtFinalizar;
         private System.Windows.Forms.Button BtDatosKill;
-        private System.Windows.Forms.Label LbLista;
         private System.Windows.Forms.TextBox TxtEdad;
         private System.Windows.Forms.Button BtEdad;
         private System.Windows.Forms.Label label4;
