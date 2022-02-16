@@ -47,9 +47,9 @@ namespace PrgCargaPersonas2022_Practica_
             // 
             this.BtnCargar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCargar.Location = new System.Drawing.Point(12, 209);
+            this.BtnCargar.Location = new System.Drawing.Point(211, 209);
             this.BtnCargar.Name = "BtnCargar";
-            this.BtnCargar.Size = new System.Drawing.Size(124, 35);
+            this.BtnCargar.Size = new System.Drawing.Size(165, 35);
             this.BtnCargar.TabIndex = 0;
             this.BtnCargar.Text = "Cargar";
             this.BtnCargar.UseVisualStyleBackColor = true;
@@ -58,9 +58,9 @@ namespace PrgCargaPersonas2022_Practica_
             // BtMostrar
             // 
             this.BtMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtMostrar.Location = new System.Drawing.Point(12, 250);
+            this.BtMostrar.Location = new System.Drawing.Point(211, 250);
             this.BtMostrar.Name = "BtMostrar";
-            this.BtMostrar.Size = new System.Drawing.Size(124, 32);
+            this.BtMostrar.Size = new System.Drawing.Size(165, 32);
             this.BtMostrar.TabIndex = 1;
             this.BtMostrar.Text = "Mostrar";
             this.BtMostrar.UseVisualStyleBackColor = true;
@@ -69,9 +69,9 @@ namespace PrgCargaPersonas2022_Practica_
             // TxtIngreso
             // 
             this.TxtIngreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtIngreso.Location = new System.Drawing.Point(146, 212);
+            this.TxtIngreso.Location = new System.Drawing.Point(16, 209);
             this.TxtIngreso.Name = "TxtIngreso";
-            this.TxtIngreso.Size = new System.Drawing.Size(143, 32);
+            this.TxtIngreso.Size = new System.Drawing.Size(189, 32);
             this.TxtIngreso.TabIndex = 2;
             // 
             // LblMostrar
@@ -119,21 +119,20 @@ namespace PrgCargaPersonas2022_Practica_
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(13, 82);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(786, 17);
+            this.label2.Size = new System.Drawing.Size(454, 17);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Ingrese la cantidad de personas a cargar (Debe expresar en números, teniendo en c" +
-    "uenta que cero es la primera persona)";
+            this.label2.Text = "Ingrese la cantidad de personas a cargar (Debe expresar en números)";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 176);
+            this.label3.Location = new System.Drawing.Point(13, 178);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(242, 17);
+            this.label3.Size = new System.Drawing.Size(259, 17);
             this.label3.TabIndex = 9;
-            this.label3.Text = "Ingrese datos de la persona a cargar";
+            this.label3.Text = "Ingrese nombre completo de la persona";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // BtFinalizar

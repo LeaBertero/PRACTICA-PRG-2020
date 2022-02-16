@@ -12,7 +12,9 @@ namespace PrgCargaPersonas2022_Practica_
 {
     public partial class Prg_IngresoDe_Datos : Form
     {
-
+        //public PrgCargaPersonas2022_Practica_Cls Persona persona { get; set; }
+        public  PrgCargaPersonas2022_Practica_Cls.Persona Persona{  get; set; }
+        
         string[] Nombres;
         int posicion = 0;
 
