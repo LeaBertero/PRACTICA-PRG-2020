@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrgCargaPersonas2022_Practica_Cls
+namespace PrgCargaPersonas2022_Practica_Clases
 {
     public class Persona
     {

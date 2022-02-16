@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Persona.cs" />
-    <Compile Include="Prg-IngresoDe-Datos.cs">
+    <Compile Include="Clases\Persona.cs" />
+    <Compile Include="Formularios\Prg-IngresoDe-Datos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Prg-IngresoDe-Datos.Designer.cs">
+    <Compile Include="Formularios\Prg-IngresoDe-Datos.Designer.cs">
       <DependentUpon>Prg-IngresoDe-Datos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Prg-IngresoDe-Datos.resx">
+    <EmbeddedResource Include="Formularios\Prg-IngresoDe-Datos.resx">
       <DependentUpon>Prg-IngresoDe-Datos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

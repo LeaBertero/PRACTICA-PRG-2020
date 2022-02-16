@@ -12,8 +12,8 @@ namespace PrgCargaPersonas2022_Practica_
 {
     public partial class Prg_IngresoDe_Datos : Form
     {
-        //public PrgCargaPersonas2022_Practica_Cls Persona persona { get; set; }
-        public  PrgCargaPersonas2022_Practica_Cls.Persona Persona{  get; set; }
+       
+        public  PrgCargaPersonas2022_Practica_Clases.Persona Persona{  get; set; }
         
         string[] Nombres;
         int posicion = 0;
@@ -25,22 +25,23 @@ namespace PrgCargaPersonas2022_Practica_
 
         private void BtnCargar_Click(object sender, EventArgs e)
         {
+            
             try
             {
                 Nombres[posicion] = TxtIngreso.Text;
-                posicion = posicion + 1;
+                posicion = posicion - 1;
                 TxtIngreso.Focus();
                 TxtIngreso.SelectAll();
 
             }
             catch (Exception)
             {
-                
-                //LblError.Text = "Carga completa - Imposible seguir";
                 MessageBox.Show("Carga completa - use una nueva dimension");
             }
-            
         }
+                
+                
+            
 
 
         private void BtDim_Click(object sender, EventArgs e)
