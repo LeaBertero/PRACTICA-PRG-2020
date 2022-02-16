@@ -31,7 +31,7 @@ namespace PrgCargaPersonas2022_Practica_
         {
             this.BtnCargar = new System.Windows.Forms.Button();
             this.BtMostrar = new System.Windows.Forms.Button();
-            this.TxtIngreso = new System.Windows.Forms.TextBox();
+            this.TxtNombre = new System.Windows.Forms.TextBox();
             this.LblMostrar = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.TxtDim = new System.Windows.Forms.TextBox();
@@ -41,6 +41,9 @@ namespace PrgCargaPersonas2022_Practica_
             this.BtFinalizar = new System.Windows.Forms.Button();
             this.BtDatosKill = new System.Windows.Forms.Button();
             this.LbLista = new System.Windows.Forms.Label();
+            this.TxtEdad = new System.Windows.Forms.TextBox();
+            this.BtEdad = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnCargar
@@ -49,7 +52,7 @@ namespace PrgCargaPersonas2022_Practica_
             this.BtnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCargar.Location = new System.Drawing.Point(211, 209);
             this.BtnCargar.Name = "BtnCargar";
-            this.BtnCargar.Size = new System.Drawing.Size(165, 35);
+            this.BtnCargar.Size = new System.Drawing.Size(96, 32);
             this.BtnCargar.TabIndex = 0;
             this.BtnCargar.Text = "Cargar";
             this.BtnCargar.UseVisualStyleBackColor = true;
@@ -58,21 +61,21 @@ namespace PrgCargaPersonas2022_Practica_
             // BtMostrar
             // 
             this.BtMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtMostrar.Location = new System.Drawing.Point(211, 250);
+            this.BtMostrar.Location = new System.Drawing.Point(649, 471);
             this.BtMostrar.Name = "BtMostrar";
-            this.BtMostrar.Size = new System.Drawing.Size(165, 32);
+            this.BtMostrar.Size = new System.Drawing.Size(247, 32);
             this.BtMostrar.TabIndex = 1;
-            this.BtMostrar.Text = "Mostrar";
+            this.BtMostrar.Text = "Mostrar datos cargados";
             this.BtMostrar.UseVisualStyleBackColor = true;
             this.BtMostrar.Click += new System.EventHandler(this.BtMostrar_Click);
             // 
-            // TxtIngreso
+            // TxtNombre
             // 
-            this.TxtIngreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtIngreso.Location = new System.Drawing.Point(16, 209);
-            this.TxtIngreso.Name = "TxtIngreso";
-            this.TxtIngreso.Size = new System.Drawing.Size(189, 32);
-            this.TxtIngreso.TabIndex = 2;
+            this.TxtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtNombre.Location = new System.Drawing.Point(16, 209);
+            this.TxtNombre.Name = "TxtNombre";
+            this.TxtNombre.Size = new System.Drawing.Size(189, 32);
+            this.TxtNombre.TabIndex = 2;
             // 
             // LblMostrar
             // 
@@ -105,9 +108,9 @@ namespace PrgCargaPersonas2022_Practica_
             // BtDim
             // 
             this.BtDim.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtDim.Location = new System.Drawing.Point(15, 119);
+            this.BtDim.Location = new System.Drawing.Point(15, 122);
             this.BtDim.Name = "BtDim";
-            this.BtDim.Size = new System.Drawing.Size(121, 35);
+            this.BtDim.Size = new System.Drawing.Size(121, 32);
             this.BtDim.TabIndex = 6;
             this.BtDim.Text = "Dimensionar";
             this.BtDim.UseVisualStyleBackColor = true;
@@ -167,6 +170,37 @@ namespace PrgCargaPersonas2022_Practica_
             this.LbLista.TabIndex = 13;
             this.LbLista.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // TxtEdad
+            // 
+            this.TxtEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtEdad.Location = new System.Drawing.Point(16, 280);
+            this.TxtEdad.Name = "TxtEdad";
+            this.TxtEdad.Size = new System.Drawing.Size(189, 32);
+            this.TxtEdad.TabIndex = 15;
+            // 
+            // BtEdad
+            // 
+            this.BtEdad.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtEdad.Location = new System.Drawing.Point(211, 280);
+            this.BtEdad.Name = "BtEdad";
+            this.BtEdad.Size = new System.Drawing.Size(96, 32);
+            this.BtEdad.TabIndex = 14;
+            this.BtEdad.Text = "Cargar";
+            this.BtEdad.UseVisualStyleBackColor = true;
+            this.BtEdad.Click += new System.EventHandler(this.BtEdad_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(13, 249);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(41, 17);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "Edad";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Prg_IngresoDe_Datos
             // 
             this.AcceptButton = this.BtnCargar;
@@ -174,6 +208,9 @@ namespace PrgCargaPersonas2022_Practica_
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SandyBrown;
             this.ClientSize = new System.Drawing.Size(935, 515);
+            this.Controls.Add(this.TxtEdad);
+            this.Controls.Add(this.BtEdad);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.LbLista);
             this.Controls.Add(this.BtDatosKill);
             this.Controls.Add(this.BtFinalizar);
@@ -182,7 +219,7 @@ namespace PrgCargaPersonas2022_Practica_
             this.Controls.Add(this.BtDim);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LblMostrar);
-            this.Controls.Add(this.TxtIngreso);
+            this.Controls.Add(this.TxtNombre);
             this.Controls.Add(this.BtMostrar);
             this.Controls.Add(this.BtnCargar);
             this.Controls.Add(this.label3);
@@ -199,7 +236,7 @@ namespace PrgCargaPersonas2022_Practica_
 
         private System.Windows.Forms.Button BtnCargar;
         private System.Windows.Forms.Button BtMostrar;
-        private System.Windows.Forms.TextBox TxtIngreso;
+        private System.Windows.Forms.TextBox TxtNombre;
         private System.Windows.Forms.Label LblMostrar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox TxtDim;
@@ -209,5 +246,8 @@ namespace PrgCargaPersonas2022_Practica_
         private System.Windows.Forms.Button BtFinalizar;
         private System.Windows.Forms.Button BtDatosKill;
         private System.Windows.Forms.Label LbLista;
+        private System.Windows.Forms.TextBox TxtEdad;
+        private System.Windows.Forms.Button BtEdad;
+        private System.Windows.Forms.Label label4;
     }
 }

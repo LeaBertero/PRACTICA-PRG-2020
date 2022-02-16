@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PrgCargaPersonas2022_Practica_Clases;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,36 +13,36 @@ namespace PrgCargaPersonas2022_Practica_
 {
     public partial class Prg_IngresoDe_Datos : Form
     {
-       
-        public  PrgCargaPersonas2022_Practica_Clases.Persona Persona{  get; set; }
+
+        public Persona[] personas { get; set; } = new Persona[2];
         
+        
+
         string[] Nombres;
-        int posicion = 0;
+
+        
 
         public Prg_IngresoDe_Datos()
         {
             InitializeComponent();
         }
 
-        private void BtnCargar_Click(object sender, EventArgs e)
+        public void BtnCargar_Click(object sender, EventArgs e)
         {
-            
-            try
-            {
-                Nombres[posicion] = TxtIngreso.Text;
-                posicion = posicion - 1;
-                TxtIngreso.Focus();
-                TxtIngreso.SelectAll();
 
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Carga completa - use una nueva dimension");
-            }
+            Persona persona = new Persona();
+
+            persona.NombreCompleto = TxtNombre.Text;
+
+            personas[0] = persona;
+
+
+
+
         }
-                
-                
-            
+
+
+
 
 
         private void BtDim_Click(object sender, EventArgs e)
@@ -71,7 +72,7 @@ namespace PrgCargaPersonas2022_Practica_
 
         private void BtDatosKill_Click(object sender, EventArgs e)
         {
-            TxtIngreso.Text = null;
+            TxtNombre.Text = null;
             TxtDim.Text = null;
             LbLista.Text = null;
         }
@@ -84,6 +85,23 @@ namespace PrgCargaPersonas2022_Practica_
             {
                 LbLista.Text = LbLista.Text + Nombres + "\r\n";
             }
+        }
+
+        public void BtEdad_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                Persona persona = new Persona();
+                persona.Edad = Convert.ToInt32(TxtEdad.Text);
+
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Ingrese la edad por favor");
+            }
+
         }
     }
 }
