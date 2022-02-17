@@ -40,11 +40,13 @@ namespace Ejemplo_Swuitch_____Segun_
         {
             TxtRes.Visible = true;
 
-            if ((TxtSigno.Text) == "+")
+            try
+            {
+                if ((TxtSigno.Text) == "+")
             {
 
                 numSuma1 = Convert.ToInt32(TxtOper1.Text);
-                
+
                 numSuma2 = Convert.ToInt32(TxtOper2.Text);
 
                 ResultadoSuma = numSuma1 + numSuma2;
@@ -52,15 +54,7 @@ namespace Ejemplo_Swuitch_____Segun_
                 TxtRes.Text = Convert.ToString(ResultadoSuma);
 
             }
-            else
-            {
-                lblError.Text = "Debe ingresar un signo para operar";
-            }
-
-            //MessageBox.Show("debe ingresar un signo de operacion");
-
-
-            if ((TxtSigno.Text) == "-")
+            else if ((TxtSigno.Text) == "-")
             {
 
                 numResta1 = Convert.ToInt32(TxtOper1.Text);
@@ -72,12 +66,7 @@ namespace Ejemplo_Swuitch_____Segun_
                 TxtRes.Text = Convert.ToString(ResultadoResta);
 
             }
-            else
-            {
-                lblError.Text = "Debe ingresar un signo para operar";
-            }
-
-            if ((TxtSigno.Text) == "*")
+            else if ((TxtSigno.Text) == "*")
             {
 
                 numMult1 = Convert.ToInt32(TxtOper1.Text);
@@ -89,12 +78,7 @@ namespace Ejemplo_Swuitch_____Segun_
                 TxtRes.Text = Convert.ToString(ResultadMult);
 
             }
-            else
-            {
-                lblError.Text = "Debe ingresar un signo para operar";
-            }
-
-            if ((TxtSigno.Text) == "/")
+            else if ((TxtSigno.Text) == "/")
             {
 
                 numDiv1 = Convert.ToInt32(TxtOper1.Text);
@@ -106,17 +90,38 @@ namespace Ejemplo_Swuitch_____Segun_
                 TxtRes.Text = Convert.ToString(ResultadoDiv);
 
             }
-            else
+            }
+            catch (Exception)
             {
-                lblError.Text = "Debe ingresar un signo para operar";
+
+                MessageBox.Show("Ingrese los digitos");
             }
         }
-
-        
-
+            
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();
         }
+
+        private void BtLimpiar_Click(object sender, EventArgs e)
+        {
+            TxtOper1.Text = "";
+            TxtOper2.Text = "";
+            TxtRes.Text = "";
+            TxtSigno.Text = "";
+        }
     }
 }
+           
+
+            
+
+
+            
+
+           
+
+           
+
+        
+

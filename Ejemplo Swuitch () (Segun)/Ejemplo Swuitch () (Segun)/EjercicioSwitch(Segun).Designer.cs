@@ -38,8 +38,8 @@ namespace Ejemplo_Swuitch_____Segun_
             this.TxtRes = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.lblError = new System.Windows.Forms.Label();
             this.BtnSalir = new System.Windows.Forms.Button();
+            this.BtLimpiar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -131,15 +131,6 @@ namespace Ejemplo_Swuitch_____Segun_
             this.label4.TabIndex = 8;
             this.label4.Text = "Ingrese signo";
             // 
-            // lblError
-            // 
-            this.lblError.AutoSize = true;
-            this.lblError.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblError.Location = new System.Drawing.Point(192, 147);
-            this.lblError.Name = "lblError";
-            this.lblError.Size = new System.Drawing.Size(0, 24);
-            this.lblError.TabIndex = 10;
-            // 
             // BtnSalir
             // 
             this.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -152,13 +143,25 @@ namespace Ejemplo_Swuitch_____Segun_
             this.BtnSalir.UseVisualStyleBackColor = true;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
+            // BtLimpiar
+            // 
+            this.BtLimpiar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtLimpiar.Location = new System.Drawing.Point(637, 130);
+            this.BtLimpiar.Name = "BtLimpiar";
+            this.BtLimpiar.Size = new System.Drawing.Size(243, 41);
+            this.BtLimpiar.TabIndex = 12;
+            this.BtLimpiar.Text = "Limpiar operación";
+            this.BtLimpiar.UseVisualStyleBackColor = true;
+            this.BtLimpiar.Click += new System.EventHandler(this.BtLimpiar_Click);
+            // 
             // Ejercicio_Switch_Segun_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(892, 183);
+            this.Controls.Add(this.BtLimpiar);
             this.Controls.Add(this.BtnSalir);
-            this.Controls.Add(this.lblError);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.TxtRes);
@@ -186,7 +189,7 @@ namespace Ejemplo_Swuitch_____Segun_
         private System.Windows.Forms.TextBox TxtRes;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label lblError;
         private System.Windows.Forms.Button BtnSalir;
+        private System.Windows.Forms.Button BtLimpiar;
     }
 }
