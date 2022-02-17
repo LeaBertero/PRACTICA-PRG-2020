@@ -424,7 +424,7 @@ namespace Ejercicio_Operadores
             this.BtnLimpiar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.BtnLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnLimpiar.ForeColor = System.Drawing.SystemColors.Control;
-            this.BtnLimpiar.Location = new System.Drawing.Point(230, 530);
+            this.BtnLimpiar.Location = new System.Drawing.Point(456, 530);
             this.BtnLimpiar.Name = "BtnLimpiar";
             this.BtnLimpiar.Size = new System.Drawing.Size(179, 54);
             this.BtnLimpiar.TabIndex = 43;
@@ -438,7 +438,7 @@ namespace Ejercicio_Operadores
             this.BtnOperaciones.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.BtnOperaciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnOperaciones.ForeColor = System.Drawing.SystemColors.Control;
-            this.BtnOperaciones.Location = new System.Drawing.Point(431, 530);
+            this.BtnOperaciones.Location = new System.Drawing.Point(259, 530);
             this.BtnOperaciones.Name = "BtnOperaciones";
             this.BtnOperaciones.Size = new System.Drawing.Size(179, 54);
             this.BtnOperaciones.TabIndex = 44;
