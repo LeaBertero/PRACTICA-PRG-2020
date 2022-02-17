@@ -55,7 +55,7 @@ namespace Contador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(437, 270);
+            this.ClientSize = new System.Drawing.Size(266, 216);
             this.Controls.Add(this.Lblcontador);
             this.Controls.Add(this.BtnContar);
             this.Name = "Contador";
