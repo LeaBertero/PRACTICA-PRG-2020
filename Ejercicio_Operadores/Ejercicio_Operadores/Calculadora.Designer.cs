@@ -344,7 +344,7 @@ namespace Ejercicio_Operadores
             this.BnBorrarNumSuma1.Name = "BnBorrarNumSuma1";
             this.BnBorrarNumSuma1.Size = new System.Drawing.Size(100, 23);
             this.BnBorrarNumSuma1.TabIndex = 35;
-            this.BnBorrarNumSuma1.Text = "Borrar Num1";
+            this.BnBorrarNumSuma1.Text = "Borrar";
             this.BnBorrarNumSuma1.UseVisualStyleBackColor = true;
             this.BnBorrarNumSuma1.Click += new System.EventHandler(this.BnBorrarNumSuma1_Click);
             // 
@@ -354,7 +354,7 @@ namespace Ejercicio_Operadores
             this.BnBorrarNumSuma2.Name = "BnBorrarNumSuma2";
             this.BnBorrarNumSuma2.Size = new System.Drawing.Size(98, 23);
             this.BnBorrarNumSuma2.TabIndex = 36;
-            this.BnBorrarNumSuma2.Text = "Borrar Num2";
+            this.BnBorrarNumSuma2.Text = "Borrar";
             this.BnBorrarNumSuma2.UseVisualStyleBackColor = true;
             this.BnBorrarNumSuma2.Click += new System.EventHandler(this.BnBorrarNumSuma2_Click);
             // 
@@ -364,7 +364,7 @@ namespace Ejercicio_Operadores
             this.BtnBorrarNumRes2.Name = "BtnBorrarNumRes2";
             this.BtnBorrarNumRes2.Size = new System.Drawing.Size(100, 23);
             this.BtnBorrarNumRes2.TabIndex = 38;
-            this.BtnBorrarNumRes2.Text = "Borrar Num2";
+            this.BtnBorrarNumRes2.Text = "Borrar";
             this.BtnBorrarNumRes2.UseVisualStyleBackColor = true;
             this.BtnBorrarNumRes2.Click += new System.EventHandler(this.BtnBorrarNumRes2_Click);
             // 
@@ -374,7 +374,7 @@ namespace Ejercicio_Operadores
             this.BtnBorrarNumRes1.Name = "BtnBorrarNumRes1";
             this.BtnBorrarNumRes1.Size = new System.Drawing.Size(100, 23);
             this.BtnBorrarNumRes1.TabIndex = 37;
-            this.BtnBorrarNumRes1.Text = "Borrar Num1";
+            this.BtnBorrarNumRes1.Text = "Borrar";
             this.BtnBorrarNumRes1.UseVisualStyleBackColor = true;
             this.BtnBorrarNumRes1.Click += new System.EventHandler(this.BtnBorrarNumRes1_Click);
             // 
@@ -384,7 +384,7 @@ namespace Ejercicio_Operadores
             this.BtnBorrarNumMult2.Name = "BtnBorrarNumMult2";
             this.BtnBorrarNumMult2.Size = new System.Drawing.Size(100, 23);
             this.BtnBorrarNumMult2.TabIndex = 40;
-            this.BtnBorrarNumMult2.Text = "Borrar Num2";
+            this.BtnBorrarNumMult2.Text = "Borrar";
             this.BtnBorrarNumMult2.UseVisualStyleBackColor = true;
             this.BtnBorrarNumMult2.Click += new System.EventHandler(this.BtnBorrarNumMult2_Click);
             // 
@@ -394,7 +394,7 @@ namespace Ejercicio_Operadores
             this.BtnBorrarNumMult1.Name = "BtnBorrarNumMult1";
             this.BtnBorrarNumMult1.Size = new System.Drawing.Size(100, 23);
             this.BtnBorrarNumMult1.TabIndex = 39;
-            this.BtnBorrarNumMult1.Text = "Borrar Num1";
+            this.BtnBorrarNumMult1.Text = "Borrar";
             this.BtnBorrarNumMult1.UseVisualStyleBackColor = true;
             this.BtnBorrarNumMult1.Click += new System.EventHandler(this.BtnBorrarNumMult1_Click);
             // 
@@ -404,7 +404,7 @@ namespace Ejercicio_Operadores
             this.BtnBorrarNumDiv2.Name = "BtnBorrarNumDiv2";
             this.BtnBorrarNumDiv2.Size = new System.Drawing.Size(100, 23);
             this.BtnBorrarNumDiv2.TabIndex = 42;
-            this.BtnBorrarNumDiv2.Text = "Borrar Num2";
+            this.BtnBorrarNumDiv2.Text = "Borrar";
             this.BtnBorrarNumDiv2.UseVisualStyleBackColor = true;
             this.BtnBorrarNumDiv2.Click += new System.EventHandler(this.BtnBorrarNumDiv2_Click);
             // 
@@ -414,7 +414,7 @@ namespace Ejercicio_Operadores
             this.BtnBorrarNumDiv1.Name = "BtnBorrarNumDiv1";
             this.BtnBorrarNumDiv1.Size = new System.Drawing.Size(100, 23);
             this.BtnBorrarNumDiv1.TabIndex = 41;
-            this.BtnBorrarNumDiv1.Text = "Borrar Num1";
+            this.BtnBorrarNumDiv1.Text = "Borrar";
             this.BtnBorrarNumDiv1.UseVisualStyleBackColor = true;
             this.BtnBorrarNumDiv1.Click += new System.EventHandler(this.BtnBorrarNumDiv1_Click);
             // 
