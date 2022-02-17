@@ -24,12 +24,21 @@ namespace EjemploConversiones
 
         private void BtnRes_Click(object sender, EventArgs e)
         {
-            decimal numero1 = System.Convert.ToDecimal(TxtNum1.Text);
-            decimal numero2 = System.Convert.ToDecimal(TxtNum2.Text);
+            try
+            {
+                decimal numero1 = System.Convert.ToDecimal(TxtNum1.Text);
+                decimal numero2 = System.Convert.ToDecimal(TxtNum2.Text);
 
-            decimal resultado = numero1 + numero2;
+                decimal resultado = numero1 + numero2;
 
-            LblRes.Text = resultado.ToString();
+                LblRes.Text = resultado.ToString();
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Error fatal");
+            }
+            
         }
 
         
