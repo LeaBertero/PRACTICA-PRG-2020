@@ -30,9 +30,9 @@ namespace Try_catch_Prueba_de_errores_
             }
             catch (Exception)
             {
-                LblError.Text = "imposible sumar, debe agregar dos numeros";
-                //LblError.Text = Error.Message;
-                //MessageBox.Show("imposible sumar, debe agregar dos numeros");
+                
+                MessageBox.Show("imposible sumar, debe agregar dos numeros");
+                
             }
 
         }
@@ -49,9 +49,9 @@ namespace Try_catch_Prueba_de_errores_
             }
             catch (Exception)
             {
-                LblError.Text = "imposible restar, debe agregar dos numeros";
-                //LblError.Text = Error.Message;
-                //MessageBox.Show("imposible sumar, debe agregar dos numeros");
+                
+                MessageBox.Show("imposible restar, debe agregar dos numeros");
+                
             }
         }
 
@@ -71,16 +71,14 @@ namespace Try_catch_Prueba_de_errores_
             LblResResta.Text = null;
         }
 
-        private void BtnCleanError_Click(object sender, EventArgs e)
-        {
-            LblError.Text = null;
-        }
+        
             
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();
         }
 
+       
     }
         
 }

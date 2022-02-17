@@ -33,12 +33,10 @@ namespace Try_catch_Prueba_de_errores_
             this.TxtSum1 = new System.Windows.Forms.TextBox();
             this.TxtSum2 = new System.Windows.Forms.TextBox();
             this.BtnSuma = new System.Windows.Forms.Button();
-            this.LblError = new System.Windows.Forms.Label();
             this.LblresSuma = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Btnclean = new System.Windows.Forms.Button();
             this.BtnCleanRes = new System.Windows.Forms.Button();
-            this.BtnCleanError = new System.Windows.Forms.Button();
             this.BtnSalir = new System.Windows.Forms.Button();
             this.LblResResta = new System.Windows.Forms.Label();
             this.BtnResta = new System.Windows.Forms.Button();
@@ -86,15 +84,6 @@ namespace Try_catch_Prueba_de_errores_
             this.BtnSuma.UseVisualStyleBackColor = true;
             this.BtnSuma.Click += new System.EventHandler(this.BtnSuma_Click_1);
             // 
-            // LblError
-            // 
-            this.LblError.AutoSize = true;
-            this.LblError.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblError.Location = new System.Drawing.Point(171, 377);
-            this.LblError.Name = "LblError";
-            this.LblError.Size = new System.Drawing.Size(0, 22);
-            this.LblError.TabIndex = 4;
-            // 
             // LblresSuma
             // 
             this.LblresSuma.AutoSize = true;
@@ -117,7 +106,7 @@ namespace Try_catch_Prueba_de_errores_
             // Btnclean
             // 
             this.Btnclean.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btnclean.Location = new System.Drawing.Point(175, 429);
+            this.Btnclean.Location = new System.Drawing.Point(231, 430);
             this.Btnclean.Name = "Btnclean";
             this.Btnclean.Size = new System.Drawing.Size(107, 45);
             this.Btnclean.TabIndex = 7;
@@ -128,24 +117,13 @@ namespace Try_catch_Prueba_de_errores_
             // BtnCleanRes
             // 
             this.BtnCleanRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCleanRes.Location = new System.Drawing.Point(288, 429);
+            this.BtnCleanRes.Location = new System.Drawing.Point(344, 430);
             this.BtnCleanRes.Name = "BtnCleanRes";
             this.BtnCleanRes.Size = new System.Drawing.Size(107, 45);
             this.BtnCleanRes.TabIndex = 8;
             this.BtnCleanRes.Text = "Limpiar Resultado";
             this.BtnCleanRes.UseVisualStyleBackColor = true;
             this.BtnCleanRes.Click += new System.EventHandler(this.BtnCleanRes_Click);
-            // 
-            // BtnCleanError
-            // 
-            this.BtnCleanError.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCleanError.Location = new System.Drawing.Point(406, 429);
-            this.BtnCleanError.Name = "BtnCleanError";
-            this.BtnCleanError.Size = new System.Drawing.Size(107, 45);
-            this.BtnCleanError.TabIndex = 9;
-            this.BtnCleanError.Text = "Limpiar Mens de error";
-            this.BtnCleanError.UseVisualStyleBackColor = true;
-            this.BtnCleanError.Click += new System.EventHandler(this.BtnCleanError_Click);
             // 
             // BtnSalir
             // 
@@ -219,12 +197,10 @@ namespace Try_catch_Prueba_de_errores_
             this.Controls.Add(this.TxtRes1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.BtnSalir);
-            this.Controls.Add(this.BtnCleanError);
             this.Controls.Add(this.BtnCleanRes);
             this.Controls.Add(this.Btnclean);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LblresSuma);
-            this.Controls.Add(this.LblError);
             this.Controls.Add(this.BtnSuma);
             this.Controls.Add(this.TxtSum2);
             this.Controls.Add(this.TxtSum1);
@@ -246,12 +222,10 @@ namespace Try_catch_Prueba_de_errores_
         private System.Windows.Forms.TextBox TxtSum1;
         private System.Windows.Forms.TextBox TxtSum2;
         private System.Windows.Forms.Button BtnSuma;
-        private System.Windows.Forms.Label LblError;
         private System.Windows.Forms.Label LblresSuma;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Btnclean;
         private System.Windows.Forms.Button BtnCleanRes;
-        private System.Windows.Forms.Button BtnCleanError;
         private System.Windows.Forms.Button BtnSalir;
         private System.Windows.Forms.Label LblResResta;
         private System.Windows.Forms.Button BtnResta;

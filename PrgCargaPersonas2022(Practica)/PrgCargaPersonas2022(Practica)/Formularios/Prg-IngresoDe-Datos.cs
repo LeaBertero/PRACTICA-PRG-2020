@@ -30,11 +30,19 @@ namespace PrgCargaPersonas2022_Practica_
         public void BtnCargar_Click(object sender, EventArgs e)
         {
 
-            Persona persona = new Persona();
+            try
+            {
+                Persona persona = new Persona();
 
-            persona.NombreCompleto = TxtNombre.Text;
+                persona.NombreCompleto = TxtNombre.Text;
 
-            personas[0] = persona;
+                personas[0] = persona;
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Imposible cargar - debe completar con datos correctos");
+            }
 
 
 
@@ -85,10 +93,10 @@ namespace PrgCargaPersonas2022_Practica_
             {
                 LblMostrar.Text = LblMostrar.Text + Nombres + "Lista: \r\n";
 
-
-                //LblMostrar.Text = LblMostrar.Text + Nombres + "\r\n";
             }
         }
+
+                
 
         public void BtEdad_Click(object sender, EventArgs e)
         {
