@@ -100,6 +100,8 @@ namespace CargaDePersonas
                 LblError.Text = "Imposible Cargar -  debe completar con datos correctos";
             }
         }
+
+        
     }
                 
 

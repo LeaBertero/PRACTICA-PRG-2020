@@ -11,8 +11,8 @@ namespace Prg_Lista_clases_2020.Clases
         //Propiedades de la persona
         public string Nombre { get; set; }
 
-        public string Edad { get; set; }
-
-
     }
 }
+
+
+
