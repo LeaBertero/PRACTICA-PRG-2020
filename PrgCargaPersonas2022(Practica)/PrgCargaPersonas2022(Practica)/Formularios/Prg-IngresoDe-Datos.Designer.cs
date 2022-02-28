@@ -48,12 +48,12 @@ namespace PrgCargaPersonas2022_Practica_
             // BtnCargar
             // 
             this.BtnCargar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCargar.Location = new System.Drawing.Point(211, 209);
             this.BtnCargar.Name = "BtnCargar";
             this.BtnCargar.Size = new System.Drawing.Size(96, 32);
             this.BtnCargar.TabIndex = 0;
-            this.BtnCargar.Text = "Cargar";
+            this.BtnCargar.Text = "Ingresar";
             this.BtnCargar.UseVisualStyleBackColor = true;
             this.BtnCargar.Click += new System.EventHandler(this.BtnCargar_Click);
             // 
@@ -106,7 +106,7 @@ namespace PrgCargaPersonas2022_Practica_
             // 
             // BtDim
             // 
-            this.BtDim.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtDim.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtDim.Location = new System.Drawing.Point(15, 122);
             this.BtDim.Name = "BtDim";
             this.BtDim.Size = new System.Drawing.Size(121, 32);
@@ -150,10 +150,10 @@ namespace PrgCargaPersonas2022_Practica_
             // 
             // BtDatosKill
             // 
-            this.BtDatosKill.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtDatosKill.Location = new System.Drawing.Point(57, 22);
+            this.BtDatosKill.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtDatosKill.Location = new System.Drawing.Point(79, 17);
             this.BtDatosKill.Name = "BtDatosKill";
-            this.BtDatosKill.Size = new System.Drawing.Size(165, 34);
+            this.BtDatosKill.Size = new System.Drawing.Size(111, 44);
             this.BtDatosKill.TabIndex = 12;
             this.BtDatosKill.Text = "Borrar datos cargados";
             this.BtDatosKill.UseVisualStyleBackColor = true;
@@ -170,12 +170,12 @@ namespace PrgCargaPersonas2022_Practica_
             // BtEdad
             // 
             this.BtEdad.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtEdad.Location = new System.Drawing.Point(211, 280);
             this.BtEdad.Name = "BtEdad";
             this.BtEdad.Size = new System.Drawing.Size(96, 32);
             this.BtEdad.TabIndex = 14;
-            this.BtEdad.Text = "Cargar";
+            this.BtEdad.Text = "Ingresar";
             this.BtEdad.UseVisualStyleBackColor = true;
             this.BtEdad.Click += new System.EventHandler(this.BtEdad_Click);
             // 

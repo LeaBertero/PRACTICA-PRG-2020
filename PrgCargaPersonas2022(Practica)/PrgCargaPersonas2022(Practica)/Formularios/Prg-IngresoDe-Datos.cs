@@ -14,9 +14,9 @@ namespace PrgCargaPersonas2022_Practica_
     public partial class Prg_IngresoDe_Datos : Form
     {
 
-        public Persona[] personas { get; set; } = new Persona[2];
-        
-        
+        public Persona[] Individuos { get; set; } = new Persona[2];
+
+       
 
         string[] Nombres;
 
@@ -32,11 +32,12 @@ namespace PrgCargaPersonas2022_Practica_
 
             try
             {
+                //Clase persona   //Nace una persona
                 Persona persona = new Persona();
-
+                //Propiedad de la persona(Nombre completo)
                 persona.NombreCompleto = TxtNombre.Text;
-
-                personas[0] = persona;
+                //Ubicacion de la persona, carga numero 1
+                Individuos[0] = persona;
             }
             catch (Exception)
             {
@@ -61,13 +62,13 @@ namespace PrgCargaPersonas2022_Practica_
                 Nombres = new string[cantidad];
 
                 //LblError.Text = "Carga correcta";
-                MessageBox.Show("Carga correcta");
+                MessageBox.Show("Dimensión establecida");
             }
             catch (Exception)
             {
 
                 //LblError.Text = "Debe ingresar una cantidad expresada en numeros de personas a cargar";
-                MessageBox.Show("Debe ingresar una cantidad expresada en numeros");
+                MessageBox.Show("Debe establecer la cantidad en la dimensión");
             }
         }
            
@@ -87,11 +88,11 @@ namespace PrgCargaPersonas2022_Practica_
 
         private void BtMostrar_Click(object sender, EventArgs e)
         {
-            LblMostrar.Text = "Lista: = \r\n";
+            LblMostrar.Text = "Lista: \r\n";
 
-            foreach (Persona item in personas)
+            foreach (Persona item in Individuos)
             {
-                LblMostrar.Text = LblMostrar.Text + Nombres + "Lista: \r\n";
+                LblMostrar.Text = LblMostrar.Text + item.NombreCompleto + "\r\n";
 
             }
         }
@@ -105,6 +106,7 @@ namespace PrgCargaPersonas2022_Practica_
 
                 Persona persona = new Persona();
                 persona.Edad = Convert.ToInt32(TxtEdad.Text);
+                Individuos[0] = persona;
 
             }
             catch (Exception)
