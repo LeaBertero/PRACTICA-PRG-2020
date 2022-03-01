@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\ListaPersonas.cs" />
     <Compile Include="Clases\Persona.cs" />
     <Compile Include="Prg_lista_2020_práctica_con_Clases.cs">
       <SubType>Form</SubType>

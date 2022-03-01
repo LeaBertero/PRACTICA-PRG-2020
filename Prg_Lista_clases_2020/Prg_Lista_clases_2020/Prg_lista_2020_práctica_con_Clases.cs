@@ -14,75 +14,120 @@ namespace Prg_Lista_clases_2020
 {
     public partial class Prg_lista_2020_práctica_con_Clases : Form
     {
+        //Clase persona esta instsnciada
+        //public Persona[] personas { get; set; }
 
-        public Persona[] personas { get; set; }   
-        //public int Posicion = -1;
+        public ListaPersonas Lista { get; set; } = new ListaPersonas();
 
+        //lugar por donde arranca la ejecución del programa
 
         public Prg_lista_2020_práctica_con_Clases()
         {
             InitializeComponent();
         }
 
-        private void BtIngreso_Click(object sender, EventArgs e)
+
+        private void BtCargar_Click(object sender, EventArgs e)
         {
-            try
             {
-                Persona persona = new Persona();
+                //Persona persona = new Persona();
 
-                persona.Nombre = TxtNombre.Text;
+                //persona.Nombre = TxtNombre.Text;
 
-                if (personas == null)
-                {
+                //Lista.personas[Lista.personas.Length - 1] = persona;
 
-                }
+                //persona.AñoNacimiento = Convert.ToInt32(TxtAño.Text);
 
-                //Posicion = Posicion + 1;
+                //Lista.Redimensionar(); /* Este método se utiliza para agregar cierta cantidad 
+                //                  * de elementos establecidos por el usuario */
 
-                personas[personas.Length -1] = persona;
+                //TxtNombre.Focus();
 
-                TxtNombre.Focus();
+                //TxtNombre.SelectAll();
 
-                TxtNombre.SelectAll();
+                Lista.AddPersona(TxtNombre.Text, TxtAño.Text);
             }
-            catch (Exception)
-            {
-
-                MessageBox.Show("Carga completa");
-            }
+        }
             
+        private void BtMostrar_Click(object sender, EventArgs e)
+        {
+            //Lblista.Text = "Lista: \r\n";
+            //foreach (Persona elemento in Lista.personas)
+            //{
+            //    Lblista.Text = Lblista.Text + elemento.AñoNacimiento + " - " + elemento.Nombre + "\r\n";
+            //}
+
+            Lblista.Text = Lista.ToString();
+
         }
 
-       
+        //private void Redimensionar() /*Método Redimensionar*/
+        //{
+        //    if (personas == null)
+        //    {
 
+        //        personas = new Persona[1];
+
+        //    }
+        //    else
+        //    {
+
+        //        Persona[] ArregloAuxiliar = new Persona[personas.Length + 1];
+
+        //        for (int contador = 0; contador < personas.Length; contador++)
+        //        {
+        //            ArregloAuxiliar[contador] = personas[contador];
+        //        }
+
+        //        personas = ArregloAuxiliar;
+
+        //    }
+        //}
+
+        private void BtSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
 
         private void BtLimpiar_Click(object sender, EventArgs e)
         {
             Lblista.Text = null;
             TxtNombre.Text = null;
         }
-        private void BtSalir_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-        private void BtMostrar_Click(object sender, EventArgs e)
-        {
-            Lblista.Text = "Lista: \r\n";
-            foreach (Persona elemento in personas)
-            {
-                //lbLista.Text = lbLista.Text + elemento.Nombre + "\r\n";
-
-                // cualquiera de estos dos casos funciona igual
-                
-                /*Caso 1:*/ /*Lblista.Text += elemento.Nombre + "\r\n";*/
-
-                /*Caso 2:*/ Lblista.Text = Lblista.Text + elemento.Nombre + "\r\n";
-
-            }
-        }
-    }
+    } 
 }
+        
+        
+       
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+           
+
+
+
+       
+            
+
+       
+
+
+
 
 
        
