@@ -34,19 +34,29 @@ namespace Prg_Lista_clases_2020.Clases
         }
 
        
-        public void AddPersona(string Nombre, string Año)
+        public bool AddPersona(string Nombre, string Año)
         {
 
             Persona persona = new Persona();
 
             persona.Nombre = Nombre;
 
-            personas[personas.Length - 1] = persona;
 
             persona.AñoNacimiento = Convert.ToInt32(Año);
 
-            Redimensionar(); /* Este método se utiliza para agregar cierta cantidad 
+            bool resp = persona.Validar();
+
+            if (resp)
+            {
+
+                Redimensionar(); /* Este método se utiliza para agregar cierta cantidad 
                                   * de elementos establecidos por el usuario */
+               
+                personas[personas.Length - 1] = persona;
+
+            }
+            return resp;
+
 
         }
 

@@ -45,7 +45,15 @@ namespace Prg_Lista_clases_2020
 
                 //TxtNombre.SelectAll();
 
-                Lista.AddPersona(TxtNombre.Text, TxtAño.Text);
+                Lblista.Text = null;
+
+                if( !Lista.AddPersona(TxtNombre.Text, TxtAño.Text))
+                {
+
+                    Lblista.Text = "Persona no valida";
+                
+                }
+
             }
         }
             
@@ -93,6 +101,7 @@ namespace Prg_Lista_clases_2020
         {
             Lblista.Text = null;
             TxtNombre.Text = null;
+            TxtAño.Text = null;
         }
     } 
 }

@@ -47,7 +47,7 @@ namespace Prg_Lista_clases_2020
             this.BtCargar.Location = new System.Drawing.Point(381, 83);
             this.BtCargar.Name = "BtCargar";
             this.BtCargar.Size = new System.Drawing.Size(131, 32);
-            this.BtCargar.TabIndex = 0;
+            this.BtCargar.TabIndex = 3;
             this.BtCargar.Text = "Cargar";
             this.BtCargar.UseVisualStyleBackColor = true;
             this.BtCargar.Click += new System.EventHandler(this.BtCargar_Click);
@@ -139,7 +139,7 @@ namespace Prg_Lista_clases_2020
             this.TxtAño.Location = new System.Drawing.Point(229, 81);
             this.TxtAño.Name = "TxtAño";
             this.TxtAño.Size = new System.Drawing.Size(131, 32);
-            this.TxtAño.TabIndex = 8;
+            this.TxtAño.TabIndex = 2;
             // 
             // Prg_lista_2020_práctica_con_Clases
             // 
@@ -163,7 +163,7 @@ namespace Prg_Lista_clases_2020
             this.Name = "Prg_lista_2020_práctica_con_Clases";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Prg_lista_2020_práctica_con_Clases";
+            this.Text = "Práctica  - Programa Carga lista de personas";
             this.ResumeLayout(false);
             this.PerformLayout();
 
