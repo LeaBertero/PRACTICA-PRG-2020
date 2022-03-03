@@ -27,10 +27,12 @@ namespace Prg_Lista_clases_2020
         }
 
 
-        private void BtCargar_Click(object sender, EventArgs e)
+        public void BtCargar_Click(object sender, EventArgs e)
         {
             {
                 //Persona persona = new Persona();
+
+                //persona.ToString();
 
                 //persona.Nombre = TxtNombre.Text;
 
@@ -47,7 +49,9 @@ namespace Prg_Lista_clases_2020
 
                 //Lblista.Text = null;
 
-                if( !Lista.AddPersona(TxtNombre.Text, TxtAño.Text))
+                //Lista.AddPersona(TxtAño.Text, TxtAño.Text);
+
+                if ( !Lista.AddPersona(TxtNombre.Text, TxtAño.Text))
                 {
 
                     Lblista.Text = "Persona no valida";
@@ -77,7 +81,7 @@ namespace Prg_Lista_clases_2020
 
         //private void Redimensionar() /*Método Redimensionar*/
         //{
-        //    if (personas == null)
+        //    if personas == null)
         //    {
 
         //        personas = new Persona[1];
@@ -108,6 +112,11 @@ namespace Prg_Lista_clases_2020
             Lblista.Text = null;
             TxtNombre.Text = null;
             TxtAño.Text = null;
+        }
+
+        private void BtFiltrar_Click(object sender, EventArgs e)
+        {
+            Lblista.Text = Lista.ToStringFiltrado(2000);
         }
     } 
 }

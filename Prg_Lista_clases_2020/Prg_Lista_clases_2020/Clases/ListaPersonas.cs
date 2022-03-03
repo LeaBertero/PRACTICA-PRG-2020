@@ -8,9 +8,9 @@ namespace Prg_Lista_clases_2020.Clases
 {
     public class ListaPersonas
     {
-        public Persona[] personas { get; set; }
+        public Persona[] personas { get; set; }  /*Propiedad de la persona*/
 
-        public void Redimensionar() /*Método Redimensionar*/
+        private void Redimensionar() /*Método Redimensionar*/
         {
             if (personas == null)
             {
@@ -33,7 +33,6 @@ namespace Prg_Lista_clases_2020.Clases
             }
         }
 
-       
         public bool AddPersona(string Nombre, string Año)
         {
 
@@ -59,8 +58,8 @@ namespace Prg_Lista_clases_2020.Clases
 
 
         }
-
-        public override string ToString()
+        
+        public  string ToStringFiltrado(int añoMinimo)
         {
             string Resp = "";
 
@@ -68,13 +67,29 @@ namespace Prg_Lista_clases_2020.Clases
 
             foreach (Persona elemento in personas)
             {
-                Resp = Resp + elemento.AñoNacimiento + " - " + elemento.Nombre + "\r\n";
+
+                if (elemento.AñoNacimiento >= añoMinimo)
+                {
+                
+                    Resp = Resp + elemento.AñoNacimiento + " - " + elemento.Nombre + "\r\n";
+
+                }
             }
 
             return Resp;
+
+            //Lblista.Text = "Lista: \r\n";
+            //foreach (Persona elemento in Lista.personas)
+            //{
+            //    Lblista.Text = Lblista.Text + elemento.AñoNacimiento + " - " + elemento.Nombre + "\r\n";
+            //}
+
         }
 
     }
+
+
+
 }
 
 

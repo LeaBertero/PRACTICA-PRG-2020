@@ -39,6 +39,7 @@ namespace Prg_Lista_clases_2020
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.TxtAño = new System.Windows.Forms.TextBox();
+            this.BtFiltrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtCargar
@@ -94,7 +95,7 @@ namespace Prg_Lista_clases_2020
             // BtLimpiar
             // 
             this.BtLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtLimpiar.Location = new System.Drawing.Point(671, 566);
+            this.BtLimpiar.Location = new System.Drawing.Point(478, 559);
             this.BtLimpiar.Name = "BtLimpiar";
             this.BtLimpiar.Size = new System.Drawing.Size(131, 47);
             this.BtLimpiar.TabIndex = 5;
@@ -141,13 +142,25 @@ namespace Prg_Lista_clases_2020
             this.TxtAño.Size = new System.Drawing.Size(131, 32);
             this.TxtAño.TabIndex = 2;
             // 
+            // BtFiltrar
+            // 
+            this.BtFiltrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtFiltrar.Location = new System.Drawing.Point(696, 83);
+            this.BtFiltrar.Name = "BtFiltrar";
+            this.BtFiltrar.Size = new System.Drawing.Size(158, 32);
+            this.BtFiltrar.TabIndex = 10;
+            this.BtFiltrar.Text = "Mostrar con filtro";
+            this.BtFiltrar.UseVisualStyleBackColor = true;
+            this.BtFiltrar.Click += new System.EventHandler(this.BtFiltrar_Click);
+            // 
             // Prg_lista_2020_práctica_con_Clases
             // 
             this.AcceptButton = this.BtCargar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Turquoise;
-            this.ClientSize = new System.Drawing.Size(814, 625);
+            this.ClientSize = new System.Drawing.Size(1023, 625);
+            this.Controls.Add(this.BtFiltrar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.TxtAño);
             this.Controls.Add(this.label2);
@@ -181,5 +194,6 @@ namespace Prg_Lista_clases_2020
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox TxtAño;
+        private System.Windows.Forms.Button BtFiltrar;
     }
 }

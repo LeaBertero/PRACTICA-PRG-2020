@@ -18,19 +18,19 @@ namespace Prg_Lista_clases_2020.Clases
         {
             bool resp = false;
 
-            if (AñoNacimiento > 1900 && AñoNacimiento < DateTime.Now.Year )
+            if (AñoNacimiento > 1900 && AñoNacimiento <= DateTime.Now.Year )
             {
 
                 resp = true;
 
             }
-
             return resp;
         }
-
-
     }
 }
+
+
+
 
 
 
