@@ -59,7 +59,7 @@ namespace Prg_Lista_clases_2020.Clases
 
         }
         
-        public  string ToStringFiltrado(int añoMinimo)
+        public string ToStringFiltrado(int añoMinimo)
         {
             string Resp = "";
 
@@ -71,7 +71,7 @@ namespace Prg_Lista_clases_2020.Clases
                 if (elemento.AñoNacimiento >= añoMinimo)
                 {
                 
-                    Resp = Resp + elemento.AñoNacimiento + " - " + elemento.Nombre + "\r\n";
+                    Resp = Resp + elemento.AñoNacimiento.ToString() + " - " + elemento.Nombre + "\r\n";
 
                 }
             }

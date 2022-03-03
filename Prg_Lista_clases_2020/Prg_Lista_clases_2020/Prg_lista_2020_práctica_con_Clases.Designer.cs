@@ -84,7 +84,7 @@ namespace Prg_Lista_clases_2020
             // BtMostrar
             // 
             this.BtMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtMostrar.Location = new System.Drawing.Point(539, 83);
+            this.BtMostrar.Location = new System.Drawing.Point(518, 83);
             this.BtMostrar.Name = "BtMostrar";
             this.BtMostrar.Size = new System.Drawing.Size(131, 32);
             this.BtMostrar.TabIndex = 4;
@@ -145,11 +145,11 @@ namespace Prg_Lista_clases_2020
             // BtFiltrar
             // 
             this.BtFiltrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtFiltrar.Location = new System.Drawing.Point(696, 83);
+            this.BtFiltrar.Location = new System.Drawing.Point(655, 83);
             this.BtFiltrar.Name = "BtFiltrar";
-            this.BtFiltrar.Size = new System.Drawing.Size(158, 32);
+            this.BtFiltrar.Size = new System.Drawing.Size(67, 32);
             this.BtFiltrar.TabIndex = 10;
-            this.BtFiltrar.Text = "Mostrar con filtro";
+            this.BtFiltrar.Text = "Filtrar";
             this.BtFiltrar.UseVisualStyleBackColor = true;
             this.BtFiltrar.Click += new System.EventHandler(this.BtFiltrar_Click);
             // 
