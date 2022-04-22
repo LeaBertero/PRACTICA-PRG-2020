@@ -21,8 +21,8 @@ namespace Try_catch_Prueba_de_errores_
         private void BtnSuma_Click_1(object sender, EventArgs e)
         {
 
-            TxtSum1.Text = null;
-            TxtSum2.Text = null;
+            //TxtSum1.Text = null;
+            //TxtSum2.Text = null;
 
             try
             {
@@ -47,8 +47,8 @@ namespace Try_catch_Prueba_de_errores_
         private void BtnResta_Click(object sender, EventArgs e)
         {
 
-            TxtRes1.Text = null;
-            TxtRes2.Text = null;
+            //TxtRes1.Text = null;
+            //TxtRes2.Text = null;
 
             try
             {
@@ -88,7 +88,15 @@ namespace Try_catch_Prueba_de_errores_
             Close();
         }
 
-       
+        private void BtBorrar_Click(object sender, EventArgs e)
+        {
+            TxtSum1.Text = null;
+            TxtSum2.Text = null;
+
+            TxtRes1.Text = null;
+            TxtRes2.Text = null;
+
+        }
     }
         
 }
