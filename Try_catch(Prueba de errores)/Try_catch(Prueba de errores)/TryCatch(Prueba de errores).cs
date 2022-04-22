@@ -21,11 +21,15 @@ namespace Try_catch_Prueba_de_errores_
         private void BtnSuma_Click_1(object sender, EventArgs e)
         {
 
+            TxtSum1.Text = null;
+            TxtSum2.Text = null;
+
             try
             {
 
                 LblresSuma.Text = (Convert.ToInt32(TxtSum1.Text)
                      + Convert.ToInt32(TxtSum2.Text)).ToString();
+                
 
             }
             catch (Exception)
@@ -38,8 +42,14 @@ namespace Try_catch_Prueba_de_errores_
         }
 
 
+        
+
         private void BtnResta_Click(object sender, EventArgs e)
         {
+
+            TxtRes1.Text = null;
+            TxtRes2.Text = null;
+
             try
             {
 
