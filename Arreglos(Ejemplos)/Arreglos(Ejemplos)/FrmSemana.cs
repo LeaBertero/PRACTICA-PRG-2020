@@ -25,15 +25,10 @@ namespace Arreglos_Ejemplos_
         private void BtnLunes_Click_1(object sender, EventArgs e)
         {
             Dias[0] = "Lunes";
-            //Dias[1] = "Martes";
-            //Dias[2] = "Miércoles";
-            //Dias[3] = "Jueves";
-            //Dias[4] = "Viernes";
-            //Dias[5] = "Sábado";
-            //Dias[6] = "Domingo";
-
             LbLunes.Text = Dias[0];
         }
+            
+
 
         private void BtSalir_Click(object sender, EventArgs e)
         {
@@ -42,83 +37,56 @@ namespace Arreglos_Ejemplos_
 
         private void BtnMartes_Click(object sender, EventArgs e)
         {
-            //Dias[0] = "Lunes";
             Dias[1] = "Martes";
-            //Dias[2] = "Miércoles";
-            //Dias[3] = "Jueves";
-            //Dias[4] = "Viernes";
-            //Dias[5] = "Sábado";
-            //Dias[6] = "Domingo";
-
             LbMartes.Text = Dias[1];
-
         }
+            
+            
+
+
 
         private void BtnMiercoles_Click(object sender, EventArgs e)
         {
-            //Dias[0] = "Lunes";
-            //Dias[1] = "Martes";
             Dias[2] = "Miércoles";
-            //Dias[3] = "Jueves";
-            //Dias[4] = "Viernes";
-            //Dias[5] = "Sábado";
-            //Dias[6] = "Domingo";
-
             LbMiercoles.Text = Dias[2];
-
         }
+           
+            
+
+
 
         private void BtnJueves_Click(object sender, EventArgs e)
         {
-            //Dias[0] = "Lunes";
-            //Dias[1] = "Martes";
-            //Dias[2] = "Miércoles";
             Dias[3] = "Jueves";
-            //Dias[4] = "Viernes";
-            //Dias[5] = "Sábado";
-            //Dias[6] = "Domingo";
-
             LbJueves.Text = Dias[3];
         }
+            
+
 
         private void BtnViernes_Click(object sender, EventArgs e)
         {
-            //Dias[0] = "Lunes";
-            //Dias[1] = "Martes";
-            //Dias[2] = "Miércoles";
-            //Dias[3] = "Jueves";
             Dias[4] = "Viernes";
-            //Dias[5] = "Sábado";
-            //Dias[6] = "Domingo";
-
             LbViernes.Text = Dias[4];
         }
+            
+            
+
 
         private void BtnSabado_Click(object sender, EventArgs e)
         {
-            //Dias[0] = "Lunes";
-            //Dias[1] = "Martes";
-            //Dias[2] = "Miércoles";
-            //Dias[3] = "Jueves";
-            //Dias[4] = "Viernes";
             Dias[5] = "Sábado";
-            //Dias[6] = "Domingo";
-
             LbSabado.Text = Dias[5];
         }
+            
+            
+
 
         private void BtnDomingo_Click(object sender, EventArgs e)
         {
-            //Dias[0] = "Lunes";
-            //Dias[1] = "Martes";
-            //Dias[2] = "Miércoles";
-            //Dias[3] = "Jueves";
-            //Dias[4] = "Viernes";
-            //Dias[5] = "Sábado";
             Dias[6] = "Domingo";
-
             LbDomingo.Text = Dias[6];
         }
+
 
         private void BtLimpiarSemana_Click(object sender, EventArgs e)
         {
