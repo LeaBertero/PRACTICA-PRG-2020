@@ -96,7 +96,7 @@ namespace Ejemplowhile
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Khaki;
             this.CancelButton = this.BtnSalir;
-            this.ClientSize = new System.Drawing.Size(477, 313);
+            this.ClientSize = new System.Drawing.Size(511, 313);
             this.Controls.Add(this.BtnCerrar);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.label1);
