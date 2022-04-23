@@ -54,7 +54,7 @@ namespace Ejemplo_Swuitch_____Segun_
                 TxtRes.Text = Convert.ToString(ResultadoSuma);
 
             }
-            else if ((TxtSigno.Text) == "-")
+                else if ((TxtSigno.Text) == "-")
             {
 
                 numResta1 = Convert.ToInt32(TxtOper1.Text);
@@ -66,7 +66,7 @@ namespace Ejemplo_Swuitch_____Segun_
                 TxtRes.Text = Convert.ToString(ResultadoResta);
 
             }
-            else if ((TxtSigno.Text) == "*")
+                else if ((TxtSigno.Text) == "*")
             {
 
                 numMult1 = Convert.ToInt32(TxtOper1.Text);
@@ -78,18 +78,22 @@ namespace Ejemplo_Swuitch_____Segun_
                 TxtRes.Text = Convert.ToString(ResultadMult);
 
             }
-            else if ((TxtSigno.Text) == "/")
+                else if ((TxtSigno.Text) == "/")
             {
 
-                numDiv1 = Convert.ToInt32(TxtOper1.Text);
+             
+                    numDiv1 = Convert.ToInt32(TxtOper1.Text);
 
-                numDiv2 = Convert.ToInt32(TxtOper2.Text);
+                
+                    numDiv2 = Convert.ToInt32(TxtOper2.Text);
 
-                ResultadoDiv = numDiv1 / numDiv2;
+                
+                    ResultadoDiv = numDiv1 / numDiv2;
 
-                TxtRes.Text = Convert.ToString(ResultadoDiv);
+                
+                    TxtRes.Text = Convert.ToString(ResultadoDiv);
 
-            }
+                }
             }
             catch (Exception)
             {
