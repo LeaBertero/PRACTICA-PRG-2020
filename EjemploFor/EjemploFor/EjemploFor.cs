@@ -26,13 +26,13 @@ namespace EjemploFor
         {
 
 
-            for (int i = System.Convert.ToInt32(TxtIngreso1.Text); //primer textbox
-                i <= System.Convert.ToInt32(TxtIngreso2.Text); //Segundo textbox
-                i = i + System.Convert.ToInt32(TxtIngreso3.Text)) //tercer textbox
+            for (int incremento = Convert.ToInt32(TxtIngreso1.Text); //primer textbox
+                incremento <= Convert.ToInt32(TxtIngreso2.Text); //Segundo textbox
+                incremento = incremento + Convert.ToInt32(TxtIngreso3.Text)) //tercer textbox
             
             {
 
-                LblRes.Text = i.ToString();
+                LblRes.Text = incremento.ToString();
                 this.Refresh();
 
             }
