@@ -19,50 +19,30 @@ namespace Arreglos_Ejemplos_
         {
             InitializeComponent();
         }
-
-        
-
         private void BtnLunes_Click_1(object sender, EventArgs e)
         {
             Dias[0] = "Lunes";
             LbLunes.Text = Dias[0];
         }
-            
-
-
         private void BtSalir_Click(object sender, EventArgs e)
         {
             Close();
         }
-
         private void BtnMartes_Click(object sender, EventArgs e)
         {
             Dias[1] = "Martes";
             LbMartes.Text = Dias[1];
         }
-            
-            
-
-
-
         private void BtnMiercoles_Click(object sender, EventArgs e)
         {
             Dias[2] = "Miércoles";
             LbMiercoles.Text = Dias[2];
         }
-           
-            
-
-
-
         private void BtnJueves_Click(object sender, EventArgs e)
         {
             Dias[3] = "Jueves";
             LbJueves.Text = Dias[3];
         }
-            
-
-
         private void BtnViernes_Click(object sender, EventArgs e)
         {
             Dias[4] = "Viernes";
@@ -77,10 +57,6 @@ namespace Arreglos_Ejemplos_
             Dias[5] = "Sábado";
             LbSabado.Text = Dias[5];
         }
-            
-            
-
-
         private void BtnDomingo_Click(object sender, EventArgs e)
         {
             Dias[6] = "Domingo";
@@ -97,9 +73,7 @@ namespace Arreglos_Ejemplos_
             LbViernes.Text = null;
             LbSabado.Text = null;
             LbDomingo.Text = null;
-            
         }
-
         private void BtSupLun_Click(object sender, EventArgs e)
         {
             LbLunes.Text = null;
@@ -136,6 +110,32 @@ namespace Arreglos_Ejemplos_
         }
     }
 }
+            
+
+        
+
+            
+
+
+
+            
+            
+
+
+
+           
+            
+
+
+
+            
+
+
+            
+            
+
+
+
 
 
             
