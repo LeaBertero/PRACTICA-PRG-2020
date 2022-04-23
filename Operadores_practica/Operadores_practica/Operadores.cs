@@ -16,7 +16,7 @@ namespace Operadores_practica
         //int variable = 0;
         //bool resultado;
 
-        int numero = 0;
+        int sumador = 0;
         
         public Operadores()
         {
@@ -35,8 +35,8 @@ namespace Operadores_practica
             //numero++;
             //LblContador.Text = Convert.ToString(numero);
             
-            ++numero;
-            LblContador.Text = Convert.ToString(numero);
+            ++sumador;
+            LblContador.Text = Convert.ToString(sumador);
 
             //LblContador.Visible = true;
 
@@ -52,7 +52,7 @@ namespace Operadores_practica
         {
             bool resultado;
 
-            resultado = numero == 0;
+            resultado = sumador == 0;
 
             LblResultado.Text = resultado.ToString();
         }
