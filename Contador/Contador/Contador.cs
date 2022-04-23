@@ -12,8 +12,8 @@ namespace Contador
 {
     public partial class Contador : Form
     {
-        int incremento;
-
+        int Dia;
+        
         public Contador()
         {
             InitializeComponent();
@@ -21,8 +21,8 @@ namespace Contador
 
         private void BtnContar_Click(object sender, EventArgs e)
         {
-            ++incremento;
-            Lblcontador.Text = System.Convert.ToString(incremento);
+            ++Dia;
+            Lblcontador.Text = System.Convert.ToString(Dia);
         }
     }
 }
