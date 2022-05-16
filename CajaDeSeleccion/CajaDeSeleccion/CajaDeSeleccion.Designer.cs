@@ -1,6 +1,6 @@
 ﻿namespace CajaDeSeleccion
 {
-    partial class Form1
+    partial class CajaDeSeleccion
     {
         /// <summary>
         ///  Required designer variable.

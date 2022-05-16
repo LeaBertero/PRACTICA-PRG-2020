@@ -1,8 +1,8 @@
 namespace CajaDeSeleccion
 {
-    public partial class Form1 : Form
+    public partial class CajaDeSeleccion : Form
     {
-        public Form1()
+        public CajaDeSeleccion()
         {
             InitializeComponent();
         }
