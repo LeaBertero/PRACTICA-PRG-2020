@@ -14,6 +14,13 @@ namespace Ej_Mult_2022
             Close();
         }
 
+        private void BtLimpiar_Click(object sender, EventArgs e)
+        {
+            TxOp1.Text = null;
+            TxOp2.Text = null;
+            TxRes.Text = null;
+        }
+
         private void BtMult_Click(object sender, EventArgs e)
         {
             control1 = Convert.ToDouble(TxOp1.Text);

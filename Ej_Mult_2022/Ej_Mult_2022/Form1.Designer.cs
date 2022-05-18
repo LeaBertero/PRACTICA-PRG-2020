@@ -36,6 +36,7 @@
             this.BtMult = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.BtCerrar = new System.Windows.Forms.Button();
+            this.BtLimpiar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TxOp1
@@ -99,7 +100,7 @@
             // 
             // BtCerrar
             // 
-            this.BtCerrar.Location = new System.Drawing.Point(190, 295);
+            this.BtCerrar.Location = new System.Drawing.Point(190, 326);
             this.BtCerrar.Name = "BtCerrar";
             this.BtCerrar.Size = new System.Drawing.Size(211, 23);
             this.BtCerrar.TabIndex = 7;
@@ -107,11 +108,22 @@
             this.BtCerrar.UseVisualStyleBackColor = true;
             this.BtCerrar.Click += new System.EventHandler(this.BtCerrar_Click);
             // 
+            // BtLimpiar
+            // 
+            this.BtLimpiar.Location = new System.Drawing.Point(190, 279);
+            this.BtLimpiar.Name = "BtLimpiar";
+            this.BtLimpiar.Size = new System.Drawing.Size(211, 23);
+            this.BtLimpiar.TabIndex = 8;
+            this.BtLimpiar.Text = "Limpiar controles";
+            this.BtLimpiar.UseVisualStyleBackColor = true;
+            this.BtLimpiar.Click += new System.EventHandler(this.BtLimpiar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(594, 344);
+            this.ClientSize = new System.Drawing.Size(594, 401);
+            this.Controls.Add(this.BtLimpiar);
             this.Controls.Add(this.BtCerrar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.BtMult);
@@ -137,5 +149,6 @@
         private Button BtMult;
         private Label label3;
         private Button BtCerrar;
+        private Button BtLimpiar;
     }
 }
