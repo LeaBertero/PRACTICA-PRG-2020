@@ -88,6 +88,7 @@ namespace ReproductorMp3___Video
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label1.Location = new System.Drawing.Point(74, 34);
             this.label1.Name = "label1";
