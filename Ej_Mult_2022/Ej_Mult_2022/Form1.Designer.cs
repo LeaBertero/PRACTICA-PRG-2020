@@ -35,6 +35,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.BtMult = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.BtCerrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TxOp1
@@ -84,6 +85,7 @@
             this.BtMult.TabIndex = 5;
             this.BtMult.Text = "Multiplicar";
             this.BtMult.UseVisualStyleBackColor = true;
+            this.BtMult.Click += new System.EventHandler(this.BtMult_Click);
             // 
             // label3
             // 
@@ -95,11 +97,22 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Ejercicio - Multiplicación";
             // 
+            // BtCerrar
+            // 
+            this.BtCerrar.Location = new System.Drawing.Point(190, 295);
+            this.BtCerrar.Name = "BtCerrar";
+            this.BtCerrar.Size = new System.Drawing.Size(211, 23);
+            this.BtCerrar.TabIndex = 7;
+            this.BtCerrar.Text = "Cerrar programa";
+            this.BtCerrar.UseVisualStyleBackColor = true;
+            this.BtCerrar.Click += new System.EventHandler(this.BtCerrar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(594, 344);
+            this.Controls.Add(this.BtCerrar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.BtMult);
             this.Controls.Add(this.label2);
@@ -123,5 +136,6 @@
         private Label label2;
         private Button BtMult;
         private Label label3;
+        private Button BtCerrar;
     }
 }
