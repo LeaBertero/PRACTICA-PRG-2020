@@ -34,10 +34,10 @@ namespace ReproductorMp3___Video
             this.BtnRep = new System.Windows.Forms.Button();
             this.BtnStop = new System.Windows.Forms.Button();
             this.BtnPause = new System.Windows.Forms.Button();
-            this.WinMedaP = new AxWMPLib.AxWindowsMediaPlayer();
             this.label1 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.BtnSalir = new System.Windows.Forms.Button();
+            this.WinMedaP = new AxWMPLib.AxWindowsMediaPlayer();
             ((System.ComponentModel.ISupportInitialize)(this.WinMedaP)).BeginInit();
             this.SuspendLayout();
             // 
@@ -85,15 +85,6 @@ namespace ReproductorMp3___Video
             this.BtnPause.UseVisualStyleBackColor = true;
             this.BtnPause.Click += new System.EventHandler(this.BtnPause_Click);
             // 
-            // WinMedaP
-            // 
-            this.WinMedaP.Enabled = true;
-            this.WinMedaP.Location = new System.Drawing.Point(12, 86);
-            this.WinMedaP.Name = "WinMedaP";
-            this.WinMedaP.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("WinMedaP.OcxState")));
-            this.WinMedaP.Size = new System.Drawing.Size(500, 243);
-            this.WinMedaP.TabIndex = 5;
-            // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -122,6 +113,15 @@ namespace ReproductorMp3___Video
             this.BtnSalir.UseVisualStyleBackColor = true;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
+            // WinMedaP
+            // 
+            this.WinMedaP.Enabled = true;
+            this.WinMedaP.Location = new System.Drawing.Point(12, 86);
+            this.WinMedaP.Name = "WinMedaP";
+            this.WinMedaP.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("WinMedaP.OcxState")));
+            this.WinMedaP.Size = new System.Drawing.Size(500, 243);
+            this.WinMedaP.TabIndex = 5;
+            // 
             // Reproductor
             // 
             this.AcceptButton = this.BtnCargar;
@@ -140,6 +140,7 @@ namespace ReproductorMp3___Video
             this.Name = "Reproductor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reproductor";
+            this.TransparencyKey = System.Drawing.Color.Orange;
             ((System.ComponentModel.ISupportInitialize)(this.WinMedaP)).EndInit();
             this.ResumeLayout(false);
 
