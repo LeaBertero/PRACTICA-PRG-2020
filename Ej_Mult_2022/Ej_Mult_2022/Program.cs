@@ -1,4 +1,4 @@
-namespace CajaSeleccion
+namespace Ej_Mult_2022
 {
     internal static class Program
     {
