@@ -27,8 +27,8 @@ namespace Try_catch_Prueba_de_errores_
             try
             {
 
-                LblresSuma.Text = (Convert.ToInt32(TxtSum1.Text)
-                     + Convert.ToInt32(TxtSum2.Text)).ToString();
+                LblresSuma.Text = Convert.ToInt32(TxtSum1.Text)
+                     + Convert.ToInt32(TxtSum2.Text).ToString();
                 
 
             }
@@ -53,8 +53,8 @@ namespace Try_catch_Prueba_de_errores_
             try
             {
 
-                LblResResta.Text = (Convert.ToInt32(TxtRes1.Text)
-                     - Convert.ToInt32(TxtRes2.Text)).ToString();
+                LblResResta.Text = Convert.ToInt32(TxtRes1.Text) +
+                      Convert.ToInt32(TxtRes2.Text).ToString();
 
             }
             catch (Exception)
