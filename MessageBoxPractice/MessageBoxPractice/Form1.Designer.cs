@@ -52,7 +52,7 @@
             // 
             this.BtVisualizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtVisualizar.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtVisualizar.Location = new System.Drawing.Point(481, 282);
+            this.BtVisualizar.Location = new System.Drawing.Point(310, 294);
             this.BtVisualizar.Name = "BtVisualizar";
             this.BtVisualizar.Size = new System.Drawing.Size(114, 44);
             this.BtVisualizar.TabIndex = 0;
@@ -149,7 +149,7 @@
             this.groupBox1.Controls.Add(this.radioButton10);
             this.groupBox1.Controls.Add(this.radioButton8);
             this.groupBox1.Controls.Add(this.radioButton9);
-            this.groupBox1.Location = new System.Drawing.Point(481, 75);
+            this.groupBox1.Location = new System.Drawing.Point(310, 87);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 185);
             this.groupBox1.TabIndex = 2;
@@ -236,7 +236,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(716, 437);
+            this.ClientSize = new System.Drawing.Size(549, 442);
             this.Controls.Add(this.BtSalir);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -244,6 +244,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.BtVisualizar);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MessageBoxPractice";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
