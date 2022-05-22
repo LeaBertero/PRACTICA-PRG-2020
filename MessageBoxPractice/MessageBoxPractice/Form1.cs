@@ -15,9 +15,6 @@ namespace MessageBoxPractice
         {
             DialogResult result = MessageBox.Show("Mensaje a desplegar", "Título de la Ventana", tipoDeBoton, tipoDeIcono);
 
-
-
-
             switch (result)
             {
                 case DialogResult.OK: label2.Text = "Seleccionó OK."; break;
@@ -29,7 +26,6 @@ namespace MessageBoxPractice
                 case DialogResult.Retry: label2.Text = "Seleccionó Retry."; break;
             }
         }
-
         private void tipoDeBoton_CheckedChange_Ok(object sender, EventArgs e)
         {
             if (sender == radioButton1)
@@ -60,7 +56,6 @@ namespace MessageBoxPractice
             else
                 tipoDeBoton = MessageBoxButtons.AbortRetryIgnore;
         }
-
         private void tipoDeBoton_CheckedChange_Ok_Cancel_Yes_No(object sender, EventArgs e)
         {
             if (sender == radioButton1)
@@ -76,7 +71,6 @@ namespace MessageBoxPractice
             else
                 tipoDeBoton = MessageBoxButtons.AbortRetryIgnore;
         }
-
         private void tipoDeBoton_CheckedChange_Ok_Cancel_Yes_No_Cancel(object sender, EventArgs e)
         {
             if (sender == radioButton1)
@@ -96,21 +90,11 @@ namespace MessageBoxPractice
 
 
 
-        private void tipoDeIcono_CheckedChanged_Information(object sender, EventArgs e)
-        {
-            if (sender == radioButton7) // display error icon
-                tipoDeIcono = MessageBoxIcon.Information;
-            else if (sender == radioButton8)
-                tipoDeIcono = MessageBoxIcon.Exclamation;
-            else if (sender == radioButton9)
-                tipoDeIcono = MessageBoxIcon.Question;
-            else // only one option left--display question mark
-                tipoDeIcono = MessageBoxIcon.Error;
-        }
-        private void tipoDeBoton_CheckedChange_tipoDeBoton_CheckedChange_Ok_Cancel_Yes_No_Cancel(object sender, EventArgs e)
-        {
 
-        }
+
+
+
+
 
         private void tipoDeBoton_CheckedChange_Yes_No(object sender, EventArgs e)
         {
@@ -127,5 +111,95 @@ namespace MessageBoxPractice
             else
                 tipoDeBoton = MessageBoxButtons.AbortRetryIgnore;
         }
+
+        private void BtSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void tipoDeBoton_CheckedChange_tipoDeBoton_CheckedChange_Retry_Cancel(object sender, EventArgs e)
+        {
+            if (sender == radioButton1)
+                tipoDeBoton = MessageBoxButtons.OK;
+            else if (sender == radioButton2)
+                tipoDeBoton = MessageBoxButtons.OKCancel;
+            else if (sender == radioButton3)
+                tipoDeBoton = MessageBoxButtons.YesNo;
+            else if (sender == radioButton4)
+                tipoDeBoton = MessageBoxButtons.YesNoCancel;
+            else if (sender == radioButton5)
+                tipoDeBoton = MessageBoxButtons.RetryCancel;
+            else
+                tipoDeBoton = MessageBoxButtons.AbortRetryIgnore;
+        }
+
+        private void tipoDeBoton_CheckedChange_tipoDeBoton_CheckedChange_Abort_Retry_Cancel(object sender, EventArgs e)
+        {
+            if (sender == radioButton1)
+                tipoDeBoton = MessageBoxButtons.OK;
+            else if (sender == radioButton2)
+                tipoDeBoton = MessageBoxButtons.OKCancel;
+            else if (sender == radioButton3)
+                tipoDeBoton = MessageBoxButtons.YesNo;
+            else if (sender == radioButton4)
+                tipoDeBoton = MessageBoxButtons.YesNoCancel;
+            else if (sender == radioButton5)
+                tipoDeBoton = MessageBoxButtons.RetryCancel;
+            else
+                tipoDeBoton = MessageBoxButtons.AbortRetryIgnore;
+        }
+        
+        private void tipoDeIcono_CheckedChanged_Information(object sender, EventArgs e)
+        {
+            if (sender == radioButton7) // display error icon
+                tipoDeIcono = MessageBoxIcon.Information;
+            else if (sender == radioButton8)
+                tipoDeIcono = MessageBoxIcon.Exclamation;
+            else if (sender == radioButton9)
+                tipoDeIcono = MessageBoxIcon.Question;
+            else // only one option left--display question mark
+                tipoDeIcono = MessageBoxIcon.Error;
+
+        }
+        private void tipoDeIcono_CheckedChanged_Exclamation(object sender, EventArgs e)
+        {
+            if (sender == radioButton7) // display error icon
+                tipoDeIcono = MessageBoxIcon.Information;
+            else if (sender == radioButton8)
+                tipoDeIcono = MessageBoxIcon.Exclamation;
+            else if (sender == radioButton9)
+                tipoDeIcono = MessageBoxIcon.Question;
+            else // only one option left--display question mark
+                tipoDeIcono = MessageBoxIcon.Error;
+        }
+
+        private void tipoDeIcono_CheckedChanged_Question(object sender, EventArgs e)
+        {
+            if (sender == radioButton7) // display error icon
+                tipoDeIcono = MessageBoxIcon.Information;
+            else if (sender == radioButton8)
+                tipoDeIcono = MessageBoxIcon.Exclamation;
+            else if (sender == radioButton9)
+                tipoDeIcono = MessageBoxIcon.Question;
+            else // only one option left--display question mark
+                tipoDeIcono = MessageBoxIcon.Error;
+        }
+        private void tipoDeIcono_CheckedChanged_Error(object sender, EventArgs e)
+        {
+            if (sender == radioButton7) // display error icon
+                tipoDeIcono = MessageBoxIcon.Information;
+            else if (sender == radioButton8)
+                tipoDeIcono = MessageBoxIcon.Exclamation;
+            else if (sender == radioButton9)
+                tipoDeIcono = MessageBoxIcon.Question;
+            else // only one option left--display question mark
+                tipoDeIcono = MessageBoxIcon.Error;
+        }
     }
 }
+
+
+
+           
+
+

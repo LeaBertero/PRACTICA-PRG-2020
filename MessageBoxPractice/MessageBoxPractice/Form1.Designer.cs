@@ -43,12 +43,14 @@
             this.radioButton9 = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.BtSalir = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // BtVisualizar
             // 
+            this.BtVisualizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtVisualizar.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.BtVisualizar.Location = new System.Drawing.Point(481, 282);
             this.BtVisualizar.Name = "BtVisualizar";
@@ -82,6 +84,7 @@
             this.radioButton6.TabIndex = 8;
             this.radioButton6.Text = "Abort Retry Cancel";
             this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButton6.CheckedChanged += new System.EventHandler(this.tipoDeBoton_CheckedChange_tipoDeBoton_CheckedChange_Abort_Retry_Cancel);
             // 
             // radioButton5
             // 
@@ -92,7 +95,7 @@
             this.radioButton5.TabIndex = 7;
             this.radioButton5.Text = "Retry Cancel";
             this.radioButton5.UseVisualStyleBackColor = true;
-            this.radioButton5.CheckedChanged += new System.EventHandler(this.tipoDeBoton_CheckedChange_tipoDeBoton_CheckedChange_Ok_Cancel_Yes_No_Cancel);
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.tipoDeBoton_CheckedChange_tipoDeBoton_CheckedChange_Retry_Cancel);
             // 
             // radioButton4
             // 
@@ -156,45 +159,48 @@
             // radioButton7
             // 
             this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(41, 147);
+            this.radioButton7.Location = new System.Drawing.Point(41, 35);
             this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(50, 19);
+            this.radioButton7.Size = new System.Drawing.Size(88, 19);
             this.radioButton7.TabIndex = 12;
-            this.radioButton7.Text = "Error";
+            this.radioButton7.Text = "Information";
             this.radioButton7.UseVisualStyleBackColor = true;
+            this.radioButton7.CheckedChanged += new System.EventHandler(this.tipoDeIcono_CheckedChanged_Error);
             // 
             // radioButton10
             // 
             this.radioButton10.AutoSize = true;
             this.radioButton10.Checked = true;
-            this.radioButton10.Location = new System.Drawing.Point(41, 35);
+            this.radioButton10.Location = new System.Drawing.Point(41, 147);
             this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(88, 19);
+            this.radioButton10.Size = new System.Drawing.Size(50, 19);
             this.radioButton10.TabIndex = 9;
             this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "Information";
+            this.radioButton10.Text = "Error";
             this.radioButton10.UseVisualStyleBackColor = true;
             this.radioButton10.CheckedChanged += new System.EventHandler(this.tipoDeIcono_CheckedChanged_Information);
             // 
             // radioButton8
             // 
             this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(41, 109);
+            this.radioButton8.Location = new System.Drawing.Point(41, 74);
             this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(73, 19);
+            this.radioButton8.Size = new System.Drawing.Size(90, 19);
             this.radioButton8.TabIndex = 11;
-            this.radioButton8.Text = "Question";
+            this.radioButton8.Text = "Exclamation";
             this.radioButton8.UseVisualStyleBackColor = true;
+            this.radioButton8.CheckedChanged += new System.EventHandler(this.tipoDeIcono_CheckedChanged_Question);
             // 
             // radioButton9
             // 
             this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(41, 74);
+            this.radioButton9.Location = new System.Drawing.Point(41, 109);
             this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(90, 19);
+            this.radioButton9.Size = new System.Drawing.Size(73, 19);
             this.radioButton9.TabIndex = 10;
-            this.radioButton9.Text = "Exclamation";
+            this.radioButton9.Text = "Question";
             this.radioButton9.UseVisualStyleBackColor = true;
+            this.radioButton9.CheckedChanged += new System.EventHandler(this.tipoDeIcono_CheckedChanged_Exclamation);
             // 
             // label1
             // 
@@ -210,9 +216,20 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(481, 349);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
+            this.label2.Size = new System.Drawing.Size(0, 15);
             this.label2.TabIndex = 4;
-            this.label2.Text = "label2";
+            // 
+            // BtSalir
+            // 
+            this.BtSalir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtSalir.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtSalir.Location = new System.Drawing.Point(67, 371);
+            this.BtSalir.Name = "BtSalir";
+            this.BtSalir.Size = new System.Drawing.Size(152, 42);
+            this.BtSalir.TabIndex = 5;
+            this.BtSalir.Text = "Salir del programa";
+            this.BtSalir.UseVisualStyleBackColor = true;
+            this.BtSalir.Click += new System.EventHandler(this.BtSalir_Click);
             // 
             // Form1
             // 
@@ -220,6 +237,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BtSalir);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
@@ -253,5 +271,6 @@
         private RadioButton radioButton9;
         private Label label1;
         private Label label2;
+        private Button BtSalir;
     }
 }
