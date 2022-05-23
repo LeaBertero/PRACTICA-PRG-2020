@@ -21,5 +21,12 @@ namespace Caja_de_Seleccion
         {
             Close();
         }
+
+        private void Negrita_CheckedChanged(object sender, EventArgs e)
+        {
+            this.LblEstilo.Font = new Font(this.label1.Font.FontFamily,
+            this.LblEstilo.Font.Size, this.LblEstilo.Font.Style ^ FontStyle.Bold);
+        }
     }
 }
+

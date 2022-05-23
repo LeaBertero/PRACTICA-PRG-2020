@@ -46,6 +46,7 @@
             this.checkBox11 = new System.Windows.Forms.CheckBox();
             this.checkBox12 = new System.Windows.Forms.CheckBox();
             this.BtLimpiar = new System.Windows.Forms.Button();
+            this.LblEstilo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtSalir
@@ -111,6 +112,7 @@
             this.checkBox1.TabIndex = 5;
             this.checkBox1.Text = "checkBox1";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.Negrita_CheckedChanged);
             // 
             // checkBox2
             // 
@@ -232,11 +234,23 @@
             this.BtLimpiar.Text = "Limpiar";
             this.BtLimpiar.UseVisualStyleBackColor = true;
             // 
+            // LblEstilo
+            // 
+            this.LblEstilo.AutoSize = true;
+            this.LblEstilo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblEstilo.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.LblEstilo.Location = new System.Drawing.Point(387, 78);
+            this.LblEstilo.Name = "LblEstilo";
+            this.LblEstilo.Size = new System.Drawing.Size(120, 20);
+            this.LblEstilo.TabIndex = 18;
+            this.LblEstilo.Text = "Estilo de letra";
+            // 
             // Caja_seleccion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(530, 406);
+            this.Controls.Add(this.LblEstilo);
             this.Controls.Add(this.BtLimpiar);
             this.Controls.Add(this.checkBox12);
             this.Controls.Add(this.checkBox11);
@@ -282,6 +296,7 @@
         private System.Windows.Forms.CheckBox checkBox11;
         private System.Windows.Forms.CheckBox checkBox12;
         private System.Windows.Forms.Button BtLimpiar;
+        private System.Windows.Forms.Label LblEstilo;
     }
 }
 
