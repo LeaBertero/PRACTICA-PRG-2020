@@ -38,6 +38,7 @@ namespace ReproductorMp3___Video
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.BtnSalir = new System.Windows.Forms.Button();
             this.WinMedaP = new AxWMPLib.AxWindowsMediaPlayer();
+            this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.WinMedaP)).BeginInit();
             this.SuspendLayout();
             // 
@@ -123,6 +124,10 @@ namespace ReproductorMp3___Video
             this.WinMedaP.Size = new System.Drawing.Size(500, 243);
             this.WinMedaP.TabIndex = 5;
             // 
+            // openFileDialog2
+            // 
+            this.openFileDialog2.FileName = "openFileDialog2";
+            // 
             // Reproductor
             // 
             this.AcceptButton = this.BtnCargar;
@@ -157,5 +162,6 @@ namespace ReproductorMp3___Video
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button BtnSalir;
+        private System.Windows.Forms.OpenFileDialog openFileDialog2;
     }
 }

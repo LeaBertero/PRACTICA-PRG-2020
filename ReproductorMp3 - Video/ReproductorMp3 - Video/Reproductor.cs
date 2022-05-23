@@ -14,6 +14,8 @@ namespace ReproductorMp3___Video
     {
         private string Ruta = "";
 
+        //Averiguar sobre propiedades y eventos del control --> OpenFileDialog
+
 
         public Reproductor()
         {
