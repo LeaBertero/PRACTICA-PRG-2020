@@ -13,7 +13,7 @@ namespace MessageBoxPractice
 
         private void BtVisualizar_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Mensaje a desplegar", "Título de la Ventana", tipoDeBoton, tipoDeIcono);
+            DialogResult result = MessageBox.Show("Alerta de mensaje", "Notificacion emergente", tipoDeBoton, tipoDeIcono);
 
             switch (result)
             {
