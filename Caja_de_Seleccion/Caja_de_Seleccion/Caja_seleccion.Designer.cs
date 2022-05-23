@@ -67,9 +67,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label1.Location = new System.Drawing.Point(45, 78);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 20);
+            this.label1.Size = new System.Drawing.Size(63, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Estilo";
+            this.label1.Text = "Estilos";
             // 
             // label2
             // 
@@ -78,9 +78,9 @@
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label2.Location = new System.Drawing.Point(162, 78);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 20);
+            this.label2.Size = new System.Drawing.Size(75, 20);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Fuente";
+            this.label2.Text = "Fuentes";
             // 
             // label3
             // 
@@ -89,9 +89,9 @@
             this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label3.Location = new System.Drawing.Point(275, 78);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 20);
+            this.label3.Size = new System.Drawing.Size(82, 20);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Tamaño";
+            this.label3.Text = "Tamaños";
             // 
             // label4
             // 
