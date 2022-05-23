@@ -223,7 +223,7 @@
             // 
             this.BtSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtSalir.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BtSalir.Location = new System.Drawing.Point(67, 371);
+            this.BtSalir.Location = new System.Drawing.Point(67, 356);
             this.BtSalir.Name = "BtSalir";
             this.BtSalir.Size = new System.Drawing.Size(152, 42);
             this.BtSalir.TabIndex = 5;
