@@ -45,9 +45,10 @@ namespace ReproductorMp3___Video
             // BtnCargar
             // 
             this.BtnCargar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnCargar.Location = new System.Drawing.Point(12, 354);
+            this.BtnCargar.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCargar.Location = new System.Drawing.Point(45, 347);
             this.BtnCargar.Name = "BtnCargar";
-            this.BtnCargar.Size = new System.Drawing.Size(75, 23);
+            this.BtnCargar.Size = new System.Drawing.Size(105, 35);
             this.BtnCargar.TabIndex = 0;
             this.BtnCargar.Text = "Cargar";
             this.BtnCargar.UseVisualStyleBackColor = true;
@@ -56,9 +57,10 @@ namespace ReproductorMp3___Video
             // BtnRep
             // 
             this.BtnRep.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnRep.Location = new System.Drawing.Point(117, 354);
+            this.BtnRep.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRep.Location = new System.Drawing.Point(154, 347);
             this.BtnRep.Name = "BtnRep";
-            this.BtnRep.Size = new System.Drawing.Size(75, 23);
+            this.BtnRep.Size = new System.Drawing.Size(105, 35);
             this.BtnRep.TabIndex = 1;
             this.BtnRep.Text = "Reproducir";
             this.BtnRep.UseVisualStyleBackColor = true;
@@ -67,9 +69,10 @@ namespace ReproductorMp3___Video
             // BtnStop
             // 
             this.BtnStop.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnStop.Location = new System.Drawing.Point(226, 354);
+            this.BtnStop.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnStop.Location = new System.Drawing.Point(265, 347);
             this.BtnStop.Name = "BtnStop";
-            this.BtnStop.Size = new System.Drawing.Size(75, 23);
+            this.BtnStop.Size = new System.Drawing.Size(105, 35);
             this.BtnStop.TabIndex = 2;
             this.BtnStop.Text = "Stop";
             this.BtnStop.UseVisualStyleBackColor = true;
@@ -78,9 +81,10 @@ namespace ReproductorMp3___Video
             // BtnPause
             // 
             this.BtnPause.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnPause.Location = new System.Drawing.Point(331, 354);
+            this.BtnPause.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnPause.Location = new System.Drawing.Point(376, 347);
             this.BtnPause.Name = "BtnPause";
-            this.BtnPause.Size = new System.Drawing.Size(75, 23);
+            this.BtnPause.Size = new System.Drawing.Size(105, 35);
             this.BtnPause.TabIndex = 3;
             this.BtnPause.Text = "Pause";
             this.BtnPause.UseVisualStyleBackColor = true;
@@ -91,9 +95,9 @@ namespace ReproductorMp3___Video
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label1.Location = new System.Drawing.Point(74, 34);
+            this.label1.Location = new System.Drawing.Point(61, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(394, 31);
+            this.label1.Size = new System.Drawing.Size(536, 31);
             this.label1.TabIndex = 6;
             this.label1.Text = "REPRODUCTOR DE MP3 / MP4";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -107,9 +111,10 @@ namespace ReproductorMp3___Video
             // BtnSalir
             // 
             this.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnSalir.Location = new System.Drawing.Point(432, 352);
+            this.BtnSalir.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalir.Location = new System.Drawing.Point(487, 347);
             this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(80, 25);
+            this.BtnSalir.Size = new System.Drawing.Size(110, 35);
             this.BtnSalir.TabIndex = 7;
             this.BtnSalir.Text = "Close";
             this.BtnSalir.UseVisualStyleBackColor = true;
@@ -118,7 +123,7 @@ namespace ReproductorMp3___Video
             // WinMedaP
             // 
             this.WinMedaP.Enabled = true;
-            this.WinMedaP.Location = new System.Drawing.Point(12, 86);
+            this.WinMedaP.Location = new System.Drawing.Point(61, 79);
             this.WinMedaP.Name = "WinMedaP";
             this.WinMedaP.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("WinMedaP.OcxState")));
             this.WinMedaP.Size = new System.Drawing.Size(500, 243);
@@ -127,9 +132,10 @@ namespace ReproductorMp3___Video
             // BtNewForm
             // 
             this.BtNewForm.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtNewForm.Location = new System.Drawing.Point(117, 402);
+            this.BtNewForm.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtNewForm.Location = new System.Drawing.Point(154, 401);
             this.BtNewForm.Name = "BtNewForm";
-            this.BtNewForm.Size = new System.Drawing.Size(289, 45);
+            this.BtNewForm.Size = new System.Drawing.Size(327, 35);
             this.BtNewForm.TabIndex = 8;
             this.BtNewForm.Text = "Nuevo formulario";
             this.BtNewForm.UseVisualStyleBackColor = true;

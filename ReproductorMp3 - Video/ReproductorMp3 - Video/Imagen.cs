@@ -16,5 +16,32 @@ namespace ReproductorMp3___Video
         {
             InitializeComponent();
         }
+
+        private void BtnCerrar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void BtCargarImagen_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog OpenFileD = new OpenFileDialog();
+
+            OpenFileD.Filter = "Imagenes|*.jpg;*.png;";
+            OpenFileD.Title = "Abrir imagen";
+
+            if (OpenFileD.ShowDialog()==DialogResult.OK)
+            {
+
+                string Url_archivo = OpenFileD.FileName;
+                string nombre = OpenFileD.FileName;
+
+
+                this.Text = nombre;
+
+                PicImage.Load(Url_archivo);
+
+
+            }
+        }
     }
 }
