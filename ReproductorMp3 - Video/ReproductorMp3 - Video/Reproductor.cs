@@ -52,6 +52,14 @@ namespace ReproductorMp3___Video
         {
             Close();
         }
+
+        private void BtNewForm_Click(object sender, EventArgs e)
+        {
+            FrmImagen segundoform = new FrmImagen();
+            segundoform.ShowDialog();   
+        }
+
+       
     }
 }
 

@@ -38,6 +38,7 @@ namespace ReproductorMp3___Video
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.BtnSalir = new System.Windows.Forms.Button();
             this.WinMedaP = new AxWMPLib.AxWindowsMediaPlayer();
+            this.BtNewForm = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.WinMedaP)).BeginInit();
             this.SuspendLayout();
             // 
@@ -123,13 +124,25 @@ namespace ReproductorMp3___Video
             this.WinMedaP.Size = new System.Drawing.Size(500, 243);
             this.WinMedaP.TabIndex = 5;
             // 
+            // BtNewForm
+            // 
+            this.BtNewForm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtNewForm.Location = new System.Drawing.Point(117, 402);
+            this.BtNewForm.Name = "BtNewForm";
+            this.BtNewForm.Size = new System.Drawing.Size(289, 45);
+            this.BtNewForm.TabIndex = 8;
+            this.BtNewForm.Text = "Nuevo formulario";
+            this.BtNewForm.UseVisualStyleBackColor = true;
+            this.BtNewForm.Click += new System.EventHandler(this.BtNewForm_Click);
+            // 
             // Reproductor
             // 
             this.AcceptButton = this.BtnCargar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Khaki;
-            this.ClientSize = new System.Drawing.Size(633, 420);
+            this.ClientSize = new System.Drawing.Size(633, 494);
+            this.Controls.Add(this.BtNewForm);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.WinMedaP);
@@ -157,5 +170,6 @@ namespace ReproductorMp3___Video
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button BtnSalir;
+        private System.Windows.Forms.Button BtNewForm;
     }
 }

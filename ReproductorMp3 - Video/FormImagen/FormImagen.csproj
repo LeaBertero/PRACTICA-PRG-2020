@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{863B163F-F99F-4BE9-B2C2-1664228236AE}</ProjectGuid>
+    <ProjectGuid>{3EBB8249-5975-4D6D-BFF2-BF66BE98021D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ReproductorMp3___Video</RootNamespace>
-    <AssemblyName>ReproductorMp3 - Video</AssemblyName>
+    <RootNamespace>FormImagen</RootNamespace>
+    <AssemblyName>FormImagen</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,22 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Imagen.cs">
+    <Compile Include="FrmImagen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Imagen.Designer.cs">
-      <DependentUpon>Imagen.cs</DependentUpon>
+    <Compile Include="FrmImagen.Designer.cs">
+      <DependentUpon>FrmImagen.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reproductor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Reproductor.Designer.cs">
-      <DependentUpon>Reproductor.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Imagen.resx">
-      <DependentUpon>Imagen.cs</DependentUpon>
+    <EmbeddedResource Include="FrmImagen.resx">
+      <DependentUpon>FrmImagen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -72,9 +66,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Reproductor.resx">
-      <DependentUpon>Reproductor.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -87,25 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <COMReference Include="AxWMPLib">
-      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>aximp</WrapperTool>
-      <Isolated>False</Isolated>
-    </COMReference>
-    <COMReference Include="WMPLib">
-      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
