@@ -38,6 +38,9 @@ namespace ReproductorMp3___Video
 
                 this.Text = nombre;
 
+
+                PicImage.SizeMode = PictureBoxSizeMode.CenterImage;
+                PicImage.SizeMode = PictureBoxSizeMode.Zoom;
                 PicImage.Load(Url_archivo);
 
 
