@@ -145,7 +145,7 @@ namespace ReproductorMp3___Video
             this.BtNewForm.Name = "BtNewForm";
             this.BtNewForm.Size = new System.Drawing.Size(327, 35);
             this.BtNewForm.TabIndex = 8;
-            this.BtNewForm.Text = "Nuevo formulario";
+            this.BtNewForm.Text = "Click para cargar una imagen";
             this.BtNewForm.UseVisualStyleBackColor = false;
             this.BtNewForm.Click += new System.EventHandler(this.BtNewForm_Click);
             // 
