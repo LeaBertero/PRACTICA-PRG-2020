@@ -33,6 +33,7 @@
             this.BtCargarImagen = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.BtGuardar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PicImage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -41,9 +42,9 @@
             this.BtnCerrar.BackColor = System.Drawing.Color.Black;
             this.BtnCerrar.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCerrar.ForeColor = System.Drawing.Color.Red;
-            this.BtnCerrar.Location = new System.Drawing.Point(637, 419);
+            this.BtnCerrar.Location = new System.Drawing.Point(637, 286);
             this.BtnCerrar.Name = "BtnCerrar";
-            this.BtnCerrar.Size = new System.Drawing.Size(151, 50);
+            this.BtnCerrar.Size = new System.Drawing.Size(151, 76);
             this.BtnCerrar.TabIndex = 0;
             this.BtnCerrar.Text = "Cerrar programa";
             this.BtnCerrar.UseVisualStyleBackColor = false;
@@ -51,9 +52,10 @@
             // 
             // PicImage
             // 
-            this.PicImage.Location = new System.Drawing.Point(148, 77);
+            this.PicImage.Location = new System.Drawing.Point(139, 77);
             this.PicImage.Name = "PicImage";
             this.PicImage.Size = new System.Drawing.Size(477, 285);
+            this.PicImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PicImage.TabIndex = 1;
             this.PicImage.TabStop = false;
             // 
@@ -97,12 +99,24 @@
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label2.UseCompatibleTextRendering = true;
             // 
+            // BtGuardar
+            // 
+            this.BtGuardar.BackColor = System.Drawing.Color.Red;
+            this.BtGuardar.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtGuardar.Location = new System.Drawing.Point(527, 393);
+            this.BtGuardar.Name = "BtGuardar";
+            this.BtGuardar.Size = new System.Drawing.Size(130, 52);
+            this.BtGuardar.TabIndex = 9;
+            this.BtGuardar.Text = "Guardar imagen";
+            this.BtGuardar.UseVisualStyleBackColor = false;
+            // 
             // FrmImagen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Khaki;
             this.ClientSize = new System.Drawing.Size(800, 481);
+            this.Controls.Add(this.BtGuardar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtCargarImagen);
@@ -125,5 +139,6 @@
         private System.Windows.Forms.Button BtCargarImagen;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button BtGuardar;
     }
 }

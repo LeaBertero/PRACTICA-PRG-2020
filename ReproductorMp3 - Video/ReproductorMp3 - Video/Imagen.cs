@@ -51,8 +51,10 @@ namespace ReproductorMp3___Video
                 PicImage.SizeMode = PictureBoxSizeMode.CenterImage; //* (Esta propiedad centraria la imagen en el picturebox)
                 PicImage.SizeMode = PictureBoxSizeMode.Zoom; //* (Agrandar la imagen)
 
-
+                
             }
         }
+
+        
     }
 }
