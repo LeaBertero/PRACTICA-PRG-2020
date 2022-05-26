@@ -141,7 +141,7 @@ namespace ReproductorMp3___Video
             this.BtNewForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtNewForm.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtNewForm.ForeColor = System.Drawing.Color.Red;
-            this.BtNewForm.Location = new System.Drawing.Point(154, 409);
+            this.BtNewForm.Location = new System.Drawing.Point(154, 424);
             this.BtNewForm.Name = "BtNewForm";
             this.BtNewForm.Size = new System.Drawing.Size(327, 35);
             this.BtNewForm.TabIndex = 8;
