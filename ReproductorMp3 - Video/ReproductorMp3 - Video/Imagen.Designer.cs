@@ -42,7 +42,7 @@
             this.BtnCerrar.BackColor = System.Drawing.Color.Black;
             this.BtnCerrar.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCerrar.ForeColor = System.Drawing.Color.Red;
-            this.BtnCerrar.Location = new System.Drawing.Point(637, 286);
+            this.BtnCerrar.Location = new System.Drawing.Point(622, 264);
             this.BtnCerrar.Name = "BtnCerrar";
             this.BtnCerrar.Size = new System.Drawing.Size(151, 76);
             this.BtnCerrar.TabIndex = 0;
