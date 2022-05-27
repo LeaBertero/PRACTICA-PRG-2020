@@ -33,7 +33,7 @@ namespace Ej_checkbob
             }
             if (checkBox1.Checked && checkBox2.Checked == true)
             {
-                label1.Text = "Error - Seleccione solo una opcion";
+                label1.Text = "Error - Debe selecciona solo una de las opciones";
             }
             
             
