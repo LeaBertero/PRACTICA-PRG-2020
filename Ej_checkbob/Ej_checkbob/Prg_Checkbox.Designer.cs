@@ -94,7 +94,7 @@
             this.BtSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtSalir.Location = new System.Drawing.Point(72, 209);
             this.BtSalir.Name = "BtSalir";
-            this.BtSalir.Size = new System.Drawing.Size(212, 23);
+            this.BtSalir.Size = new System.Drawing.Size(193, 23);
             this.BtSalir.TabIndex = 5;
             this.BtSalir.Text = "Cerrar programa";
             this.BtSalir.UseVisualStyleBackColor = true;
