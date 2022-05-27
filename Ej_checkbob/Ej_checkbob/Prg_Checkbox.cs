@@ -25,11 +25,15 @@ namespace Ej_checkbob
             }
             if (checkBox1.Checked == true)
             {
-                label1.Text = "hombre - ingrese sus datos";
+                label1.Text = "Hombre - ingrese sus datos";
             }
             if (checkBox2.Checked == true)
             {
-                label1.Text = "Mujer . Ingrese sus datos";
+                label1.Text = "Mujer - Ingrese sus datos";
+            }
+            if (checkBox1.Checked && checkBox2.Checked == true)
+            {
+                label1.Text = "Error - Seleccione solo una opcion";
             }
             
             
