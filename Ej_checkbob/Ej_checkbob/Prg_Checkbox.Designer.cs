@@ -55,6 +55,7 @@
             this.Tel = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Ed = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Doc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BtLimp = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DgDatosPersonles)).BeginInit();
             this.SuspendLayout();
             // 
@@ -114,9 +115,9 @@
             // BtSalir
             // 
             this.BtSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtSalir.Location = new System.Drawing.Point(198, 538);
+            this.BtSalir.Location = new System.Drawing.Point(610, 574);
             this.BtSalir.Name = "BtSalir";
-            this.BtSalir.Size = new System.Drawing.Size(125, 23);
+            this.BtSalir.Size = new System.Drawing.Size(95, 34);
             this.BtSalir.TabIndex = 5;
             this.BtSalir.Text = "Salir";
             this.BtSalir.UseVisualStyleBackColor = true;
@@ -245,7 +246,7 @@
             // BtAgregar
             // 
             this.BtAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtAgregar.Location = new System.Drawing.Point(585, 446);
+            this.BtAgregar.Location = new System.Drawing.Point(610, 446);
             this.BtAgregar.Name = "BtAgregar";
             this.BtAgregar.Size = new System.Drawing.Size(95, 40);
             this.BtAgregar.TabIndex = 19;
@@ -256,7 +257,7 @@
             // Btborrar
             // 
             this.Btborrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btborrar.Location = new System.Drawing.Point(585, 492);
+            this.Btborrar.Location = new System.Drawing.Point(610, 492);
             this.Btborrar.Name = "Btborrar";
             this.Btborrar.Size = new System.Drawing.Size(95, 40);
             this.Btborrar.TabIndex = 20;
@@ -298,12 +299,24 @@
             this.Doc.HeaderText = "DNI";
             this.Doc.Name = "Doc";
             // 
+            // BtLimp
+            // 
+            this.BtLimp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtLimp.Location = new System.Drawing.Point(610, 400);
+            this.BtLimp.Name = "BtLimp";
+            this.BtLimp.Size = new System.Drawing.Size(95, 40);
+            this.BtLimp.TabIndex = 22;
+            this.BtLimp.Text = "Limpiar";
+            this.BtLimp.UseVisualStyleBackColor = true;
+            this.BtLimp.Click += new System.EventHandler(this.BtLimp_Click);
+            // 
             // Prg_Checkbox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.OrangeRed;
+            this.BackColor = System.Drawing.Color.DarkOrange;
             this.ClientSize = new System.Drawing.Size(717, 620);
+            this.Controls.Add(this.BtLimp);
             this.Controls.Add(this.LbInfo);
             this.Controls.Add(this.Btborrar);
             this.Controls.Add(this.BtAgregar);
@@ -364,6 +377,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Tel;
         private System.Windows.Forms.DataGridViewTextBoxColumn Ed;
         private System.Windows.Forms.DataGridViewTextBoxColumn Doc;
+        private System.Windows.Forms.Button BtLimp;
     }
 }
 

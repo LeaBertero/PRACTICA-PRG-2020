@@ -109,6 +109,11 @@ namespace Ej_checkbob
                 LbInfo.Text = (string)DgDatosPersonles.Rows[Fila].Cells[1].Value;
             }
         }
+
+        private void BtLimp_Click(object sender, EventArgs e)
+        {
+            LbInfo.Text = null;
+        }
     }
 }
            
