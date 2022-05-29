@@ -46,6 +46,16 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.DgDatosPersonles = new System.Windows.Forms.DataGridView();
+            this.BtAgregar = new System.Windows.Forms.Button();
+            this.Btborrar = new System.Windows.Forms.Button();
+            this.LbInfo = new System.Windows.Forms.Label();
+            this.NomApe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Dir = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Tel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Ed = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Doc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.DgDatosPersonles)).BeginInit();
             this.SuspendLayout();
             // 
             // checkBox1
@@ -104,11 +114,11 @@
             // BtSalir
             // 
             this.BtSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtSalir.Location = new System.Drawing.Point(72, 209);
+            this.BtSalir.Location = new System.Drawing.Point(198, 538);
             this.BtSalir.Name = "BtSalir";
-            this.BtSalir.Size = new System.Drawing.Size(193, 23);
+            this.BtSalir.Size = new System.Drawing.Size(125, 23);
             this.BtSalir.TabIndex = 5;
-            this.BtSalir.Text = "Cerrar programa";
+            this.BtSalir.Text = "Salir";
             this.BtSalir.UseVisualStyleBackColor = true;
             this.BtSalir.Click += new System.EventHandler(this.BtSalir_Click);
             // 
@@ -148,7 +158,7 @@
             // 
             // TxTel
             // 
-            this.TxTel.Location = new System.Drawing.Point(514, 171);
+            this.TxTel.Location = new System.Drawing.Point(514, 247);
             this.TxTel.Name = "TxTel";
             this.TxTel.Size = new System.Drawing.Size(100, 20);
             this.TxTel.TabIndex = 10;
@@ -162,7 +172,7 @@
             // 
             // TxDocu
             // 
-            this.TxDocu.Location = new System.Drawing.Point(514, 246);
+            this.TxDocu.Location = new System.Drawing.Point(514, 169);
             this.TxDocu.Name = "TxDocu";
             this.TxDocu.Size = new System.Drawing.Size(100, 20);
             this.TxDocu.TabIndex = 12;
@@ -217,12 +227,87 @@
             this.label8.TabIndex = 17;
             this.label8.Text = "D.N.I";
             // 
+            // DgDatosPersonles
+            // 
+            this.DgDatosPersonles.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DgDatosPersonles.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.NomApe,
+            this.Dir,
+            this.Tel,
+            this.Ed,
+            this.Doc});
+            this.DgDatosPersonles.Location = new System.Drawing.Point(44, 316);
+            this.DgDatosPersonles.Name = "DgDatosPersonles";
+            this.DgDatosPersonles.Size = new System.Drawing.Size(535, 216);
+            this.DgDatosPersonles.TabIndex = 18;
+            this.DgDatosPersonles.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Carga_datos_personales);
+            // 
+            // BtAgregar
+            // 
+            this.BtAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtAgregar.Location = new System.Drawing.Point(585, 446);
+            this.BtAgregar.Name = "BtAgregar";
+            this.BtAgregar.Size = new System.Drawing.Size(95, 40);
+            this.BtAgregar.TabIndex = 19;
+            this.BtAgregar.Text = "Agregar";
+            this.BtAgregar.UseVisualStyleBackColor = true;
+            this.BtAgregar.Click += new System.EventHandler(this.BtAgregar_Click);
+            // 
+            // Btborrar
+            // 
+            this.Btborrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btborrar.Location = new System.Drawing.Point(585, 492);
+            this.Btborrar.Name = "Btborrar";
+            this.Btborrar.Size = new System.Drawing.Size(95, 40);
+            this.Btborrar.TabIndex = 20;
+            this.Btborrar.Text = "Borrar";
+            this.Btborrar.UseVisualStyleBackColor = true;
+            this.Btborrar.Click += new System.EventHandler(this.Btborrar_Click);
+            // 
+            // LbInfo
+            // 
+            this.LbInfo.AutoSize = true;
+            this.LbInfo.Location = new System.Drawing.Point(41, 586);
+            this.LbInfo.Name = "LbInfo";
+            this.LbInfo.Size = new System.Drawing.Size(62, 13);
+            this.LbInfo.TabIndex = 21;
+            this.LbInfo.Text = "Informacion";
+            // 
+            // NomApe
+            // 
+            this.NomApe.HeaderText = "Nombre y apellido";
+            this.NomApe.Name = "NomApe";
+            // 
+            // Dir
+            // 
+            this.Dir.HeaderText = "Dirección";
+            this.Dir.Name = "Dir";
+            // 
+            // Tel
+            // 
+            this.Tel.HeaderText = "Teléfono";
+            this.Tel.Name = "Tel";
+            // 
+            // Ed
+            // 
+            this.Ed.HeaderText = "Edad";
+            this.Ed.Name = "Ed";
+            // 
+            // Doc
+            // 
+            this.Doc.HeaderText = "DNI";
+            this.Doc.Name = "Doc";
+            // 
             // Prg_Checkbox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.OrangeRed;
-            this.ClientSize = new System.Drawing.Size(755, 329);
+            this.ClientSize = new System.Drawing.Size(717, 620);
+            this.Controls.Add(this.LbInfo);
+            this.Controls.Add(this.Btborrar);
+            this.Controls.Add(this.BtAgregar);
+            this.Controls.Add(this.DgDatosPersonles);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -244,6 +329,7 @@
             this.Name = "Prg_Checkbox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Check_box";
+            ((System.ComponentModel.ISupportInitialize)(this.DgDatosPersonles)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -269,6 +355,15 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.DataGridView DgDatosPersonles;
+        private System.Windows.Forms.Button BtAgregar;
+        private System.Windows.Forms.Button Btborrar;
+        private System.Windows.Forms.Label LbInfo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NomApe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Dir;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Tel;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Ed;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Doc;
     }
 }
 
