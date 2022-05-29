@@ -23,7 +23,7 @@ namespace Ej_checkbob
         {
             if (checkBox1.Checked || checkBox2.Checked == false)
             {
-                label1.Text = "Seleccione una de las opciones";
+                label1.Text = "No se ha seleccionado -  por favor elija una";
             }
             if (checkBox1.Checked == true)
             {
@@ -38,6 +38,7 @@ namespace Ej_checkbob
                 label1.Text = "Error - Debe seleccionar solo una de las opciones, intente nuevamente";
             }
         }
+            
         //Boton para limpiar datos ingresados en los controles texbox
         private void Btlimpiar_Click(object sender, EventArgs e)
         {

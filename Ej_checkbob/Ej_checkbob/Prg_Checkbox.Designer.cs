@@ -47,14 +47,14 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.DgDatosPersonles = new System.Windows.Forms.DataGridView();
-            this.BtAgregar = new System.Windows.Forms.Button();
-            this.Btborrar = new System.Windows.Forms.Button();
-            this.LbInfo = new System.Windows.Forms.Label();
             this.NomApe = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Dir = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Tel = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Ed = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Doc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BtAgregar = new System.Windows.Forms.Button();
+            this.Btborrar = new System.Windows.Forms.Button();
+            this.LbInfo = new System.Windows.Forms.Label();
             this.BtLimp = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DgDatosPersonles)).BeginInit();
             this.SuspendLayout();
@@ -243,6 +243,31 @@
             this.DgDatosPersonles.TabIndex = 18;
             this.DgDatosPersonles.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Carga_datos_personales);
             // 
+            // NomApe
+            // 
+            this.NomApe.HeaderText = "Nombre y apellido";
+            this.NomApe.Name = "NomApe";
+            // 
+            // Dir
+            // 
+            this.Dir.HeaderText = "Dirección";
+            this.Dir.Name = "Dir";
+            // 
+            // Tel
+            // 
+            this.Tel.HeaderText = "Teléfono";
+            this.Tel.Name = "Tel";
+            // 
+            // Ed
+            // 
+            this.Ed.HeaderText = "Edad";
+            this.Ed.Name = "Ed";
+            // 
+            // Doc
+            // 
+            this.Doc.HeaderText = "DNI";
+            this.Doc.Name = "Doc";
+            // 
             // BtAgregar
             // 
             this.BtAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -273,31 +298,6 @@
             this.LbInfo.Size = new System.Drawing.Size(62, 13);
             this.LbInfo.TabIndex = 21;
             this.LbInfo.Text = "Informacion";
-            // 
-            // NomApe
-            // 
-            this.NomApe.HeaderText = "Nombre y apellido";
-            this.NomApe.Name = "NomApe";
-            // 
-            // Dir
-            // 
-            this.Dir.HeaderText = "Dirección";
-            this.Dir.Name = "Dir";
-            // 
-            // Tel
-            // 
-            this.Tel.HeaderText = "Teléfono";
-            this.Tel.Name = "Tel";
-            // 
-            // Ed
-            // 
-            this.Ed.HeaderText = "Edad";
-            this.Ed.Name = "Ed";
-            // 
-            // Doc
-            // 
-            this.Doc.HeaderText = "DNI";
-            this.Doc.Name = "Doc";
             // 
             // BtLimp
             // 
