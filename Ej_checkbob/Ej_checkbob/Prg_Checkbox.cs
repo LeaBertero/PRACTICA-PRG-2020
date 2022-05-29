@@ -18,7 +18,7 @@ namespace Ej_checkbob
         {
             InitializeComponent();
         }
-
+        //Seleccion de opciones de chexbox
         private void BtAceptar_Click(object sender, EventArgs e)
         {
             if (checkBox1.Checked || checkBox2.Checked == false)
@@ -37,21 +37,18 @@ namespace Ej_checkbob
             {
                 label1.Text = "Error - Debe seleccionar solo una de las opciones, intente nuevamente";
             }
-            
-            
-            
         }
-
+        //Boton para limpiar datos ingresados en los controles texbox
         private void Btlimpiar_Click(object sender, EventArgs e)
         {
             label1.Text = null;
         }
-
+        //Boton de cerrar programa
         private void BtSalir_Click(object sender, EventArgs e)
         {
             Close();
         }
-
+        //Datos de texbox
         private void BtAgregar_Click(object sender, EventArgs e)
         {
             int Fila = DgDatosPersonles.Rows.Add();
@@ -83,7 +80,7 @@ namespace Ej_checkbob
             TxDocu.SelectAll();
                 
         }
-
+        //Boton que elimina finas de datos cargados
         private void Btborrar_Click(object sender, EventArgs e)
         {
             try
@@ -97,9 +94,8 @@ namespace Ej_checkbob
             {
                 MessageBox.Show("Imposible seguir borrando");
             }
-                
         }
-
+        //Filas del data , donde se cargan los datos personales
         private void Carga_datos_personales(object sender, DataGridViewCellEventArgs e)
         {
             Fila = e.RowIndex;
@@ -109,13 +105,23 @@ namespace Ej_checkbob
                 LbInfo.Text = (string)DgDatosPersonles.Rows[Fila].Cells[1].Value;
             }
         }
-
+        //Limpiar controles de datos
         private void BtLimp_Click(object sender, EventArgs e)
         {
             LbInfo.Text = null;
         }
     }
 }
+                
+            
+            
+            
+
+
+
+
+
+
            
             
            
