@@ -328,7 +328,7 @@
             this.Controls.Add(this.checkBox1);
             this.Name = "Prg_Checkbox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Check_box";
+            this.Text = "Datos personales";
             ((System.ComponentModel.ISupportInitialize)(this.DgDatosPersonles)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
