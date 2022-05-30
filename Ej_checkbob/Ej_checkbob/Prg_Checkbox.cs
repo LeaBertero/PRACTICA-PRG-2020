@@ -12,12 +12,16 @@ namespace Ej_checkbob
 {
     public partial class Prg_Checkbox : Form
     {
-
+        //Variable privada para las filas del DataGridView
         private int Fila = 0;
+
+
         public Prg_Checkbox()
         {
             InitializeComponent();
         }
+
+
         //Seleccion de opciones de chexbox
         private void BtAceptar_Click(object sender, EventArgs e)
         {
@@ -44,11 +48,15 @@ namespace Ej_checkbob
         {
             label1.Text = null;
         }
+
+
         //Boton de cerrar programa
         private void BtSalir_Click(object sender, EventArgs e)
         {
             Close();
         }
+
+
         //Datos de texbox
         private void BtAgregar_Click(object sender, EventArgs e)
         {
