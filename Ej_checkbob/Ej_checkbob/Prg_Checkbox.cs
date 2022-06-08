@@ -35,7 +35,7 @@ namespace Ej_checkbob
             }
             if (checkBox2.Checked == true)
             {
-                label1.Text = "Ha seleccionado, Mujer - Ingrese sus datos personale";
+                label1.Text = "Ha seleccionado, Mujer - Ingrese sus datos personales";
             }
             if (checkBox1.Checked && checkBox2.Checked == true)
             {
