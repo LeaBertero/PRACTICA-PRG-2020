@@ -19,34 +19,40 @@ namespace Arreglos_Ejemplos_
         {
             InitializeComponent();
         }
+        //evento del primer dia de la semana
         private void BtnLunes_Click_1(object sender, EventArgs e)
         {
             Dias[0] = "Lunes";
             LbLunes.Text = Dias[0];
         }
-        private void BtSalir_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
+        //evento del segundo dia de la semana
         private void BtnMartes_Click(object sender, EventArgs e)
         {
             Dias[1] = "Martes";
             LbMartes.Text = Dias[1];
         }
+        //evento del tercer dia de la semana
         private void BtnMiercoles_Click(object sender, EventArgs e)
         {
             Dias[2] = "Miércoles";
             LbMiercoles.Text = Dias[2];
         }
+        //evento del cuarto dia de la semana
         private void BtnJueves_Click(object sender, EventArgs e)
         {
             Dias[3] = "Jueves";
             LbJueves.Text = Dias[3];
         }
+        //evento del quinto dia de la semana
         private void BtnViernes_Click(object sender, EventArgs e)
         {
             Dias[4] = "Viernes";
             LbViernes.Text = Dias[4];
+        }
+        //evento del boton salir
+        private void BtSalir_Click(object sender, EventArgs e)
+        {
+            Close();
         }
             
             
