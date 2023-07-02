@@ -40,9 +40,10 @@ namespace Ejemplo_switch
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(200, 101);
+            this.button1.Location = new System.Drawing.Point(267, 124);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 0;
             this.button1.Text = "Aceptar";
             this.button1.UseVisualStyleBackColor = true;
@@ -50,33 +51,37 @@ namespace Ejemplo_switch
             // 
             // TxtNota
             // 
-            this.TxtNota.Location = new System.Drawing.Point(76, 104);
+            this.TxtNota.Location = new System.Drawing.Point(101, 128);
+            this.TxtNota.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtNota.Name = "TxtNota";
-            this.TxtNota.Size = new System.Drawing.Size(100, 20);
+            this.TxtNota.Size = new System.Drawing.Size(132, 22);
             this.TxtNota.TabIndex = 1;
             // 
             // LblEtiqueta
             // 
             this.LblEtiqueta.AutoSize = true;
-            this.LblEtiqueta.Location = new System.Drawing.Point(73, 76);
+            this.LblEtiqueta.Location = new System.Drawing.Point(97, 94);
+            this.LblEtiqueta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblEtiqueta.Name = "LblEtiqueta";
-            this.LblEtiqueta.Size = new System.Drawing.Size(118, 13);
+            this.LblEtiqueta.Size = new System.Drawing.Size(148, 16);
             this.LblEtiqueta.TabIndex = 2;
             this.LblEtiqueta.Text = "Ingrese nota de materia";
             // 
             // LblRes
             // 
             this.LblRes.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.LblRes.Location = new System.Drawing.Point(73, 138);
+            this.LblRes.Location = new System.Drawing.Point(97, 170);
+            this.LblRes.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblRes.Name = "LblRes";
-            this.LblRes.Size = new System.Drawing.Size(103, 35);
+            this.LblRes.Size = new System.Drawing.Size(137, 43);
             this.LblRes.TabIndex = 3;
             // 
             // BtnSalir
             // 
-            this.BtnSalir.Location = new System.Drawing.Point(12, 212);
+            this.BtnSalir.Location = new System.Drawing.Point(569, 375);
+            this.BtnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(75, 23);
+            this.BtnSalir.Size = new System.Drawing.Size(100, 28);
             this.BtnSalir.TabIndex = 4;
             this.BtnSalir.Text = "Salir";
             this.BtnSalir.UseVisualStyleBackColor = true;
@@ -84,9 +89,10 @@ namespace Ejemplo_switch
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(243, 212);
+            this.button2.Location = new System.Drawing.Point(324, 261);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(122, 23);
+            this.button2.Size = new System.Drawing.Size(163, 28);
             this.button2.TabIndex = 5;
             this.button2.Text = "Otro ejemplo Switch";
             this.button2.UseVisualStyleBackColor = true;
@@ -95,17 +101,18 @@ namespace Ejemplo_switch
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(5, 3);
+            this.label1.Location = new System.Drawing.Point(7, 4);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(360, 49);
+            this.label1.Size = new System.Drawing.Size(480, 60);
             this.label1.TabIndex = 6;
             this.label1.Text = "NO PODRÁ INGRESAR TEXTO, DE LO CONTRARIO LE GENERARÁ UN ERROR";
             // 
             // EjemploSwitch
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(378, 244);
+            this.ClientSize = new System.Drawing.Size(684, 416);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.BtnSalir);
@@ -113,7 +120,9 @@ namespace Ejemplo_switch
             this.Controls.Add(this.LblEtiqueta);
             this.Controls.Add(this.TxtNota);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "EjemploSwitch";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ejemplo Switc";
             this.ResumeLayout(false);
             this.PerformLayout();

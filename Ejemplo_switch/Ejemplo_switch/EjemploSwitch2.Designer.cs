@@ -38,9 +38,10 @@ namespace Ejemplo_switch
             // 
             // BtnSalir
             // 
-            this.BtnSalir.Location = new System.Drawing.Point(12, 131);
+            this.BtnSalir.Location = new System.Drawing.Point(497, 286);
+            this.BtnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(75, 23);
+            this.BtnSalir.Size = new System.Drawing.Size(133, 49);
             this.BtnSalir.TabIndex = 9;
             this.BtnSalir.Text = "Salir";
             this.BtnSalir.UseVisualStyleBackColor = true;
@@ -50,32 +51,36 @@ namespace Ejemplo_switch
             // 
             this.LblRes.BackColor = System.Drawing.Color.GreenYellow;
             this.LblRes.Cursor = System.Windows.Forms.Cursors.Default;
-            this.LblRes.Location = new System.Drawing.Point(9, 69);
+            this.LblRes.Location = new System.Drawing.Point(206, 133);
+            this.LblRes.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblRes.Name = "LblRes";
-            this.LblRes.Size = new System.Drawing.Size(103, 35);
+            this.LblRes.Size = new System.Drawing.Size(137, 43);
             this.LblRes.TabIndex = 8;
             // 
             // LblEtiqueta
             // 
             this.LblEtiqueta.AutoSize = true;
-            this.LblEtiqueta.Location = new System.Drawing.Point(9, 7);
+            this.LblEtiqueta.Location = new System.Drawing.Point(206, 57);
+            this.LblEtiqueta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblEtiqueta.Name = "LblEtiqueta";
-            this.LblEtiqueta.Size = new System.Drawing.Size(118, 13);
+            this.LblEtiqueta.Size = new System.Drawing.Size(148, 16);
             this.LblEtiqueta.TabIndex = 7;
             this.LblEtiqueta.Text = "Ingrese nota de materia";
             // 
             // TxtNota
             // 
-            this.TxtNota.Location = new System.Drawing.Point(12, 35);
+            this.TxtNota.Location = new System.Drawing.Point(210, 91);
+            this.TxtNota.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtNota.Name = "TxtNota";
-            this.TxtNota.Size = new System.Drawing.Size(100, 20);
+            this.TxtNota.Size = new System.Drawing.Size(132, 22);
             this.TxtNota.TabIndex = 6;
             // 
             // BtnClick
             // 
-            this.BtnClick.Location = new System.Drawing.Point(129, 33);
+            this.BtnClick.Location = new System.Drawing.Point(366, 89);
+            this.BtnClick.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnClick.Name = "BtnClick";
-            this.BtnClick.Size = new System.Drawing.Size(75, 23);
+            this.BtnClick.Size = new System.Drawing.Size(100, 28);
             this.BtnClick.TabIndex = 5;
             this.BtnClick.Text = "Aceptar";
             this.BtnClick.UseVisualStyleBackColor = true;
@@ -83,15 +88,17 @@ namespace Ejemplo_switch
             // 
             // EjemploSwitch2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(229, 164);
+            this.ClientSize = new System.Drawing.Size(643, 348);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.LblRes);
             this.Controls.Add(this.LblEtiqueta);
             this.Controls.Add(this.TxtNota);
             this.Controls.Add(this.BtnClick);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "EjemploSwitch2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EjemploSwitch2";
             this.ResumeLayout(false);
             this.PerformLayout();
