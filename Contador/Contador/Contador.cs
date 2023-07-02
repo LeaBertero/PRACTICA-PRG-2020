@@ -24,5 +24,10 @@ namespace Contador
             ++Dia;
             Lblcontador.Text = System.Convert.ToString(Dia);
         }
+
+        private void BtSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
